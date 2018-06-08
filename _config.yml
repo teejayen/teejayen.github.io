@@ -4,8 +4,8 @@ permalink:           pretty
 # Setup
 title:               Timothy Neilen
 url:                 https://neilen.com.au
+shorturl:            neilen.com.au
 paginate:            20
-baseurl:             ""
 
 # Assets
 #
@@ -21,9 +21,9 @@ author:
   email:             timothy@neilen.com.au
 
 # Custom vars
-version:             2.0.0
+version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/teejayen/teejayen.github.io
 
 # Plugins
 plugins:
