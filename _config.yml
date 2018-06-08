@@ -24,6 +24,7 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/teejayen/teejayen.github.io
+analytics_id:        UA-46947056-1
 
 # Plugins
 plugins:
@@ -32,6 +33,3 @@ plugins:
 
 # Pages
 pages_list:          {'Books':'/books','Now':'/now'}
-
-# Google Analytics
-analytics_id:         "UA-46947056-1"
