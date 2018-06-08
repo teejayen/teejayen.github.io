@@ -34,4 +34,4 @@ plugins:
 pages_list:          {'Books':'/books','Now':'/now'}
 
 # Google Analytics
-analytics_id:         UA-46947056-1
+analytics_id:         "UA-46947056-1"
