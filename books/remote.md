@@ -4,9 +4,9 @@ title:  "Remote by David Heinemeier Hansson and Jason Fried"
 permalink: books/remote
 ---
 
-I recall reading Remote with the intention of bringing ideas to the management team at the time in order to set up policies / procecdures for working from home.. unfortunately it never did eventuate.
+I recall reading Remote with the intention of bringing ideas to the management team at the time in order to set up policies / procedures for working from home.. unfortunatelyit didn't eventuate at the time.
 
-Just this week however (2018-06-05) I've finally had approval to *trial* working from home one day a week.. better than not at all! Will likely re-read at some stage this year.
+Just this week however (2018-06-05), I've finally had approval to *trial* working from home one day a week.. better than not at all! Will likely re-read at some stage this year.
 
 ## My Highlights and Notes
 
