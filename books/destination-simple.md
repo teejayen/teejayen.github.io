@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Destination Simple by Brooke McAlary"
 permalink: books/destination-simple
 ---

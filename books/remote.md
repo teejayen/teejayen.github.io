@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Remote by David Heinemeier Hansson and Jason Fried"
 permalink: books/remote
 ---
