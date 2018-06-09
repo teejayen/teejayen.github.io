@@ -2,6 +2,7 @@
 title: Books
 permalink: books/
 layout: page
+published: true
 ---
 
 >“The more that you read, the more things you will know. The more that you learn, the more places you'll go.”
@@ -10,7 +11,7 @@ layout: page
 
 ## Currently reading
 
-- **The 7 Habits of Highly Effective People** (Steven R. Covey)
+- **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **ReWork** (David Heinemeier Hansson and Jason Fried)
 
 ## 2018
