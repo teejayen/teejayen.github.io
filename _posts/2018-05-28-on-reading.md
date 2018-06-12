@@ -3,7 +3,7 @@ layout: post
 title:  "On Reading"
 date:   2018-05-28 23:48:00 +1000
 ---
-Something clicked recently leading me to start simplifying.. from my digital presence to my physical posessions, having too much *stuff* and keeping on top of *everything* had started to become very stressful. [Stress can be good for you](http://news.berkeley.edu/2013/04/16/researchers-find-out-why-some-stress-is-good-for-you/), but too much can (and will) lead to burnout. I've never had great ways to deal with stress, instead would find myself procrastinating, ultimately working extra hours from home just to keep on top of my workload.
+Something clicked recently leading me to start simplifying.. from my digital presence to my physical possessions, having too much *stuff* and keeping on top of *everything* had started to become very stressful. [Stress can be good for you](http://news.berkeley.edu/2013/04/16/researchers-find-out-why-some-stress-is-good-for-you/), but too much can (and will) lead to burnout. I've never had great ways to deal with stress, instead would find myself procrastinating, ultimately working extra hours from home just to keep on top of my workload.
 
 >"Reading was proved:
 >- 68% better at reducing stress levels than listening to music;
