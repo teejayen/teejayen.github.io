@@ -17,6 +17,7 @@ published: true
 ## 2018
 
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
+- **Getting Things Done** (Edwin C. Bliss)
 - **The Minimalist Budget** (Simeon Lindstrom
 - **Unlimited Memory** (Kevin Horsley)
 
@@ -59,6 +60,7 @@ In no particular order..
 - **Find Your Why** (Simon Sinek)
 - **How to Read a Book** (Mortimer J. Adler)
 - **How to Win Friends and Influence People** (Dale Carnegie)
+- **I Dare You** (William H. Danforth)
 - **Mindset** (Carol S. Dweck)
 - **Mindwise** (Nicholas Epley)
 - **No More Mr. Nice Guy** (Robert Glover)
