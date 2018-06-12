@@ -7,7 +7,7 @@ Verne certaintly articulated himself well when he said "it's a bit like drinking
 
 Scaling Up definitely a book I will keep coming back to, and it's on the "to read" list again for 2018.
 
-[answers IT](https://answersit.com.au) engaged with a Gazelles Coach in 2016 after our CEO first read Scaling Up and we've definitely seen a huge increase in growth since then (going from about 4 staff to 17 as of 2018-06,with the revenue to support it).  Gazelles focus on improving “people, strategy, execution and cash.”
+[answers IT](https://answersit.com.au) engaged with a Gazelles Coach in 2016 after our CEO first read Scaling Up and we've definitely seen a huge increase in growth since then (going from about 4 staff to 17 as of 2018-06, with the revenue to support it).  Gazelles focus on improving “people, strategy, execution and cash.”
 
 At our most recent "quarterly stategic planning meeting" in late March we were very fortunate to have [Keith Cupp](https://www.linkedin.com/in/gazelles/), CEO of Gazelles International, sit in and provide his thoughts and feedback. 
 
