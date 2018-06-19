@@ -13,6 +13,7 @@ I've started logging books from 2018-06-15 onwards as we read (and re-read) to w
 
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)
 - **Old MacDonald Sound Book** (First Steps)
+- **One Fish, Two Fish, Red Fish, Blue Fish** (Dr. Seuss)
 - **Noisy Kittens** (First Steps)
 - **Noisy Puppies** (First Steps)
 - **The Gruffalo** (Julia Donaldson)
@@ -25,7 +26,7 @@ I've started logging books from 2018-06-15 onwards as we read (and re-read) to w
 
 - **Spot Loves His Dad** (Eric Hill)
 - **Thelma the Unicorn** (Aaron Blabey)
-- ** The Ten Silver Coins** (Nick Butterworth and Mick Inkpen)
+- **The Ten Silver Coins** (Nick Butterworth and Mick Inkpen)
 - **The Wonky Donkey** (Craig Smith)
 - **What Game Shall We Play?** (Pat Hutchins)
 - **Why I Love My Daddy** (Daniel Howarth)
