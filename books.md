@@ -10,15 +10,16 @@ published: true
 \-- Dr. Seuss
 
 ## Currently reading
-
+- **I Dare You** (William H. Danforth)
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
-- **ReWork** (David Heinemeier Hansson and Jason Fried)
+- [**Kids' Books**](/kidsbooks)
 
 ## 2018
 
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
 - **Getting Things Done** (Edwin C. Bliss)
-- **The Minimalist Budget** (Simeon Lindstrom
+- **The Minimalist Budget** (Simeon Lindstrom)
+- **ReWork** (David Heinemeier Hansson and Jason Fried)
 - **Unlimited Memory** (Kevin Horsley)
 
 ## 2017
@@ -61,10 +62,12 @@ In no particular order..
 - **How to Win Friends and Influence People** (Dale Carnegie)
 - **I Dare You** (William H. Danforth)
 - **On Writing Well** (William Zinsser)
+- **Own the Day, Own Your Life** (Aubrey Marcus)
 - **Principles** (Ray Dalio)
 - **Radical Candor** (Kim Scott)
 - **Show Your Work!** (Austin Kleon)
 - **The 4-Hour Work Week** (Tim Ferris)
+- **The Barefoot Investor** (Scott Pape)
 - **The Lean Startup** (Eric Ries)
 - **The Subtle Art of Not Giving a F\*ck** (Mark Manson)
 - **The Time Paradox** (Philip Zimbardo and John Boyd)
