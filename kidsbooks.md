@@ -24,5 +24,8 @@ I've started logging books from 2018-06-15 onwards as we read (and re-read) to w
 ## T - 2018
 
 - **Spot Loves His Dad** (Eric Hill)
+- **Thelma the Unicorn** (Aaron Blabey)
+- ** The Ten Silver Coins** (Nick Butterworth and Mick Inkpen)
 - **The Wonky Donkey** (Craig Smith)
+- **What Game Shall We Play?** (Pat Hutchins)
 - **Why I Love My Daddy** (Daniel Howarth)
