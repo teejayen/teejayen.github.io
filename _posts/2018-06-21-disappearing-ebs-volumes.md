@@ -11,4 +11,4 @@ Their first recommendation was to update the [PV (Paravirtual) Drivers](https://
 
 Then they recommended updating the [EC2Config Service](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2config-service.html) which did the trick.
 
-We thought we had our patching down pat using [~Centrastage~, ~Autotask Endpoint Management~, Datto RMM](https://www.datto.com/business-management/datto-rmm) and a handful of scripts, but this leaves definitely a gap in our process and a chance to dive deeper into the AWS ecosystem using [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html) - surely another post to follow!
+We thought we had our patching down pat using [~~Centrastage~~, ~~Autotask Endpoint Management~~, Datto RMM](https://www.datto.com/business-management/datto-rmm) and a handful of scripts, but this leaves definitely a gap in our process and a chance to dive deeper into the AWS ecosystem using [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/what-is-systems-manager.html) - surely another post to follow!
