@@ -10,9 +10,9 @@ published: true
 \-- Dr. Seuss
 
 ## Currently reading
-- **I Dare You** (William H. Danforth)
+- Lots of [**Kids' Books**](/kidsbooks)
+- **A Guide to the Good Life: The Ancient Art of Stoic Joy** - William Braxton Irvine
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
-- [**Kids' Books**](/kidsbooks)
 
 ## 2018
 
