@@ -19,7 +19,7 @@ published: true
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
 - **Getting Things Done** (Edwin C. Bliss)
 - **The Minimalist Budget** (Simeon Lindstrom)
-- **ReWork** (David Heinemeier Hansson and Jason Fried)
+- [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
 - **Unlimited Memory** (Kevin Horsley)
 
 ## 2017
@@ -33,7 +33,7 @@ published: true
 - **Leadership and Self-Deception** (The Arbinger Institute)
 - **The Five Dysfunctions of a Team** (Patrick Lencioni)
 - [**Remote**](/books/remote) (David Heinemeier Hansson and Jason Fried)
-- **ReWork** (David Heinemeier Hansson and Jason Fried)
+- [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
 - [**Scaling Up**](/books/scaling-up) (Verne Harnish)
 - **Who: The A Method for Hiring** (Geoff Smart)
 
