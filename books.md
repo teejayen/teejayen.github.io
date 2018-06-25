@@ -13,6 +13,8 @@ published: true
 - Lots of [**Kids' Books**](/kidsbooks)
 - **A Guide to the Good Life: The Ancient Art of Stoic Joy** - William Braxton Irvine
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
+- **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** - Chuck Chakrapani
+- **The Meditations of Marcus Aurelius**
 
 ## 2018
 
