@@ -9,8 +9,9 @@ This can come in quite handy when writing scripts also, as you can set the metad
 
 You can query the metadata via shell using cURL or wget:
 
-<pre>
-root@tjn-svr-lv01:~# <b>wget -q -O - http://169.254.169.254/latest/meta-data/</b>
+```shell
+root@tjn-svr-lv01:~# wget -q -O - http://169.254.169.254/latest/meta-data/
+
 ami-id
 ami-launch-index
 ami-manifest-path
@@ -33,12 +34,13 @@ public-keys/
 reservation-id
 security-groups
 services/
-</pre>
+```
 
 Or, if it's an Amazon Linux instance the *ec2-metadata* package comes pre-installed:
 
-<pre>
-root@tjn-svr-lv01:~# <b>./ec2-metadata --help</b>
+```shell
+root@tjn-svr-lv01:~# ./ec2-metadata --help
+
 ec2-metadata v0.1.1
 Use to retrieve EC2 instance metadata from within a running EC2 instance.
 e.g. to retrieve instance id: ec2-metadata -i
@@ -69,4 +71,4 @@ Options:
 -e/--reservation-id       ID of the reservation.
 -s/--security-groups      Names of the security groups the instance is launched in. Only available if supplied at instance launch time
 -d/--user-data            User-supplied data.Only available if supplied at instance launch time.
-</pre>
+```
