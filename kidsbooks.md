@@ -11,6 +11,9 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 ## A - 2018
 
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)
+- **First 100 Animals** (Roger Priddy)
+- **Fox in Socks** (Dr. Seuss)
+- **Green Eggs and Ham** (Dr. Seuss)
 - **Hop on Pop** (Dr. Seuss)
 - **Lift-a-Flap: First Words**
 - **Lift-a-Flap: On The Farm**
@@ -22,20 +25,26 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **One Fish, Two Fish, Red Fish, Blue Fish** (Dr. Seuss)
 - **Princess Time the Little Mermaid** (Miles Kelly)
 - **Sharing a Shell** (Julia Donaldson)
-- **The Gruffalo** (Julia Donaldson)
+- **Ten Apples Up On Top!** (Dr. Seuss)
+- **The Cat in the Hat Comes Back** (Dr. Seuss)
+- **The Cat in the Hat** (Dr. Seuss)
 - **The Gruffalo's Child** (Julia Donaldson)
+- **The Gruffalo** (Julia Donaldson)
 - **The Lorax** (Dr. Seuss)
 - **The Magic Bunny** (Paddy Comyn and Barry Sheehan)
 - **The Snail and the Whale** (Julia Donaldson)
 - **The Wiggles Emma's Yellow Bow**
 - **There's a Wocket In My Pocket** (Dr. Seuss)
 - **Tiddler: The Story-Telling Fish** (Julia Donaldson)
+- **Toddler's World: Colours** (Pat-a-Cake)
+- **Wacky Wednesday** (Dr. Seuss)
+- **Yertle the Turtle and Other Stories** (Dr. Seuss)
 
 ## T - 2018
 
 - **Spot Loves His Dad** (Eric Hill)
-- **Thelma the Unicorn** (Aaron Blabey)
 - **The Ten Silver Coins** (Nick Butterworth and Mick Inkpen)
 - **The Wonky Donkey** (Craig Smith)
+- **Thelma the Unicorn** (Aaron Blabey)
 - **What Game Shall We Play?** (Pat Hutchins)
 - **Why I Love My Daddy** (Daniel Howarth)
