@@ -11,4 +11,4 @@ Spending as much time quality time as possible with my family.
 
 Focusing on reading, journaling, sharing (you're here!), and practicing mindfulness.
 
-*Inspired by [nownownow.com](https://nownownow.com). Last updated 21 June 2018.*
+*Inspired by [nownownow.com](https://nownownow.com). Last updated 2018-06-21.*
