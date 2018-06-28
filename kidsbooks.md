@@ -10,8 +10,10 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 
 ## A - 2018
 
+- **Buddy Loses a Tooth** (Grosset & Dunlap)
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)
 - **First 100 Animals** (Roger Priddy)
+- **Fish Out of Water** (Helen Palmer)
 - **Fox in Socks** (Dr. Seuss)
 - **Green Eggs and Ham** (Dr. Seuss)
 - **Hop on Pop** (Dr. Seuss)
@@ -25,11 +27,15 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **One Fish, Two Fish, Red Fish, Blue Fish** (Dr. Seuss)
 - **Princess Time the Little Mermaid** (Miles Kelly)
 - **Sharing a Shell** (Julia Donaldson)
+- **Spot Bakes a Cake** (Eric Hill)
+- **Spot Loves his Mum** (Eric Hill)
 - **Ten Apples Up On Top!** (Dr. Seuss)
 - **The Cat in the Hat Comes Back** (Dr. Seuss)
 - **The Cat in the Hat** (Dr. Seuss)
 - **The Gruffalo's Child** (Julia Donaldson)
 - **The Gruffalo** (Julia Donaldson)
+- **The Little Elephant who Lost His Bath** (Jedda Robaard)
+- **The Little Lion who Lost Her Roar** (Jedda Robaard)
 - **The Lorax** (Dr. Seuss)
 - **The Magic Bunny** (Paddy Comyn and Barry Sheehan)
 - **The Snail and the Whale** (Julia Donaldson)
@@ -39,6 +45,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Toddler's World: Colours** (Pat-a-Cake)
 - **Wacky Wednesday** (Dr. Seuss)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
+
 
 ## T - 2018
 
