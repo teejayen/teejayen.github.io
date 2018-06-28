@@ -11,14 +11,17 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 ## A - 2018
 
 - **Buddy Loses a Tooth** (Grosset & Dunlap)
+- **Dr. Seuss's ABC** (Dr. Seuss)
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)
 - **First 100 Animals** (Roger Priddy)
 - **Fish Out of Water** (Helen Palmer)
 - **Fox in Socks** (Dr. Seuss)
 - **Green Eggs and Ham** (Dr. Seuss)
 - **Hop on Pop** (Dr. Seuss)
+- **Horton Hears a Who!* (Dr. Seuss)
 - **Lift-a-Flap: First Words**
 - **Lift-a-Flap: On The Farm**
+- **Monkey Puzzle** (Julia Donaldson)
 - **Mr. Brown Can Moo! Can You?** (Dr. Seuss)
 - **Noisy Kittens** (First Steps)
 - **Noisy Puppies** (First Steps)
@@ -26,6 +29,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Old MacDonald Sound Book** (First Steps)
 - **One Fish, Two Fish, Red Fish, Blue Fish** (Dr. Seuss)
 - **Princess Time the Little Mermaid** (Miles Kelly)
+- **Sea Creatures, My First Search and Find** (Neiko Ng)
 - **Sharing a Shell** (Julia Donaldson)
 - **Spot Bakes a Cake** (Eric Hill)
 - **Spot Loves his Mum** (Eric Hill)
