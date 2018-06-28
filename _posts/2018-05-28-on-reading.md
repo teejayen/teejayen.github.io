@@ -11,10 +11,9 @@ Something clicked recently leading me to start simplifying.. from my digital pre
 >- 300% better than going for a walk and
 >- 700% more than playing video games.
 >
->
 >Reading for as little as 6 minutes is sufficient to reduce stress levels by 60%, slowing heart beat, easing muscle tension and altering the state of mind."
-
-\-- [Dr. David Lewis](https://drdavidlewis.com/)
+>
+>— [Dr. David Lewis](https://drdavidlewis.com/)
 
 But not just stress relief, properly reading and comprehending requires significant focus and concentration - no multi-tasking, no distractions, just me and the book (well, Kindle).. almost a total escape from reality.
 

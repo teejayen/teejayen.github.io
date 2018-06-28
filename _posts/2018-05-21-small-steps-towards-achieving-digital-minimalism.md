@@ -7,7 +7,8 @@ date:   2018-05-21 09:29:00 +1000
 Only since removing Facebook from my phone have I noticed just how much of a distraction it has been in my life. I was addicted to mindlessly scrolling through the newsfeed.
 
 > Digital minimalism is a mindset of questioning which digital communication tools are necessary for your happiness. Whether it be email, social media, or general internet consumption, the purpose of this philosophy is to question whether or not they add value to your life.
-\-- [Melissa Camara Wilkins](https://nosidebar.com/author/melissa-camara-wilkins/)
+>
+>— [Melissa Camara Wilkins](https://nosidebar.com/author/melissa-camara-wilkins/)
 
 Knowing my personality, going *cold turkey* would lead to significant fear of missing out and even more addictive usage,  so instead I'll be taking small steps towards achieving digital minimalism.
 
