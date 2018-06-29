@@ -5,6 +5,10 @@ layout: page
 ---
 The power of words never fails to inspire. Collected as I read them: some short, some long, all inspiring.
 
+>"No one can make you feel inferior without your consent."
+>
+>— Eleanor Roosevelt
+
 >"Don't cry because it's over, smile because it happened."
 >
 >— Dr. Seuss

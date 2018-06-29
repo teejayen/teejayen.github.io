@@ -32,4 +32,4 @@ plugins:
   - jekyll-gist
 
 # Pages
-pages_list:          {'Books':'/books','Now':'/now'}
+pages_list:          {'Books':'/books','Now':'/now','Quotes':'/quotes'}

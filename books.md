@@ -5,15 +5,15 @@ layout: page
 published: true
 ---
 
->“The more that you read, the more things you will know. The more that you learn, the more places you'll go.”
-
-\-- Dr. Seuss
+>"The more that you read, the more things you will know. The more that you learn, the more places you'll go."
+>
+>— Dr. Seuss
 
 ## Currently reading
 - Lots of [**Kids' Books**](/kidsbooks)
-- **A Guide to the Good Life: The Ancient Art of Stoic Joy** - William Braxton Irvine
+- **A Guide to the Good Life: The Ancient Art of Stoic Joy** (William Braxton Irvine)
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
-- **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** - Chuck Chakrapani
+- **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
 
 ## 2018
