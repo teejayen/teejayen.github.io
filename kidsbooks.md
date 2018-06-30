@@ -62,6 +62,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 
 - **Spot Loves His Dad** (Eric Hill)
 - **Statistical Physics for Babies** (Chris Ferrie)
+- **That's Not My Puppy** (Fiona Watt)
 - **The Ten Silver Coins** (Nick Butterworth and Mick Inkpen)
 - **The Wonky Donkey** (Craig Smith)
 - **Thelma the Unicorn** (Aaron Blabey)
