@@ -20,7 +20,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Freddie and the Fairy** (Julia Donaldson)
 - **Green Eggs and Ham** (Dr. Seuss)
 - **Hop on Pop** (Dr. Seuss)
-- **Horton Hears a Who!* (Dr. Seuss)
+- **Horton Hears a Who!** (Dr. Seuss)
 - **Lift-a-Flap: First Words**
 - **Lift-a-Flap: On The Farm**
 - **Little Miss Princess** (Roger Hargreaves)
