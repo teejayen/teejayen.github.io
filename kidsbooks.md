@@ -35,6 +35,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Pandamonia** (Chris Owen)
 - **Peter Rabbit: Easter Surprise** (Beatrix Potter)
 - **Princess Time the Little Mermaid** (Miles Kelly)
+- **Scrambled Eggs Super!** (Dr. Seuss)
 - **Sea Creatures, My First Search and Find** (Neiko Ng)
 - **Sharing a Shell** (Julia Donaldson)
 - **Spot Bakes a Cake** (Eric Hill)

@@ -65,4 +65,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— Mark Twain
 
-*Last updated 2018-06-28.*
+>"Pay attention to your enemies, for they are the first to discover your mistakes."
+>
+>— Antisthenes
+
+*Last updated 2018-07-03.*
