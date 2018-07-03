@@ -5,7 +5,7 @@ permalink: books/a-guide-to-the-good-life
 ---
 An easily digestible introduction to the Stoic philosophy of life: a history, overview, and practical guide to living well. William Irvine has taken the teachings of Seneca, Epictetus, Marcus Aurelius, and others and distilled them into guidelines that can be applied to everyday life.
 
-Irvine's style of writing can tend to drag on at times and become a bit "long in the tooth", but sometimes the repetitive rewording of an idea can be the one that really resonates.
+Irvine's style of writing can tend to drag on at times, but sometimes the repetitive rewording of an idea can be the one that really resonates.
 
 ## My Highlights and Notes
 >if you lack a grand goal in living, you lack a coherent philosophy of life. Why is it important to have such a philosophy? Because without one, there is a danger that you will mislive—that despite all your activity, despite all the pleasant diversions you might have enjoyed while alive, you will end up living a bad life.
