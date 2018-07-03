@@ -65,7 +65,7 @@ Irvine's style of writing can tend to drag on at times, but sometimes the repeti
 
 *My Rating:* ★★★★☆
 
-*ISBN:* 9781786694416
+*ISBN:* 9780195374612
 
 *Date Finished:* 2018-07-02
 

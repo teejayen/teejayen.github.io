@@ -24,7 +24,7 @@ published: true
 - **Getting Things Done** (Edwin C. Bliss)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
-- **The Minimalist Budget** (Simeon Lindstrom)
+- [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **Unlimited Memory** (Kevin Horsley)
 
 ## 2017
