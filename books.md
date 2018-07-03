@@ -10,18 +10,20 @@ published: true
 >— Dr. Seuss
 
 ## Currently reading
+
 - Lots of [**Kids' Books**](/kidsbooks)
-- **A Guide to the Good Life: The Ancient Art of Stoic Joy** (William Braxton Irvine)
+- **Too Many Bosses, Too Few Leaders** (Rajeev Peshawaria)
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
-- **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
 
 ## 2018
 
+- [**A Guide to the Good Life: The Ancient Art of Stoic Joy**](/books/a-guide-to-the-good-life) (William B. Irvine)
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
-- **Getting Things Done** (Edwin C. Bliss)
-- **The Minimalist Budget** (Simeon Lindstrom)
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
+- **Getting Things Done** (Edwin C. Bliss)
+- **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
+- **The Minimalist Budget** (Simeon Lindstrom)
 - **Unlimited Memory** (Kevin Horsley)
 
 ## 2017
