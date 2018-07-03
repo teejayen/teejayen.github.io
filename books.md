@@ -12,9 +12,9 @@ published: true
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **Too Many Bosses, Too Few Leaders** (Rajeev Peshawaria)
+- **Meditations: A New Translation** (Marcus Aurelius and Gregory Hays)
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
-- **The Meditations of Marcus Aurelius**
+- **Too Many Bosses, Too Few Leaders** (Rajeev Peshawaria)
 
 ## 2018
 
@@ -23,6 +23,7 @@ published: true
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
 - **Getting Things Done** (Edwin C. Bliss)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
+- **The Meditations of Marcus Aurelius**
 - **The Minimalist Budget** (Simeon Lindstrom)
 - **Unlimited Memory** (Kevin Horsley)
 
