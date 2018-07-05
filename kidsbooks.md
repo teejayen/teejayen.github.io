@@ -24,6 +24,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Horton Hears a Who!** (Dr. Seuss)
 - **Lift-a-Flap: First Words**
 - **Lift-a-Flap: On The Farm**
+- **Little Brothers Are...** (Beth Norling)
 - **Little Miss Princess** (Roger Hargreaves)
 - **Monkey Puzzle** (Julia Donaldson)
 - **Mr. Brown Can Moo! Can You?** (Dr. Seuss)
@@ -46,8 +47,14 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Cat in the Hat** (Dr. Seuss)
 - **The Gruffalo's Child** (Julia Donaldson)
 - **The Gruffalo** (Julia Donaldson)
+- **The Little Bear who Lost Her Way** (Jedda Robaard)
+- **The Little Bird who Lost His Song** (Jedda Robaard)
 - **The Little Elephant who Lost His Bath** (Jedda Robaard)
+- **The Little Fox who Lost Her Tail** (Jedda Robaard)
+- **The Little Giraffe who Lost Her Spots** (Jedda Robaard)
 - **The Little Lion who Lost Her Roar** (Jedda Robaard)
+- **The Little Mouse who Lost Her Squeak** (Jedda Robaard)
+- **The Little Zebra who Lost His Stripes** (Jedda Robaard)
 - **The Lorax** (Dr. Seuss)
 - **The Magic Bunny** (Paddy Comyn and Barry Sheehan)
 - **The Paper Dolls** (Julia Donaldson)
