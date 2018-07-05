@@ -24,7 +24,7 @@ A strong focus on mindfulness by turning daily tasks into rituals to create a ca
 
 ## Details
 
-*My Rating:* ★★★☆☆
+*My Rating:* ★★★½☆
 
 *ISBN:* 9781786694416
 

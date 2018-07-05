@@ -25,7 +25,7 @@ ReWork contradicts many of the standard business lessons found in other books, w
 
 ## Details
 
-*My Rating:* ★★★☆☆
+*My Rating:* ★★★½☆
 
 *ISBN:* 9780307463746
 

@@ -69,4 +69,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— Antisthenes
 
-*Last updated 2018-07-03.*
+>"People don't care how much you know until they know how much you care."
+>
+>— Theodore Roosevelt 
+
+*Last updated 2018-07-04.*

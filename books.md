@@ -12,7 +12,6 @@ published: true
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **Meditations: A New Translation** (Marcus Aurelius and Gregory Hays)
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **Too Many Bosses, Too Few Leaders** (Rajeev Peshawaria)
 
@@ -20,11 +19,12 @@ published: true
 
 - [**A Guide to the Good Life: The Ancient Art of Stoic Joy**](/books/a-guide-to-the-good-life) (William B. Irvine)
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
+- [**Meditations: A New Translation**](/books/meditations-a-new-translation) (Marcus Aurelius and Gregory Hays)
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
+- [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **Getting Things Done** (Edwin C. Bliss)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
-- [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **Unlimited Memory** (Kevin Horsley)
 
 ## 2017
@@ -35,11 +35,11 @@ published: true
 
 ## 2016
 
-- **Leadership and Self-Deception** (The Arbinger Institute)
-- **The Five Dysfunctions of a Team** (Patrick Lencioni)
 - [**Remote**](/books/remote) (David Heinemeier Hansson and Jason Fried)
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
 - [**Scaling Up**](/books/scaling-up) (Verne Harnish)
+- **Leadership and Self-Deception** (The Arbinger Institute)
+- **The Five Dysfunctions of a Team** (Patrick Lencioni)
 - **Who: The A Method for Hiring** (Geoff Smart)
 
 ## 2015
@@ -60,8 +60,8 @@ In no particular order..
 
 - **A Guide to the Good Life** (William B. Irvine)
 - **Deep Work** (Cal Newport)
-- **Essentialism** (Greg McKeown)
 - **Essential Zen Habits** (Leo Babauta)
+- **Essentialism** (Greg McKeown)
 - **Find Your Why** (Simon Sinek)
 - **How to Read a Book** (Mortimer J. Adler)
 - **How to Win Friends and Influence People** (Dale Carnegie)

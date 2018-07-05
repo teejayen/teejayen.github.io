@@ -61,12 +61,16 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Wacky Wednesday** (Dr. Seuss)
 - **We're Going on a Bear Hunt** (Michael Rosen)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
+- **The Very Brave Bear** (Nick Bland)
+
 
 ## T - 2018
 
 - **Baby Touch and Feel: Animals**
 - **Clementine's Walk** (Annie White)
 - **First 100 Animals** (Roger Priddy)
+- **My Daddy (Peppa Pig)**
+- **My Mummy (Peppa Pig)**
 - **Spot Loves His Dad** (Eric Hill)
 - **Statistical Physics for Babies** (Chris Ferrie)
 - **That's Not My Puppy** (Fiona Watt)
