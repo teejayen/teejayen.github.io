@@ -71,6 +71,10 @@ The power of words never fails to inspire. Collected as I read them: some short,
 
 >"People don't care how much you know until they know how much you care."
 >
->— Theodore Roosevelt 
+>— Theodore Roosevelt
+
+>"Nothing will work unless you do"
+>
+>— Maya Angelou
 
 *Last updated 2018-07-04.*
