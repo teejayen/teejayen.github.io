@@ -8,6 +8,7 @@ An easily digestible introduction to the Stoic philosophy of life: a history, ov
 Irvine's style of writing can tend to drag on at times, but sometimes the repetitive rewording of an idea can be the one that really resonates.
 
 ## My Highlights and Notes
+
 >if you lack a grand goal in living, you lack a coherent philosophy of life. Why is it important to have such a philosophy? Because without one, there is a danger that you will mislive—that despite all your activity, despite all the pleasant diversions you might have enjoyed while alive, you will end up living a bad life.
 
 >"Pay attention to your enemies, for they are the first to discover your mistakes." — Antisthenes
@@ -34,7 +35,7 @@ Irvine's style of writing can tend to drag on at times, but sometimes the repeti
 
 >What Stoics discover, though, is that willpower is like muscle power: The more they exercise their muscles, the stronger they get, and the more they exercise their will, the stronger it gets. Indeed, by practicing Stoic self-denial techniques over a long period, Stoics can transform themselves into individuals remarkable for their courage and self-control.
 
->We will shrug off their insults and slights. We will also shrug off any praise they might direct our way. Indeed, Epictetus thinks the admiration of other people is a negative barometer of our progress as Stoics: “If people think you amount to something, distrust yourself.”5
+>We will shrug off their insults and slights. We will also shrug off any praise they might direct our way. Indeed, Epictetus thinks the admiration of other people is a negative barometer of our progress as Stoics: "If people think you amount to something, distrust yourself."
 
 >The Stoics, as we have seen, think we cannot be selective in doing our social duty: There will be times when we must associate with annoying, misguided, or malicious people in order to work for common interests. We can, however, be selective about whom we befriend. The Stoics therefore recommend that we avoid befriending people whose values have been corrupted, for fear that their values will contaminate ours. We should instead seek, as friends, people who share our (proper Stoic) values and in particular, people who are doing a better job than we are of living in accordance with these values. And while enjoying the companionship of these individuals, we should work hard to learn what we can from them.
 
@@ -59,7 +60,6 @@ Irvine's style of writing can tend to drag on at times, but sometimes the repeti
 >we waste our time and cause ourselves needless anxiety if we concern ourselves with things over which we have no control.
 
 >Practicing Stoicism doesn’t take much effort; indeed, it takes far less effort than the effort one is likely to waste in the absence of a philosophy of life. One can practice Stoicism without anyone’s being any the wiser, and one can practice it for a time and then abandon it and be no worse off for the attempt. There is, in other words, little to lose by giving Stoicism a try as one’s philosophy of life, and there is potentially much to gain.
-
 
 ## Details
 

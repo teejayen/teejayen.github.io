@@ -10,6 +10,7 @@ I found Gregory Hays' translation to be most readable and digestible after tryin
 Read this book, it will change your life!
 
 ## My Highlights and Notes
+
 >Practice even what seems impossible. The left hand is useless at almost everything, for lack of practice. But it guides the reins better than the right. From practice.
 
 >It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinion than our own. If a god appeared to us—or a wise human being, even—and prohibited us from concealing our thoughts or imagining anything without immediately shouting it out, we wouldn’t make it through a single day. That’s how much we value other people’s opinions—instead of our own.

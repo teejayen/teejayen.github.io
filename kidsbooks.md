@@ -53,7 +53,12 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Paper Dolls** (Julia Donaldson)
 - **The Snail and the Whale** (Julia Donaldson)
 - **The Sneetches and Other Stories** (Dr. Suess)
+- **The Very Brave Bear** (Nick Bland)
+- **The Very Cranky Bear** (Nick Bland)
+- **The Very Hungry Bear** (Nick Bland)
 - **The Very Hungry Caterpillar** (Eric Carle)
+- **The Very Itchy Bear** (Nick Bland)
+- **The Very Noisy Bear** (Nick Bland)
 - **The Wiggles Emma's Yellow Bow**
 - **There's a Wocket In My Pocket** (Dr. Seuss)
 - **Tiddler: The Story-Telling Fish** (Julia Donaldson)
@@ -61,8 +66,6 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Wacky Wednesday** (Dr. Seuss)
 - **We're Going on a Bear Hunt** (Michael Rosen)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
-- **The Very Brave Bear** (Nick Bland)
-
 
 ## T - 2018
 
