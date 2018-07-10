@@ -12,8 +12,7 @@ published: true
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **The 7 Habits of Highly Effective People** (Stephen R. Covey)
-- **Too Many Bosses, Too Few Leaders** (Rajeev Peshawaria)
+- **The Obstacle Is the Way** (Ryan Holiday)
 
 ## 2018
 
@@ -70,9 +69,12 @@ In no particular order..
 - **Own the Day, Own Your Life** (Aubrey Marcus)
 - **Principles** (Ray Dalio)
 - **Radical Candor** (Kim Scott)
+- **Secrets of Question Based Selling** (Thomas A. Freese)
 - **Show Your Work!** (Austin Kleon)
 - **The 4-Hour Work Week** (Tim Ferris)
+- **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **The Barefoot Investor** (Scott Pape)
 - **The Lean Startup** (Eric Ries)
 - **The Subtle Art of Not Giving a F\*ck** (Mark Manson)
 - **The Time Paradox** (Philip Zimbardo and John Boyd)
+- **The Wedge** (Randy Schwantz)
