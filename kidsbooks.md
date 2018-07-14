@@ -10,7 +10,9 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 
 ## A - 2018
 
-- **Animals Friends** (Jane Werner Watson)
+- **Animal Friends** (Jane Werner Watson)
+- **Anna Hibiscus' Song** (Atinuke)
+- **Beep! Beep! Go to Sleep!** (Todd Tarpley)
 - **Buddy Loses a Tooth** (Grosset & Dunlap)
 - **Chocolate Cake** (Michael Rosen)
 - **Disney Pixar Movie Collection: Finding Dory**
@@ -27,10 +29,14 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Fish Out of Water** (Helen Palmer)
 - **Fox in Socks** (Dr. Seuss)
 - **Freddie and the Fairy** (Julia Donaldson)
+- **Friends** (Eric Carle)
 - **Green Eggs and Ham** (Dr. Seuss)
+- **Have a Look, Says Book** (Richard Jackson)
 - **Hop on Pop** (Dr. Seuss)
 - **Horton Hears a Who!** (Dr. Seuss)
+- **How Many Legs?** (Kes Gray)
 - **I Dare You Not To Yawn** (Hélène Boudreau)
+- **If Your Dreams Take Off and Fly** (John Butler)
 - **Lift-a-Flap: First Words**
 - **Lift-a-Flap: On The Farm**
 - **Little Brothers Are...** (Beth Norling)
@@ -53,6 +59,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Spot Bakes a Cake** (Eric Hill)
 - **Spot Loves his Mum** (Eric Hill)
 - **Ten Apples Up On Top!** (Dr. Seuss)
+- **The Cake** (Dorothée de Monfreid)
 - **The Cat in the Hat Comes Back** (Dr. Seuss)
 - **The Cat in the Hat** (Dr. Seuss)
 - **The Gruffalo's Child** (Julia Donaldson)
@@ -84,8 +91,10 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Thidwick the Big-Hearted Moose** (Dr. Seuss)
 - **Tiddler: The Story-Telling Fish** (Julia Donaldson)
 - **Toddler's World: Colours** (Pat-a-Cake)
+- **Two Little Bears** (Suzi Moore*)
 - **Wacky Wednesday** (Dr. Seuss)
 - **We're Going on a Bear Hunt** (Michael Rosen)
+- **When an Elephant Falls in Love** (Davide Cali)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
 
 ## T - 2018
