@@ -13,6 +13,13 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Animals Friends** (Jane Werner Watson)
 - **Buddy Loses a Tooth** (Grosset & Dunlap)
 - **Chocolate Cake** (Michael Rosen)
+- **Disney Pixar Movie Collection: Finding Dory**
+- **Disney Pixar Movie Collection: Peter Pan**
+- **Disney Pixar Movie Collection: Snow White**
+- **Disney Pixar Movie Collection: Toy Story**
+- **Disney Pixar Movie Collection: Toy Story 2**
+- **Disney Pixar Movie Collection: Toy Story 3**
+- **Disney Pixar Movie Collection: Wall-E**
 - **Doc Mcstuffins - I Can Brush My Teeth!**
 - **Dr. Seuss's ABC** (Dr. Seuss)
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)

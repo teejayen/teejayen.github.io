@@ -77,4 +77,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— Maya Angelou
 
-*Last updated 2018-07-04.*
+>"The greatest discovery of my generation is that human beings, by changing the inner attitudes of their minds, can change the outer aspects of their lives."
+>
+>— William James
+
+*Last updated 2018-07-14.*
