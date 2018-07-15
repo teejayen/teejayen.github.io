@@ -81,3 +81,4 @@ In no particular order..
 - **The Time Paradox** (Philip Zimbardo and John Boyd)
 - **The Wedge** (Randy Schwantz)
 - **Why The West Rules ~ For Now** (Ian Morris)
+- **Sapiens** (Yuval Noah Harari)
