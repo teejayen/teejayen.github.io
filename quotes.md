@@ -81,4 +81,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— William James
 
-*Last updated 2018-07-14.*
+>"Time does not pass, it continues"
+>
+>― Marty Rubin
+
+*Last updated 2018-07-16.*
