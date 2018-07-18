@@ -13,15 +13,17 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Animal Friends** (Jane Werner Watson)
 - **Anna Hibiscus' Song** (Atinuke)
 - **Beep! Beep! Go to Sleep!** (Todd Tarpley)
+- **Bella Loves Bunny** (David M. McPhail)
 - **Buddy Loses a Tooth** (Grosset & Dunlap)
 - **Chocolate Cake** (Michael Rosen)
-- **Disney Pixar Movie Collection: Finding Dory**
 - **Disney Pixar Movie Collection: Aladdin*
+- **Disney Pixar Movie Collection: Finding Dory**
 - **Disney Pixar Movie Collection: Peter Pan**
 - **Disney Pixar Movie Collection: Snow White**
-- **Disney Pixar Movie Collection: Toy Story**
+- **Disney Pixar Movie Collection: Tangled*
 - **Disney Pixar Movie Collection: Toy Story 2**
 - **Disney Pixar Movie Collection: Toy Story 3**
+- **Disney Pixar Movie Collection: Toy Story**
 - **Disney Pixar Movie Collection: Wall-E**
 - **Doc Mcstuffins - I Can Brush My Teeth!**
 - **Dr. Seuss's ABC** (Dr. Seuss)
