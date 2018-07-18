@@ -16,7 +16,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Bella Loves Bunny** (David M. McPhail)
 - **Buddy Loses a Tooth** (Grosset & Dunlap)
 - **Chocolate Cake** (Michael Rosen)
-- **Disney Pixar Movie Collection: Aladdin*
+- **Disney Pixar Movie Collection: Aladdin**
 - **Disney Pixar Movie Collection: Finding Dory**
 - **Disney Pixar Movie Collection: Peter Pan**
 - **Disney Pixar Movie Collection: Snow White**

@@ -12,7 +12,8 @@ published: true
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **The Obstacle Is the Way** (Ryan Holiday)
+- **Sapiens** (Yuval Noah Harari)
+
 
 ## 2018
 
@@ -24,6 +25,7 @@ published: true
 - **Getting Things Done** (Edwin C. Bliss)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
+- **The Obstacle Is the Way** (Ryan Holiday)
 - **Unlimited Memory** (Kevin Horsley)
 
 ## 2017
@@ -57,7 +59,6 @@ published: true
 
 In no particular order..
 
-- **A Guide to the Good Life** (William B. Irvine)
 - **Deep Work** (Cal Newport)
 - **Essential Zen Habits** (Leo Babauta)
 - **Essentialism** (Greg McKeown)
@@ -65,7 +66,6 @@ In no particular order..
 - **Homo Dues** (Yuval Noah Harari)
 - **How to Read a Book** (Mortimer J. Adler)
 - **How to Win Friends and Influence People** (Dale Carnegie)
-- **I Dare You** (William H. Danforth)
 - **On Writing Well** (William Zinsser)
 - **Own the Day, Own Your Life** (Aubrey Marcus)
 - **Principles** (Ray Dalio)
@@ -81,4 +81,3 @@ In no particular order..
 - **The Time Paradox** (Philip Zimbardo and John Boyd)
 - **The Wedge** (Randy Schwantz)
 - **Why The West Rules ~ For Now** (Ian Morris)
-- **Sapiens** (Yuval Noah Harari)
