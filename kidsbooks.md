@@ -20,7 +20,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Disney Pixar Movie Collection: Finding Dory**
 - **Disney Pixar Movie Collection: Peter Pan**
 - **Disney Pixar Movie Collection: Snow White**
-- **Disney Pixar Movie Collection: Tangled*
+- **Disney Pixar Movie Collection: Tangled**
 - **Disney Pixar Movie Collection: Toy Story 2**
 - **Disney Pixar Movie Collection: Toy Story 3**
 - **Disney Pixar Movie Collection: Toy Story**
@@ -94,7 +94,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Thidwick the Big-Hearted Moose** (Dr. Seuss)
 - **Tiddler: The Story-Telling Fish** (Julia Donaldson)
 - **Toddler's World: Colours** (Pat-a-Cake)
-- **Two Little Bears** (Suzi Moore*)
+- **Two Little Bears** (Suzi Moore)
 - **Wacky Wednesday** (Dr. Seuss)
 - **We're Going on a Bear Hunt** (Michael Rosen)
 - **When an Elephant Falls in Love** (Davide Cali)
