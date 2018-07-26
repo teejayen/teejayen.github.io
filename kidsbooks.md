@@ -25,9 +25,12 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Disney Pixar Movie Collection: Toy Story 3**
 - **Disney Pixar Movie Collection: Toy Story**
 - **Disney Pixar Movie Collection: Wall-E**
+- **Disney Princesses: Be Curious**
 - **Doc Mcstuffins - I Can Brush My Teeth!**
+- **Dozy Bear and the Secret of Sleep** (Katie Blackburn)
 - **Dr. Seuss's ABC** (Dr. Seuss)
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)
+- **Ella The Elegant Elephant** (Carmela D'Amico and Steven D'Amico)
 - **First 100 Animals** (Roger Priddy)
 - **Fish Out of Water** (Helen Palmer)
 - **Fox in Socks** (Dr. Seuss)
@@ -47,11 +50,14 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Monkey Puzzle** (Julia Donaldson)
 - **Mr. Brown Can Moo! Can You?** (Dr. Seuss)
 - **My Many Colored Days** (Dr. Seuss)
+- **My Mindful Little One: Bedtime** (Bernadette Carelse)
+- **Noah's Ark** (Lucy Cousins)
 - **Noisy Kittens** (First Steps)
 - **Noisy Puppies** (First Steps)
 - **Oh, the Places You’ll Go!** (Dr. Seuss)
 - **Old MacDonald Sound Book** (First Steps)
 - **One Fish, Two Fish, Red Fish, Blue Fish** (Dr. Seuss)
+- **Opposites** (Britta Teckentrup)
 - **Pandamonia** (Chris Owen)
 - **Peter Rabbit: Easter Surprise** (Beatrix Potter)
 - **Princess Time the Little Mermaid** (Miles Kelly)
@@ -65,6 +71,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Cake** (Dorothée de Monfreid)
 - **The Cat in the Hat Comes Back** (Dr. Seuss)
 - **The Cat in the Hat** (Dr. Seuss)
+- **The Eye Book** (Theo LeSieg)
 - **The Gruffalo's Child** (Julia Donaldson)
 - **The Gruffalo** (Julia Donaldson)
 - **The Lion and the Bird** (Marianne Dubuc)
@@ -80,7 +87,9 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Little Zebra Who Lost His Stripes** (Jedda Robaard)
 - **The Lorax** (Dr. Seuss)
 - **The Magic Bunny** (Paddy Comyn and Barry Sheehan)
+- **The Magical Tale of Ben and Holly** (Mark Baker and Neville Astley)
 - **The Paper Dolls** (Julia Donaldson)
+- **The Smartest Giant In Town** (Julia Donaldson)
 - **The Snail and the Whale** (Julia Donaldson)
 - **The Sneetches and Other Stories** (Dr. Suess)
 - **The Very Brave Bear** (Nick Bland)
@@ -90,14 +99,18 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Very Itchy Bear** (Nick Bland)
 - **The Very Noisy Bear** (Nick Bland)
 - **The Wiggles Emma's Yellow Bow**
+- **There's a Hippopotamus on Our Roof Eating Cake** (Hazel Edwards)
 - **There's a Wocket In My Pocket** (Dr. Seuss)
 - **Thidwick the Big-Hearted Moose** (Dr. Seuss)
 - **Tiddler: The Story-Telling Fish** (Julia Donaldson)
+- **Toad and I** (Louise Yates)
 - **Toddler's World: Colours** (Pat-a-Cake)
 - **Two Little Bears** (Suzi Moore)
 - **Wacky Wednesday** (Dr. Seuss)
 - **We're Going on a Bear Hunt** (Michael Rosen)
+- **Whale of a Tale** (Bonnie Worth)
 - **When an Elephant Falls in Love** (Davide Cali)
+- **Wiggle and the Whale** (Roger Priddy)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
 
 ## T - 2018

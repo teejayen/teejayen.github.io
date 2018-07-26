@@ -85,4 +85,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >― Marty Rubin
 
-*Last updated 2018-07-16.*
+>"If circumstances change, your decisions can change. Decisions are temporary."
+>
+>― Jason Fried
+
+*Last updated 2018-07-24.*
