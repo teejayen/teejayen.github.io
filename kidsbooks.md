@@ -43,14 +43,17 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **How Many Legs?** (Kes Gray)
 - **I Dare You Not To Yawn** (Hélène Boudreau)
 - **If Your Dreams Take Off and Fly** (John Butler)
+- **It's Monday, Mrs. Jolly Bones!** (Warren Hanson)
 - **Lift-a-Flap: First Words**
 - **Lift-a-Flap: On The Farm**
 - **Little Brothers Are...** (Beth Norling)
 - **Little Miss Princess** (Roger Hargreaves)
 - **Monkey Puzzle** (Julia Donaldson)
+- **Motor Miles** (John Burningham)
 - **Mr. Brown Can Moo! Can You?** (Dr. Seuss)
 - **My Many Colored Days** (Dr. Seuss)
 - **My Mindful Little One: Bedtime** (Bernadette Carelse)
+- **Nat the Cat's Sunny Smile** (Jez Alborough)
 - **Noah's Ark** (Lucy Cousins)
 - **Noisy Kittens** (First Steps)
 - **Noisy Puppies** (First Steps)
@@ -68,6 +71,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Spot Bakes a Cake** (Eric Hill)
 - **Spot Loves his Mum** (Eric Hill)
 - **Ten Apples Up On Top!** (Dr. Seuss)
+- **Ten Little Fingers and Ten Little Toes** (Mem Fox)
 - **The Cake** (Dorothée de Monfreid)
 - **The Cat in the Hat Comes Back** (Dr. Seuss)
 - **The Cat in the Hat** (Dr. Seuss)
@@ -77,6 +81,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Lion and the Bird** (Marianne Dubuc)
 - **The Little Bear Who Lost Her Way** (Jedda Robaard)
 - **The Little Bird Who Lost His Song** (Jedda Robaard)
+- **The Little Bunnies** (Margaret Wise Brown)
 - **The Little Elephant Who Lost His Bath** (Jedda Robaard)
 - **The Little Fox Who Lost Her Tail** (Jedda Robaard)
 - **The Little Giraffe Who Lost Her Spots** (Jedda Robaard)
@@ -112,6 +117,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **When an Elephant Falls in Love** (Davide Cali)
 - **Wiggle and the Whale** (Roger Priddy)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
+
 
 ## T - 2018
 
