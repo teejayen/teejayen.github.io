@@ -30,6 +30,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Dozy Bear and the Secret of Sleep** (Katie Blackburn)
 - **Dr. Seuss's ABC** (Dr. Seuss)
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)
+- **Duck! Rabbit!** (Amy Krouse Rosenthal)
 - **Ella The Elegant Elephant** (Carmela D'Amico and Steven D'Amico)
 - **First 100 Animals** (Roger Priddy)
 - **Fish Out of Water** (Helen Palmer)
@@ -39,6 +40,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Green Eggs and Ham** (Dr. Seuss)
 - **Have a Look, Says Book** (Richard Jackson)
 - **Hop on Pop** (Dr. Seuss)
+- **Horton Hatched The Egg** (Dr. Seuss)
 - **Horton Hears a Who!** (Dr. Seuss)
 - **How Many Legs?** (Kes Gray)
 - **I Dare You Not To Yawn** (Hélène Boudreau)
@@ -48,6 +50,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Lift-a-Flap: On The Farm**
 - **Little Brothers Are...** (Beth Norling)
 - **Little Miss Princess** (Roger Hargreaves)
+- **Madeline in London** (Ludwig Bemelmans)
 - **Monkey Puzzle** (Julia Donaldson)
 - **Motor Miles** (John Burningham)
 - **Mr. Brown Can Moo! Can You?** (Dr. Seuss)
@@ -59,6 +62,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Noisy Puppies** (First Steps)
 - **Oh, the Places You’ll Go!** (Dr. Seuss)
 - **Old MacDonald Sound Book** (First Steps)
+- **On Beyond Zebra!** (Dr. Seuss)
 - **One Fish, Two Fish, Red Fish, Blue Fish** (Dr. Seuss)
 - **Opposites** (Britta Teckentrup)
 - **Pandamonia** (Chris Owen)
@@ -76,6 +80,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Cat in the Hat Comes Back** (Dr. Seuss)
 - **The Cat in the Hat** (Dr. Seuss)
 - **The Eye Book** (Theo LeSieg)
+- **The Fuzzy Duckling** (Jane Werner Watson)
 - **The Gruffalo's Child** (Julia Donaldson)
 - **The Gruffalo** (Julia Donaldson)
 - **The Lion and the Bird** (Marianne Dubuc)
@@ -118,10 +123,10 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Wiggle and the Whale** (Roger Priddy)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
 
-
 ## T - 2018
 
 - **Baby Touch and Feel: Animals**
+- **Chunkies Numbers*
 - **Clementine's Walk** (Annie White)
 - **First 100 Animals** (Roger Priddy)
 - **I See** (Helen Oxenbury)

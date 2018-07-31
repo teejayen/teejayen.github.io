@@ -12,6 +12,7 @@ published: true
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
+- **50 Philosophy Ideas You Really Need to Know** (Ben Dupre)
 - **Sapiens** (Yuval Noah Harari)
 
 
@@ -23,6 +24,7 @@ published: true
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **Getting Things Done** (Edwin C. Bliss)
+- **Make Your Bed** (William H. McRaven)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
 - **The Obstacle Is the Way** (Ryan Holiday)
