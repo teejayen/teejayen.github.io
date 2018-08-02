@@ -30,6 +30,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Dozy Bear and the Secret of Sleep** (Katie Blackburn)
 - **Dr. Seuss's ABC** (Dr. Seuss)
 - **Dr. Seuss's Sleep Book** (Dr. Seuss)
+- **Draw Me a Start** (Eric Carle)
 - **Duck! Rabbit!** (Amy Krouse Rosenthal)
 - **Ella The Elegant Elephant** (Carmela D'Amico and Steven D'Amico)
 - **First 100 Animals** (Roger Priddy)
@@ -49,6 +50,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Lift-a-Flap: First Words**
 - **Lift-a-Flap: On The Farm**
 - **Little Brothers Are...** (Beth Norling)
+- **Little Cloud** (Eric Carle)
 - **Little Miss Princess** (Roger Hargreaves)
 - **Madeline in London** (Ludwig Bemelmans)
 - **Monkey Puzzle** (Julia Donaldson)
@@ -83,6 +85,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Fuzzy Duckling** (Jane Werner Watson)
 - **The Gruffalo's Child** (Julia Donaldson)
 - **The Gruffalo** (Julia Donaldson)
+- **The Kangaroo Who Couldn't Hop** (Robert Cox)
 - **The Lion and the Bird** (Marianne Dubuc)
 - **The Little Bear Who Lost Her Way** (Jedda Robaard)
 - **The Little Bird Who Lost His Song** (Jedda Robaard)
@@ -109,6 +112,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Very Itchy Bear** (Nick Bland)
 - **The Very Noisy Bear** (Nick Bland)
 - **The Wiggles Emma's Yellow Bow**
+- **There's A Bear On My Chair** (Ross Collins)
 - **There's a Hippopotamus on Our Roof Eating Cake** (Hazel Edwards)
 - **There's a Wocket In My Pocket** (Dr. Seuss)
 - **Thidwick the Big-Hearted Moose** (Dr. Seuss)

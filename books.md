@@ -59,8 +59,9 @@ published: true
 
 ## Coming up next
 
-In no particular order..
+In no particular order.. well, maybe alphabetically.
 
+- **15 Secrets Successful People Know About Time Management** (Kevin Kruse)
 - **Deep Work** (Cal Newport)
 - **Essential Zen Habits** (Leo Babauta)
 - **Essentialism** (Greg McKeown)
@@ -79,6 +80,7 @@ In no particular order..
 - **The Barefoot Investor** (Scott Pape)
 - **The Gene: An Intimate History** (Siddhartha Mukherjee)
 - **The Lean Startup** (Eric Ries)
+- **The Power of Full Engagement** (James E. Loehr and Tony Schwartz)
 - **The Subtle Art of Not Giving a F\*ck** (Mark Manson)
 - **The Time Paradox** (Philip Zimbardo and John Boyd)
 - **The Wedge** (Randy Schwantz)
