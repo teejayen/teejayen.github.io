@@ -13,18 +13,21 @@ published: true
 
 - Lots of [**Kids' Books**](/kidsbooks)
 - **50 Philosophy Ideas You Really Need to Know** (Ben Dupre)
-- **Sapiens** (Yuval Noah Harari)
-
+- **Homo Dues** (Yuval Noah Harari)
+- **The Coaching Habit** (Michael Bungay Stanier)
+- **The Shallows** (Nicholas Carr)
 
 ## 2018
 
 - [**A Guide to the Good Life: The Ancient Art of Stoic Joy**](/books/a-guide-to-the-good-life) (William B. Irvine)
+- [**Deep Work**](/books/deep-work) (Cal Newport)
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
 - [**Meditations: A New Translation**](/books/meditations-a-new-translation) (Marcus Aurelius and Gregory Hays)
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **Getting Things Done** (Edwin C. Bliss)
 - **Make Your Bed** (William H. McRaven)
+- **Sapiens** (Yuval Noah Harari)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
 - **The Obstacle Is the Way** (Ryan Holiday)
@@ -59,29 +62,4 @@ published: true
 
 ## Coming up next
 
-In no particular order.. well, maybe alphabetically.
-
-- **15 Secrets Successful People Know About Time Management** (Kevin Kruse)
-- **Deep Work** (Cal Newport)
-- **Essential Zen Habits** (Leo Babauta)
-- **Essentialism** (Greg McKeown)
-- **Find Your Why** (Simon Sinek)
-- **Homo Dues** (Yuval Noah Harari)
-- **How to Read a Book** (Mortimer J. Adler)
-- **How to Win Friends and Influence People** (Dale Carnegie)
-- **On Writing Well** (William Zinsser)
-- **Own the Day, Own Your Life** (Aubrey Marcus)
-- **Principles** (Ray Dalio)
-- **Radical Candor** (Kim Scott)
-- **Secrets of Question Based Selling** (Thomas A. Freese)
-- **Show Your Work!** (Austin Kleon)
-- **The 4-Hour Work Week** (Tim Ferris)
-- **The 7 Habits of Highly Effective People** (Stephen R. Covey)
-- **The Barefoot Investor** (Scott Pape)
-- **The Gene: An Intimate History** (Siddhartha Mukherjee)
-- **The Lean Startup** (Eric Ries)
-- **The Power of Full Engagement** (James E. Loehr and Tony Schwartz)
-- **The Subtle Art of Not Giving a F\*ck** (Mark Manson)
-- **The Time Paradox** (Philip Zimbardo and John Boyd)
-- **The Wedge** (Randy Schwantz)
-- **Why The West Rules ~ For Now** (Ian Morris)
+I've started using Goodreads to start tracking books, including what I [want to read](https://www.goodreads.com/review/list/84711341-timothy-neilen?shelf=to-read) - mostly due to the strong integration with Kindle.
