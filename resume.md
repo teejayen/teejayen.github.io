@@ -57,7 +57,8 @@ AWS Technical Professional - February 2015
 
 ## Experience
 
-**answers IT, Brisbane. May 2014 - present**
+### answers IT, Brisbane. May 2014 - present
+
 *Various roles*
 
 * Worked as part of, and led the technical team of up to 9 staff at one time to provide proactive support for a large client base
@@ -73,7 +74,8 @@ AWS Technical Professional - February 2015
 * Implementation and management of Unified Communications solution, based on whitelabel BroadWorks platform provided by Novum Networks
 * Implementation and management of Windows Deployment Services to reduce average workstation run up from 2 hours to less than 30 minutes
 
-**New Age Solutions, Brisbane. January 2011 - April 2014**
+### New Age Solutions, Brisbane. January 2011 - April 2014
+
 *IT Consultant*
 
 * Worked as part of a team to deliver high quality, customer-focused support
@@ -83,7 +85,7 @@ AWS Technical Professional - February 2015
 * Project management, and implementation of new infrastructure installations, migrations and upgrades
 * Implemented DokuWiki for management of client documentation
 
-**Rapidfire, Brisbane. May 2009 – January 2011**
+### Rapidfire, Brisbane. May 2009 – January 2011
 *Rapid Response Specialist*
 
 * Provided ICT support to SMB / SME organisations who are IT dependant, each with individual needs and expectations
