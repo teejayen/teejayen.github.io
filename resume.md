@@ -6,7 +6,9 @@ layout: page
 # Timothy James Neilen
 
 0457 555 373
+
 timothy@neilen.com.au
+
 [https://www.linkedin.com/in/tneilen/](https://www.linkedin.com/in/tneilen/)
 
 IT Professional with 9 years combined experience in a variety of Systems Integration and Managed Service Provider roles, providing client-focused support, project implementation, and technical account management to companies who are technology dependant.
@@ -46,8 +48,11 @@ Seeking a career advancement opportunity with an exciting, innovative and ambiti
 ## Certifications
 
 AWS Business Professional - March 2016
+
 VMware Technical Solutions Professional - June 2015
+
 VMware Sales Professional -  June 2015
+
 AWS Technical Professional - February 2015
 
 ## Experience
