@@ -89,4 +89,24 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >― Jason Fried
 
-*Last updated 2018-07-24.*
+>"It is the heart that makes a man rich. He is rich according to what he is, not according to what he has."
+>
+>― Henry Ward Beecher
+
+>"Your living is determined not so much by what life brings to you as by the attitude you bring to life."
+>
+>―Kahlil Gibran
+
+>"Formal education will make you a living, self education will make you a fortune."
+>
+>― Jim Rohn
+
+>"Fast is fine. Accuracy is final. You need to learn to shoot slow, real fast."
+>
+>― Wyatt Earp
+
+>"Too many people spend money they haven’t earned, to buy things they don’t want, to impress people they don’t like.”
+>
+>― Will Rogers
+
+*Last updated 2018-08-22.*
