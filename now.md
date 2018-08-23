@@ -2,6 +2,10 @@
 title: Now
 permalink: now/
 layout: page
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'weekly'
 ---
 Focusing on reading, journaling, sharing (you're here!), and practicing mindfulness.
 

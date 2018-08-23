@@ -2,6 +2,10 @@
 layout: page
 title:  "Deep Work by Cal Newport"
 permalink: books/deep-work
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 My manager suggested looking at time blocking to better plan my days, as it felt like I was constantly being pulled every which way. Through my research into time blocking I came across an article from [Cal Newport](http://calnewport.com/blog/2013/12/21/deep-habits-the-importance-of-planning-every-minute-of-your-work-day/), which lead into picking up his book on Deep Work.
 

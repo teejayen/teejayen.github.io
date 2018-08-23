@@ -2,6 +2,8 @@
 title: Resume
 permalink: resume/
 layout: page
+sitemap:
+  exclude: 'yes'
 ---
 # Timothy James Neilen
 

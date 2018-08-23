@@ -2,6 +2,10 @@
 layout: page
 title:  "A Guide to the Good Life: The Ancient Art of Stoic Joy by William B. Irvine"
 permalink: books/a-guide-to-the-good-life
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 An easily digestible introduction to the Stoic philosophy of life: a history, overview, and practical guide to living well. William Irvine has taken the teachings of Seneca, Epictetus, Marcus Aurelius, and others and distilled them into guidelines that can be applied to everyday life.
 

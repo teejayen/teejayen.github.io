@@ -2,6 +2,10 @@
 layout: page
 title:  "Destination Simple by Brooke McAlary"
 permalink: books/destination-simple
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 Simple, short, and to the point - I picked up this book for free from Kindle Unlimited and finished it in an hour, with time to spare.
 

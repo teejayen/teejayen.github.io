@@ -3,6 +3,10 @@ title: Books
 permalink: books/
 layout: page
 published: true
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'weekly'
 ---
 
 >"The more that you read, the more things you will know. The more that you learn, the more places you'll go."

@@ -2,6 +2,10 @@
 layout: page
 title:  "Meditations: A New Translation by Marcus Aurelius"
 permalink: books/meditations-a-new-translation
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 A reflection of his life, the product of his own thoughts and his own experiences... likely never intended to be viewed by others, but I'm overjoyed that it was. It's easy to take some of the writings outside of their intended context, so other Stoic writings such as Enchiridion of Epictetus, and Seneca's Letters From A Stoic should also be read alongside.
 

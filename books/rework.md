@@ -2,6 +2,10 @@
 layout: page
 title:  "ReWork: Change the Way You Work Forever by David Heinemeier Hansson and Jason Fried"
 permalink: books/rework
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 ReWork contradicts many of the standard business lessons found in other books, with most of the techniques being highly subjective and based on what worked at 37signals. The book itself is a compilation of blog posts, so it didn't have much flow. Some ideas felt quite oversimplified, likely intentionally..
 

@@ -2,6 +2,10 @@
 layout: page
 title:  "The Minimalist Budget by Simeon Lindstrom"
 permalink: books/the-minimalist-budget
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 Money is a tool and how we spend it is an expression of our values and what we think is important. Just a few changes to spending habits can make a large impact. Bottom line: you must spend less than you make.
 

@@ -2,6 +2,10 @@
 layout: page
 title:  "Scaling Up by Verne Harnish"
 permalink: books/scaling-up
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 Verne certaintly articulated himself well when he said "it's a bit like drinking from a firehose!" Not exactly a leisurely read but instead a well organised and actionable reference book.
 

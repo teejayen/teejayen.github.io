@@ -2,6 +2,10 @@
 title: Quotes
 permalink: quotes/
 layout: page
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'weekly'
 ---
 The power of words never fails to inspire. Collected as I read them: some short, some long, all inspiring.
 

@@ -3,6 +3,10 @@ title: Kids' Books
 permalink: kidsbooks/
 layout: page
 published: true
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'weekly'
 ---
 I read about the [1000 Books Before Kindergarten](https://1000booksbeforekindergarten.org/) initiative, and I'm aiming to do this for both A & T. Reading to children helps develop early literacy by building vocabulary, and nurturing a love of books, language, and reading. Just 1 book a night (3 or 4 seems more commonplace in our household), will add up to about 365 books in a year, so 1000 books will take under three years!
 

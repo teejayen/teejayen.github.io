@@ -2,6 +2,10 @@
 layout: page
 title:  "Remote by David Heinemeier Hansson and Jason Fried"
 permalink: books/remote
+sitemap:
+  lastmod: 2018-08-24
+  priority: 0.7
+  changefreq: 'monthly'
 ---
 
 I recall reading Remote with the intention of bringing ideas to the management team at the time in order to set up policies / procedures for working from home.. unfortunately it didn't eventuate at the time.
