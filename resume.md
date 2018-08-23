@@ -62,7 +62,7 @@ AWS Technical Professional - February 2015
 *Various roles*
 
 * Worked as part of, and led the technical team of up to 9 staff at one time to provide proactive support for a large client base
-* Primary technical contact for 10 key accounts, managed services MRR of approximately $25,000
+* Primary technical contact for 10 key accounts
 * Design, scoping, project management, and implementation of upgrades, and new infrastructure adhering to tight deadlines and budgets
 * Management of client Amazon Web Services accounts and services:
   * Implemented Site24x7 to provide greater visibility, plus reporting and insights
