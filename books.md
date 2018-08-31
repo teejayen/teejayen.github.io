@@ -16,8 +16,8 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **50 Philosophy Ideas You Really Need to Know** (Ben Dupre)
 - **Homo Dues** (Yuval Noah Harari)
+- **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
 - **The Coaching Habit** (Michael Bungay Stanier)
 - **The Shallows** (Nicholas Carr)
 

@@ -2,9 +2,10 @@
 layout: post
 title:  "Dynamic Distributions Groups based on Organisational Units"
 date:   2018-05-26 13:33:00 +1000
-
 ---
-One of my clients from [answers IT](https://answersit.com.au) requested that existing Distribution Groups for "all staff" at each site were reviewed recently, as a significant amount of terminated staff were still in the list. For this client, generally the user termination process is to disable the Active Directory user account, move it to the "Disabled" Organisational Unit (OU) convert the user mailbox to a shared mailbox and then hide it from the Global Address List (GAL). As they have had quite a few employees who have left and then returned, their account can be easily re-enabled for use.
+One of my clients from [answers IT](https://answersit.com.au) requested that existing Distribution Groups for "all staff" at each site were reviewed recently, as a significant amount of terminated staff were still in the list. 
+
+For this client, generally the user termination process is to disable the Active Directory user account, move it to the "Disabled" Organisational Unit (OU) convert the user mailbox to a shared mailbox and then hide it from the Global Address List (GAL). As they have had quite a few employees who have left and then returned, their account can be easily re-enabled for use.
 
 Rather than painstakingly reviewing disabled user accounts, documenting their group membership and then removing them, I thought why not investigate Dynamic Distribution Groups. Members of Dynamic Distribution Groups are determined each time a message is sent to the group, based on filters and conditions specified. However, Office 365 only provides a handful of filters through the GUI so it's best to jump in to Exchange Online via PowerShell to set these up.
 
