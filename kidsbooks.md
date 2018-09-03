@@ -14,6 +14,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 
 ## A - 2018
 
+- **A Fairy Ballet** (Daily Meadows)
 - **Adventures with Daddy** (Cathy Kearse)
 - **All The Awake Animals Are Almost Asleep** (Crescent Dragonwagon)
 - **Animal Friends** (Jane Werner Watson)
@@ -44,14 +45,18 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Fox in Socks** (Dr. Seuss)
 - **Freddie and the Fairy** (Julia Donaldson)
 - **Friends** (Eric Carle)
+- **Georgian House Picture Book** (Abigail Wheatley)
+- **Give Me a Home Among the Gumtrees** (Bob Brown)
 - **Green Eggs and Ham** (Dr. Seuss)
 - **Have a Look, Says Book** (Richard Jackson)
+- **Here Comes Mr Postmouse** (Marianne Dubuc)
 - **Herman and Rosie** (Gus Gordon)
 - **Hokey Pokey** (Ed Allen)
 - **Hop on Pop** (Dr. Seuss)
 - **Horton Hatched The Egg** (Dr. Seuss)
 - **Horton Hears a Who!** (Dr. Seuss)
 - **How Many Legs?** (Kes Gray)
+- **I Am A Cat** (Galia Bernstein)
 - **I Dare You Not To Yawn** (Hélène Boudreau)
 - **If Your Dreams Take Off and Fly** (John Butler)
 - **It's Monday, Mrs. Jolly Bones!** (Warren Hanson)
@@ -59,6 +64,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Lift-a-Flap: On The Farm**
 - **Little Brothers Are...** (Beth Norling)
 - **Little Cloud** (Eric Carle)
+- **Little Kong** (Freya Hartas)
 - **Little Miss Princess** (Roger Hargreaves)
 - **Little One** (Jo Weaver)
 - **Madeline in London** (Ludwig Bemelmans)
@@ -80,9 +86,12 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **One Fish, Two Fish, Red Fish, Blue Fish** (Dr. Seuss)
 - **Opposites** (Britta Teckentrup)
 - **Pandamonia** (Chris Owen)
+- **Paw Patrol Pup Heroes**
 - **Peter Rabbit: Easter Surprise** (Beatrix Potter)
 - **Places To Be** (Mac Barnett)
+- **Places To Be** (Mac Barnett)
 - **Princess Time the Little Mermaid** (Miles Kelly)
+- **Rumble in the Jungle** (Giles Andreae)
 - **Scrambled Eggs Super!** (Dr. Seuss)
 - **Sea Creatures, My First Search and Find** (Neiko Ng)
 - **Sharing a Shell** (Julia Donaldson)
@@ -97,11 +106,14 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Cat in the Hat Comes Back** (Dr. Seuss)
 - **The Cat in the Hat** (Dr. Seuss)
 - **The Eye Book** (Theo LeSieg)
+- **The Fairy Treasure Hunt** (Daisy Meadows)
 - **The Fuzzy Duckling** (Jane Werner Watson)
+- **The Gobble Gobble Moooooo** (Jez Alborough)
 - **The Gruffalo's Child** (Julia Donaldson)
 - **The Gruffalo** (Julia Donaldson)
 - **The Kangaroo Who Couldn't Hop** (Robert Cox)
 - **The Lion and the Bird** (Marianne Dubuc)
+- **The Lion Who Wanted to Love** (Giles Andreae)
 - **The Little Bear Who Lost Her Way** (Jedda Robaard)
 - **The Little Bird Who Lost His Song** (Jedda Robaard)
 - **The Little Bunnies** (Margaret Wise Brown)
@@ -110,6 +122,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **The Little Giraffe Who Lost Her Spots** (Jedda Robaard)
 - **The Little Joey Who Lost Her Bounce** (Jedda Robaard)
 - **The Little Lion Who Lost Her Roar** (Jedda Robaard)
+- **The Little Mermaid (First Stories)** (Dan Taylor)
 - **The Little Mouse Who Lost Her Squeak** (Jedda Robaard)
 - **The Little Reindeer Who Lost His Presents** (Jedda Robaard)
 - **The Little Zebra Who Lost His Stripes** (Jedda Robaard)
@@ -133,6 +146,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **There's a Hippopotamus on Our Roof Eating Cake** (Hazel Edwards)
 - **There's a Wocket In My Pocket** (Dr. Seuss)
 - **Thidwick the Big-Hearted Moose** (Dr. Seuss)
+- **This Moose Belongs to Me** (Oliver Jeffers)
 - **Tiddler: The Story-Telling Fish** (Julia Donaldson)
 - **Toad and I** (Louise Yates)
 - **Toddler's World: Colours** (Pat-a-Cake)
@@ -144,8 +158,6 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Wiggle and the Whale** (Roger Priddy)
 - **Yertle the Turtle and Other Stories** (Dr. Seuss)
 - **Zog** (Julia Donaldson)
-- Paw Patrol Pup Heroes
-- The Little Mermaid (First Stories)** (Dan Taylor)
 
 ## T - 2018
 
