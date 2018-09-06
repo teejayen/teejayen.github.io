@@ -18,6 +18,7 @@ sitemap:
 - Lots of [**Kids' Books**](/kidsbooks)
 - **Homo Dues** (Yuval Noah Harari)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
+- **The Barefoot Investor** (Scott Pape)
 - **The Coaching Habit** (Michael Bungay Stanier)
 - **The Shallows** (Nicholas Carr)
 
