@@ -12,7 +12,7 @@ log_format combined '$remote_addr - $remote_user [$time_local]  '
             '"$http_referer" "$http_user_agent"';
 ```
 
-These variables are part of the `ngx_http_core_module`, and an explanation of what they return is below:
+The `log_format` supports many variables:
 
 - $remote_addr – client IP address
 - $remote_user – username supplied with basic authentication, generally blank
@@ -22,6 +22,8 @@ These variables are part of the `ngx_http_core_module`, and an explanation of wh
 - $body_bytes_sent – server response size (in bytes)
 - "$http_referer" – referral URL (if present)
 - "$http_user_agent" – client user agent
+
+Refer to [ngx_htt_core_module](http://nginx.org/en/docs/http/ngx_http_core_module.html#variables) for more information.
 
 Using awk, we can then break up each line of the log file into "columns". By default awk splits the string by the space character. Allowing us to easily report on things such as HTTP response codes:
 
