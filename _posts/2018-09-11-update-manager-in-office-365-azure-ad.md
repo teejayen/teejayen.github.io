@@ -17,13 +17,13 @@ In order to get a list of all users use the `Get-AzureADUser` cmdlet, this will 
 
 Of course, the Manager attribute isn't stored as an attribute on the User object - so instead you have to pipe the output to `Get-AzureADUserManager`.
 
-```PowerShell
+```powershell
 Get-AzureADUser | select UserPrincipalName,@{n="Manager";e={(Get-AzureADUser -ObjectId (Get-AzureADUserManager -ObjectId $_.ObjectId).ObjectId).UserPrincipalName}}
 ```
 
 In order to make changes to all users en masse, you can use something similar to the below:
 
-```PowerShell
+```powershell
 $previousmanager = Get-AzureADUser -Filter "UserPrincipalName eq 'previous@contoso.com'" | Select-Object ObjectID
 $newmanager = Get-AzureADUser -Filter "UserPrincipalName eq 'new@contoso.com'" | Select-Object ObjectID
 
