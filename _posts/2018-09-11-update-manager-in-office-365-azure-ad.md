@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Update "Manager" in Office 365 / AzureAD"
-date:   2018-09-06
+title:  "Updating Manager attribute in Office 365 / Azure AD using PowerShell"
+date:   2018-09-11
 ---
 Keeping the reporting lines updated in Office 365 is as important as it is tedious, there are a lot of functions which rely on it, such as the Delve Organisation Chart, the "Team" calendar group in Outlook, [SharePoint "Apps"](https://appsource.microsoft.com/en-us/marketplace/apps?search=org%20chart), even Visio has the ability to [automatically generate an organisation chart based on AzureAD](https://support.office.com/en-us/article/create-an-organization-chart-automatically-from-employee-data-8f2e693e-25fc-410e-8264-9084eb0b9360). Using PowerShell with the AzureAD module makes it easy to update user attributes en masse.
 
