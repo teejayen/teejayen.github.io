@@ -18,7 +18,7 @@ sitemap:
 - Lots of [**Kids' Books**](/kidsbooks)
 - **Homo Dues** (Yuval Noah Harari)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
-- **The Barefoot Investor** (Scott Pape)
+- **Pitch Anything** (Oren Klaff)
 - **The Coaching Habit** (Michael Bungay Stanier)
 - **The Shallows** (Nicholas Carr)
 
@@ -32,11 +32,14 @@ sitemap:
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **Getting Things Done** (Edwin C. Bliss)
 - **Make Your Bed** (William H. McRaven)
+- **Motivated Money** (Peter Thornhill)
 - **Sapiens** (Yuval Noah Harari)
+- **The Barefoot Investor** (Scott Pape)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
 - **The Obstacle Is the Way** (Ryan Holiday)
 - **Unlimited Memory** (Kevin Horsley)
+
 
 ## 2017
 
