@@ -3,7 +3,7 @@ layout: post
 title:  "Controlling Java Runtime Exception List via Group Policy"
 date:   2018-09-18
 ---
-Since the Java Runtime 7 Update 51 release applications must now meet the requirements for the High or Very High security settings, or be part of the Exception Site List. A few certain government website here in Australia still require the Java Runtime for logging in, such as the Tax Agent Portal and AUSKey Authentication Services - and it seems that they haven't quite got on top of keeping their certificates up to date.
+Since the Java Runtime 7 Update 51 release applications must now meet the requirements for the High or Very High security settings, or be part of the Exception Site List before they can be run. A few certain government website here in Australia still require the Java Runtime for logging in, such as the Tax Agent Portal and AUSKey Authentication Services - and it seems that they haven't quite got on top of keeping their certificates up to date.
 
 While tt would be great to debate over the importance of certificates, when you have a company of 30 accountants screaming that they can't log in then unfortunately exceptions (pun intended) need to be made. In fact, it's the [recommended fix](https://www.technicalhelpdesk.com.au/s/article/Application-Blocked-by-Security-Settings) by the self-proclaimed *Technical Help Desk* for Australia.
 
