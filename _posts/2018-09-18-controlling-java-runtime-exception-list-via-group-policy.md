@@ -16,7 +16,7 @@ Java Runtime stores it's exception list in a plain text file,`exception.sites`, 
 
     **Action**: Create
 
-    **Source file**: \\$server\$path\exception.sites
-    
+    **Source file**: \\\\$server\$path\exception.sites
+
     **Destination file:** %userprofile%\AppData\LocalLow\Sun\Java\Deployment\security\exception.sites
 5. Revel in sadness that you're now encouraging a government organisation to not keep on top of their certificate expiries.
