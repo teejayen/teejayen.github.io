@@ -5,7 +5,7 @@ date:   2018-09-25
 ---
 *This article was originally written for publishing on the company blog at [answers IT](https://answersit.com.au), and has been cross posted here.*
 
-Secure Score analyzes your Office 365 organization's security based on your regular activities and security settings and assigns a score. Think of it as a credit score for security. The main goal of the Secure score is to measure your security score and help you understand your present security configuration.
+Secure Score analyses your Office 365 organization's security based on your regular activities and security settings and assigns a score. Think of it as a credit score for security. The main goal of the Secure score is to measure your security score and help you understand your present security configuration.
 
 The score is calculated based on the workloads you have enabled within your Office 365 against all possible ways Microsoft offers to secure them. This places all security-relevant features of Office 365 in one place, allowing you to to determine which security features are already in place as well as making it easier to close the gap on your target score.
 
