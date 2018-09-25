@@ -15,4 +15,4 @@ The current maximum score attainable in Office 365 is 416, with the average scor
 
 ![Actions](/assets/images/whats-your-secure-score/actions.png)
 
-Anyone who has admin permissions on Office 365 can access the Secure Score at https://securescore.microsoft.com. If you're interested to find out your current score and how to improve it, get in touch with your Technical Account Manager or the Service Desk team on 07 3123 7929.
+Anyone who has admin permissions on Office 365 can access the Secure Score at [https://securescore.microsoft.com](https://securescore.microsoft.com). If you're interested to find out your current score and how to improve it, get in touch with your Technical Account Manager or the Service Desk team on 07 3123 7929.
