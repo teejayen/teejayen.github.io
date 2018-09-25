@@ -3,7 +3,7 @@ layout: post
 title:  "Phishing - don't get caught!"
 date:   2018-09-19
 ---
-*This article was originally written by me for publishing on our blog at [answers IT](https://answersit.com.au), but thought some readers might find it interesting also.*
+*This article was originally written for publishing on the company blog at [answers IT](https://answersit.com.au), and has been cross posted here.*
 
 Email is an indispensable communication tool, unfortunately many attacks also originate in emails. According to the [OAIC Notifiable Data Breaches Quarterly Statistic Report](https://www.oaic.gov.au/privacy-law/privacy-act/notifiable-data-breaches-scheme/quarterly-statistics-reports/notifiable-data-breaches-quarterly-statistics-report-1-april-30-june-2018#cyber-incident-data-breaches-all-sectors), published on 31 July 2018 the majority of cyber incidents were linked to the compromise of credentials through phishing (29%), followed closely by brute-force attacks (14%) more staggering is the total breaches by unknown methods (34%).
 
