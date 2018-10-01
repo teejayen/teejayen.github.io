@@ -14,15 +14,18 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 
 ## A - 2018
 
+- **A Box of Socks** (Amanda Brandon)
 - **A Fairy Ballet** (Daily Meadows)
 - **Adventures with Daddy** (Cathy Kearse)
 - **All The Awake Animals Are Almost Asleep** (Crescent Dragonwagon)
 - **Animal Friends** (Jane Werner Watson)
 - **Anna Hibiscus' Song** (Atinuke)
 - **Barbie: The Princess & The Popstar**
+- **Bedtime for Tiny Mouse** (Chae Strathie)
 - **Beep! Beep! Go to Sleep!** (Todd Tarpley)
 - **Bella Loves Bunny** (David M. McPhail)
 - **Buddy Loses a Tooth** (Grosset & Dunlap)
+- **Butterfly Counting** (Jerry Pallotta)
 - **Chocolate Cake** (Michael Rosen)
 - **Disney Pixar Movie Collection: Aladdin**
 - **Disney Pixar Movie Collection: Finding Dory**
@@ -42,6 +45,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Draw Me a Star** (Eric Carle)
 - **Duck! Rabbit!** (Amy Krouse Rosenthal)
 - **Ella The Elegant Elephant** (Carmela D'Amico and Steven D'Amico)
+- **Elmer and the Whales** (David McKee)
 - **Feathers and Hair, What Animals Wear** (Jennifer Ward)
 - **First 100 Animals** (Roger Priddy)
 - **Fish Out of Water** (Helen Palmer)
@@ -60,6 +64,8 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Horton Hatched The Egg** (Dr. Seuss)
 - **Horton Hears a Who!** (Dr. Seuss)
 - **How Many Legs?** (Kes Gray)
+- **How to Babysit a Grandma** (Jean Reagan)
+- **How to Catch a Mouse** (Philippa Leathers)
 - **How to Hug with Hugless Douglass** (David Melling)
 - **I Am A Cat** (Galia Bernstein)
 - **I Dare You Not To Yawn** (Hélène Boudreau)
@@ -74,11 +80,13 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Little One** (Jo Weaver)
 - **Madeline in London** (Ludwig Bemelmans)
 - **Magic Train Ride** (Sally Crabtree)
+- **Mariposa and the Fairy Princess (Barbie)**
 - **Meep** (Andy Geppert)
 - **Milo's Dog Says Moo!** (Catalina Echeverri)
 - **Monkey Puzzle** (Julia Donaldson)
 - **Motor Miles** (John Burningham)
 - **Mr. Brown Can Moo! Can You?** (Dr. Seuss)
+- **Mummy's Little Sunflowers** (Angela McAllister)
 - **My Many Colored Days** (Dr. Seuss)
 - **My Mindful Little One: Bedtime** (Bernadette Carelse)
 - **Nat the Cat's Sunny Smile** (Jez Alborough)
