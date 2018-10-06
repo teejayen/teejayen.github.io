@@ -16,14 +16,13 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **Homo Dues** (Yuval Noah Harari)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
 - **Pitch Anything** (Oren Klaff)
-- **The Coaching Habit** (Michael Bungay Stanier)
 - **The Shallows** (Nicholas Carr)
 
 ## 2018
 
+- [**3HAG Way**](/books/3hag-way) (Shannon Susko)
 - [**A Guide to the Good Life: The Ancient Art of Stoic Joy**](/books/a-guide-to-the-good-life) (William B. Irvine)
 - [**Deep Work**](/books/deep-work) (Cal Newport)
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
@@ -34,7 +33,10 @@ sitemap:
 - **Make Your Bed** (William H. McRaven)
 - **Motivated Money** (Peter Thornhill)
 - **Sapiens** (Yuval Noah Harari)
+- **Simplicity Parenting** (Kim John Payne)
+- **The Barefoot Investor for Families** (Scott Pape)
 - **The Barefoot Investor** (Scott Pape)
+- **The Coaching Habit** (Michael Bungay Stanier)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
 - **The Obstacle Is the Way** (Ryan Holiday)
