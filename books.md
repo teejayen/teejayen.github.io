@@ -4,9 +4,9 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2018-08-24
+  lastmod: 2018-10-17
   priority: 0.7
-  changefreq: 'weekly'
+  changefreq: 'monthly'
 ---
 
 >"The more that you read, the more things you will know. The more that you learn, the more places you'll go."
@@ -16,9 +16,9 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
+- **Ego is the Enemy** (Ryan Holiday)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
-- **Pitch Anything** (Oren Klaff)
-- **The Shallows** (Nicholas Carr)
+
 
 ## 2018
 
@@ -32,6 +32,7 @@ sitemap:
 - **Getting Things Done** (Edwin C. Bliss)
 - **Make Your Bed** (William H. McRaven)
 - **Motivated Money** (Peter Thornhill)
+- **Pitch Anything** (Oren Klaff)
 - **Sapiens** (Yuval Noah Harari)
 - **Simplicity Parenting** (Kim John Payne)
 - **The Barefoot Investor for Families** (Scott Pape)
@@ -40,12 +41,14 @@ sitemap:
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
 - **The Obstacle Is the Way** (Ryan Holiday)
+- **The Shallows** (Nicholas Carr)
 - **Unlimited Memory** (Kevin Horsley)
 
 
 ## 2017
 
 - **Key Person of Influence** (Daniel Priestley)
+- **Entrepreneur Revolution** (Daniel Priestley)
 - **Leaders Eat Last** (Simon Sinek)
 - **Turn the Ship Around!** (L. David Marquet)
 
