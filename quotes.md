@@ -3,7 +3,7 @@ title: Quotes
 permalink: quotes/
 layout: page
 sitemap:
-  lastmod: 2018-08-24
+  lastmod: 2018-11-07
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -113,8 +113,12 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >― Will Rogers
 
-"Forces beyond your control can take away everything you possess except one thing, your freedom to choose how you will respond to the situation. You cannot control what happens to you in life, but you can always control what you will feel and do about what happens to you."
+>"Forces beyond your control can take away everything you possess except one thing, your freedom to choose how you will respond to the situation. You cannot control what happens to you in life, but you can always control what you will feel and do about what happens to you."
 >
 >— Viktor E. Frankl
 
-*Last updated 2018-10-19.*
+>"Words may inspire but only action creates change."
+>
+>— Simon Sinek
+
+*Last updated 2018-11-07.*
