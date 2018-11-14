@@ -16,8 +16,9 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **Ego is the Enemy** (Ryan Holiday)
+- **Become An Idea Machine** (Claudia Altucher)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
+- **Think and Grow Rich** (Napoleon Hill)
 
 
 ## 2018
@@ -29,6 +30,8 @@ sitemap:
 - [**Meditations: A New Translation**](/books/meditations-a-new-translation) (Marcus Aurelius and Gregory Hays)
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
+- **Animal Farm** (George Orwell)
+- [**Ego is the Enemy**](/books/ego-is-the-enemy) (Ryan Holiday)
 - **Getting Things Done** (Edwin C. Bliss)
 - **Make Your Bed** (William H. McRaven)
 - **Motivated Money** (Peter Thornhill)
@@ -42,8 +45,8 @@ sitemap:
 - **The Meditations of Marcus Aurelius**
 - **The Obstacle Is the Way** (Ryan Holiday)
 - **The Shallows** (Nicholas Carr)
+- **The Subtle Art of Not Giving a F*ck** (Mark Manson)
 - **Unlimited Memory** (Kevin Horsley)
-
 
 ## 2017
 
