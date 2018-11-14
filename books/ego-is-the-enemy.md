@@ -72,11 +72,11 @@ Ego is something I have always struggled with, wanting to "make a name" for myse
 
 >In life, there will be times when we do everything right, perhaps even perfectly. Yet the results will somehow be negative: failure, disrespect, jealousy, or even a resounding yawn from the world. Depending on what motivates us, this response can be crushing. If ego holds sway, we’ll accept nothing less than full appreciation.
 
->“Ambition,” Marcus Aurelius reminded himself, “means tying your well-being to what other people say or do… Sanity means tying it to your own actions.”
+>"Ambition," Marcus Aurelius reminded himself, "means tying your well-being to what other people say or do… Sanity means tying it to your own actions."
 
->Do your work. Do it well. Then “let go and let God.” That’s all there needs to be. Recognition and rewards—those are just extra. Rejection, that’s on them, not on us.
+>Do your work. Do it well. Then "let go and let God." That’s all there needs to be. Recognition and rewards—those are just extra. Rejection, that’s on them, not on us.
 
->The world is, after all, indifferent to what we humans “want.” If we persist in wanting, in needing, we are simply setting ourselves up for resentment or worse. Doing the work is enough.
+>The world is, after all, indifferent to what we humans "want." If we persist in wanting, in needing, we are simply setting ourselves up for resentment or worse. Doing the work is enough.
 
 >A person who judges himself based on his own standards doesn’t crave the spotlight the same way as someone who lets applause dictate success. A person who can think long term doesn’t pity herself during short-term setbacks. A person who values the team can share credit and subsume his own interests in a way that most others can’t.
 

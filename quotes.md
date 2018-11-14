@@ -121,4 +121,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— Simon Sinek
 
+>"What matters to an active man is to do the right thing; whether the right thing comes to pass should not bother him."
+>
+>— Johann Wolfgang von Goethe
+
 *Last updated 2018-11-07.*
