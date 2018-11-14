@@ -4,9 +4,9 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2018-10-17
+  lastmod: 2018-11-15
   priority: 0.7
-  changefreq: 'monthly'
+  changefreq: 'weekly'
 ---
 
 >"The more that you read, the more things you will know. The more that you learn, the more places you'll go."
