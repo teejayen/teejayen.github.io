@@ -9,7 +9,7 @@ sitemap:
 ---
 In a world where our ego is so frequently stroked through the amount of likes, and reactions to our posts on Facebook and other social media this book is more important then ever. Take a step back and realise the fleeting nature of this recognition and praise is inconsequential.
 
-Ego is something I have always struggled with, wanting to "make a name" for myself and be recognised for my achievements has long been a goal. This book changed all that.
+Ego is something I have always struggled with, wanting to "make a name" for myself and be recognised for my achievements has defined me. This book changed all that.
 
 ## My Highlights and Notes
 >Humble in our aspirations
