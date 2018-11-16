@@ -125,4 +125,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— Johann Wolfgang von Goethe
 
+>"We must meet the challenge rather than wish it were not before us."
+>
+>— William J. Brennan Jr.
+
 *Last updated 2018-11-07.*
