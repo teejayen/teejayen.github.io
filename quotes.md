@@ -129,4 +129,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— William J. Brennan Jr.
 
-*Last updated 2018-11-07.*
+>"Every intelligent individual wants to know what makes him tick, and yet is at once fascinated and frustrated by the fact that oneself is the most difficult of all things to know."
+>
+>— Alan Watts 
+
+*Last updated 2018-11-19.*
