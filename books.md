@@ -4,7 +4,7 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2018-11-15
+  lastmod: 2018-12-18
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -18,7 +18,8 @@ sitemap:
 - Lots of [**Kids' Books**](/kidsbooks)
 - **Become An Idea Machine** (Claudia Altucher)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
-- **Think and Grow Rich** (Napoleon Hill)
+- **Thinking, Fast and Slow** (Daniel Kahneman)
+- **Two Tocks before Midnight** (C.J. Martin)
 
 
 ## 2018
@@ -30,22 +31,28 @@ sitemap:
 - [**Ego is the Enemy**](/books/ego-is-the-enemy) (Ryan Holiday)
 - [**Meditations: A New Translation**](/books/meditations-a-new-translation) (Marcus Aurelius and Gregory Hays)
 - [**ReWork**](/books/rework) (David Heinemeier Hansson and Jason Fried)
+- [**The Barefoot Investor**](/books/the-barefoot-investor) (Scott Pape)
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
+- **A Practical Guide To Preparing Utility Gundogs For Hunting and Competition** (Elio Colasimone)
 - **Animal Farm** (George Orwell)
+- **Clutterfree with Kids** (Joshua Becker)
 - **Getting Things Done** (Edwin C. Bliss)
+- **Letters from a Self-Made Merchant to His Son** (George Horace)
 - **Make Your Bed** (William H. McRaven)
 - **Motivated Money** (Peter Thornhill)
 - **Pitch Anything** (Oren Klaff)
+- **President Barack Obama: The Kindle Singles Interview (Kindle Single)** (David Blum)
 - **Sapiens** (Yuval Noah Harari)
 - **Simplicity Parenting** (Kim John Payne)
 - **The Barefoot Investor for Families** (Scott Pape)
-- **The Barefoot Investor** (Scott Pape)
 - **The Coaching Habit** (Michael Bungay Stanier)
 - **The Good Life Handbook: Epictetus' Stoic Classic Enchiridion** (Chuck Chakrapani)
 - **The Meditations of Marcus Aurelius**
+- **The Miracle Morning** (Hal Elrod)
 - **The Obstacle Is the Way** (Ryan Holiday)
 - **The Shallows** (Nicholas Carr)
 - **The Subtle Art of Not Giving a F*ck** (Mark Manson)
+- **Think and Grow Rich** (Napoleon Hill)
 - **Unlimited Memory** (Kevin Horsley)
 
 ## 2017
