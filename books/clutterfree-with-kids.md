@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Clutterfree with Kids: Change your thinking. Discover new habits. Free your home. by Joshua Becker"
-permalink: books/3hag-way
+permalink: books/clutterfree-with-kids
 sitemap:
   lastmod: 2018-12-21
   priority: 0.7

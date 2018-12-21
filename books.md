@@ -26,6 +26,7 @@ sitemap:
 
 - [**3HAG Way**](/books/3hag-way) (Shannon Susko)
 - [**A Guide to the Good Life: The Ancient Art of Stoic Joy**](/books/a-guide-to-the-good-life) (William B. Irvine)
+- [**Clutterfree with Kids**](/books/clutterfree-with-kids) (Joshua Becker)
 - [**Deep Work**](/books/deep-work) (Cal Newport)
 - [**Destination Simple**](/books/destination-simple) (Brooke McAlary)
 - [**Ego is the Enemy**](/books/ego-is-the-enemy) (Ryan Holiday)
@@ -35,7 +36,6 @@ sitemap:
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **A Practical Guide To Preparing Utility Gundogs For Hunting and Competition** (Elio Colasimone)
 - **Animal Farm** (George Orwell)
-- [**Clutterfree with Kids**](/books/clutterfree-with-kids) (Joshua Becker)
 - **Doing IT For Money** (Stewart Marshall)
 - **Getting Things Done** (Edwin C. Bliss)
 - **Letters from a Self-Made Merchant to His Son** (George Horace)
