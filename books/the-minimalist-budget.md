@@ -84,4 +84,4 @@ Money is a tool and how we spend it is an expression of our values and what we t
 
 *Date Finished:* 2018-05-28
 
-[Amazon](https://www.amazon.com/dp/B00M6Z5B06) / [Goodreads](https://www.goodreads.com/book/show/22854658) / [WorldCat](http://www.worldcat.org/oclc/930036260)
+[Amazon](https://www.amazon.com/dp/B00M6Z5B06) / [Goodreads](https://www.goodreads.com/book/show/22854658) / [WorldCat](https://www.worldcat.org/oclc/930036260)

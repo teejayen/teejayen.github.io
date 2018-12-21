@@ -25,4 +25,4 @@ To be updated at a later date (when I have my copy back!).
 
 *Date Finished:* 2018-09
 
-[Amazon](https://www.amazon.com/dp/0730324214) / [Goodreads](https://www.goodreads.com/book/show/29011025) / [WorldCat](http://www.worldcat.org/oclc/1045422894)
+[Amazon](https://www.amazon.com/dp/0730324214) / [Goodreads](https://www.goodreads.com/book/show/29011025) / [WorldCat](https://www.worldcat.org/oclc/1045422894)

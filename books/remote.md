@@ -34,4 +34,4 @@ Just this week however (2018-06-05), I've finally had approval to *trial* workin
 
 *Date Finished:* 2016-03-13
 
-[Amazon](https://www.amazon.com/dp/0804137501) / [Goodreads](https://www.goodreads.com/book/show/17316682) / [WorldCat](http://www.worldcat.org/oclc/827258381)
+[Amazon](https://www.amazon.com/dp/0804137501) / [Goodreads](https://www.goodreads.com/book/show/17316682) / [WorldCat](https://www.worldcat.org/oclc/827258381)

@@ -87,4 +87,4 @@ Read this book, it will change your life!
 
 *Date Finished:* 2018-07-04
 
-[Amazon](https://www.amazon.com/dp/0812968255) / [Goodreads](https://www.goodreads.com/book/show/7804095) / [WorldCat](http://www.worldcat.org/oclc/48473882)
+[Amazon](https://www.amazon.com/dp/0812968255) / [Goodreads](https://www.goodreads.com/book/show/7804095) / [WorldCat](https://www.worldcat.org/oclc/48473882)

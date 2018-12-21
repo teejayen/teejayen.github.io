@@ -34,4 +34,4 @@ A strong focus on mindfulness by turning daily tasks into rituals to create a ca
 
 *Date Finished:* 2018-06-04
 
-[Amazon](https://www.amazon.com/dp/B01LL3IB28) / [Goodreads](https://www.goodreads.com/book/show/17401614) / [WorldCat](http://www.worldcat.org/oclc/1017973789)
+[Amazon](https://www.amazon.com/dp/B01LL3IB28) / [Goodreads](https://www.goodreads.com/book/show/17401614) / [WorldCat](https://www.worldcat.org/oclc/1017973789)

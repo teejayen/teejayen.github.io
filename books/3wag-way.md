@@ -69,4 +69,4 @@ It doesn’t matter whether you’re a large or small company; the forces within
 
 *Date Finished:* 2018-09-20
 
-[Amazon](https://www.amazon.com/dp/1947368796) / [Goodreads](https://www.goodreads.com/book/show/39889654) / [WorldCat](http://www.worldcat.org/oclc/1044693287)
+[Amazon](https://www.amazon.com/dp/1947368796) / [Goodreads](https://www.goodreads.com/book/show/39889654) / [WorldCat](https://www.worldcat.org/oclc/1044693287)

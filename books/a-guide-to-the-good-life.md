@@ -73,4 +73,4 @@ Irvine's style of writing can tend to drag on at times, but sometimes the repeti
 
 *Date Finished:* 2018-07-02
 
-[Amazon](https://www.amazon.com/dp/B0040JHNQG) / [Goodreads](https://www.goodreads.com/book/show/5617966) / [WorldCat](http://www.worldcat.org/oclc/475052038)
+[Amazon](https://www.amazon.com/dp/B0040JHNQG) / [Goodreads](https://www.goodreads.com/book/show/5617966) / [WorldCat](https://www.worldcat.org/oclc/475052038)

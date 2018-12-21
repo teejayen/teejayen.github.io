@@ -35,4 +35,4 @@ ReWork contradicts many of the standard business lessons found in other books, w
 
 *Date Finished:* 2018-06-18
 
-[Amazon](https://www.amazon.com/dp/0307463745) / [Goodreads](https://www.goodreads.com/book/show/6732019) / [WorldCat](http://www.worldcat.org/oclc/636046261)
+[Amazon](https://www.amazon.com/dp/0307463745) / [Goodreads](https://www.goodreads.com/book/show/6732019) / [WorldCat](https://www.worldcat.org/oclc/636046261)

@@ -47,4 +47,4 @@ Not many highlights follow as I listened to the audiobook on Audible.
 
 *Date Finished:* 2016-12-11
 
-[Amazon](https://www.amazon.com/dp/0986019526) / [Goodreads](https://www.goodreads.com/book/show/22212880) / [WorldCat](http://www.worldcat.org/oclc/913766712)
+[Amazon](https://www.amazon.com/dp/0986019526) / [Goodreads](https://www.goodreads.com/book/show/22212880) / [WorldCat](https://www.worldcat.org/oclc/913766712)

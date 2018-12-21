@@ -131,6 +131,10 @@ The power of words never fails to inspire. Collected as I read them: some short,
 
 >"Every intelligent individual wants to know what makes him tick, and yet is at once fascinated and frustrated by the fact that oneself is the most difficult of all things to know."
 >
->— Alan Watts 
+>— Alan Watts
 
-*Last updated 2018-11-19.*
+>"“If you seek tranquillity, do less.” Or (more accurately) do what’s essential—what the logos of a social being requires, and in the requisite way. Which brings a double satisfaction: to do less, better. Because most of what we say and do is not essential. If you can eliminate it, you’ll have more time, and more tranquillity. Ask yourself at every moment, “Is this necessary?”"
+>
+>— Marcus Aurelius
+
+*Last updated 2018-12-22.*

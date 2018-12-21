@@ -67,4 +67,4 @@ Productivity is a very personal thing, and what works for Cal might not fit ever
 
 *Date Finished:* 2018-08-17
 
-[Amazon](https://www.amazon.com/dp/1455586692) / [Goodreads](https://www.goodreads.com/book/show/25744928) / [WorldCat](http://www.worldcat.org/oclc/908704985)
+[Amazon](https://www.amazon.com/dp/1455586692) / [Goodreads](https://www.goodreads.com/book/show/25744928) / [WorldCat](https://www.worldcat.org/oclc/908704985)

@@ -92,4 +92,4 @@ Ego is something I have always struggled with, wanting to "make a name" for myse
 
 *Date Finished:* 2018-06-04
 
-[Amazon](https://www.amazon.com/dp/1591847818) / [Goodreads](https://www.goodreads.com/book/show/30256654) / [WorldCat](http://www.worldcat.org/oclc/1051774893)
+[Amazon](https://www.amazon.com/dp/1591847818) / [Goodreads](https://www.goodreads.com/book/show/30256654) / [WorldCat](https://www.worldcat.org/oclc/1051774893)

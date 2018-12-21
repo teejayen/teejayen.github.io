@@ -19,7 +19,7 @@ sitemap:
 - **Become An Idea Machine** (Claudia Altucher)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
-- **Two Tocks before Midnight** (C.J. Martin)
+
 
 
 ## 2018
@@ -35,7 +35,8 @@ sitemap:
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **A Practical Guide To Preparing Utility Gundogs For Hunting and Competition** (Elio Colasimone)
 - **Animal Farm** (George Orwell)
-- **Clutterfree with Kids** (Joshua Becker)
+- [**Clutterfree with Kids**](/books/clutterfree-with-kids) (Joshua Becker)
+- **Doing IT For Money** (Stewart Marshall)
 - **Getting Things Done** (Edwin C. Bliss)
 - **Letters from a Self-Made Merchant to His Son** (George Horace)
 - **Make Your Bed** (William H. McRaven)
@@ -53,7 +54,9 @@ sitemap:
 - **The Shallows** (Nicholas Carr)
 - **The Subtle Art of Not Giving a F*ck** (Mark Manson)
 - **Think and Grow Rich** (Napoleon Hill)
+- **Two Tocks before Midnight** (C.J. Martin)
 - **Unlimited Memory** (Kevin Horsley)
+
 
 ## 2017
 
