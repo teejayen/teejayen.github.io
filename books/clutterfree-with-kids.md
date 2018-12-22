@@ -66,4 +66,5 @@ sitemap:
 *ISBN:* 9780991438600
 
 *Date Finished:* 2018-09-20
+
 [Amazon](https://www.amazon.com/dp/B00HYNJKCU) / [Goodreads](https://www.goodreads.com/book/show/20618993) / [WorldCat](https://www.worldcat.org/oclc/869914663)
