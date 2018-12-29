@@ -17,6 +17,7 @@ sitemap:
 
 - Lots of [**Kids' Books**](/kidsbooks)
 - **Become An Idea Machine** (Claudia Altucher)
+- 
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
 
@@ -36,13 +37,16 @@ sitemap:
 - [**The Minimalist Budget**](/books/the-minimalist-budget) (Simeon Lindstrom)
 - **A Practical Guide To Preparing Utility Gundogs For Hunting and Competition** (Elio Colasimone)
 - **Animal Farm** (George Orwell)
+- **Choose Yourself** (James Altucher)
 - **Doing IT For Money** (Stewart Marshall)
+- **Falls the Shadow** (Skip Horack)
 - **Getting Things Done** (Edwin C. Bliss)
 - **Letters from a Self-Made Merchant to His Son** (George Horace)
 - **Make Your Bed** (William H. McRaven)
 - **Motivated Money** (Peter Thornhill)
 - **Pitch Anything** (Oren Klaff)
 - **President Barack Obama: The Kindle Singles Interview (Kindle Single)** (David Blum)
+- **Rich Dad, Poor Dad** (Robert T. Kiyosaki)
 - **Sapiens** (Yuval Noah Harari)
 - **Simplicity Parenting** (Kim John Payne)
 - **The Barefoot Investor for Families** (Scott Pape)
@@ -53,10 +57,10 @@ sitemap:
 - **The Obstacle Is the Way** (Ryan Holiday)
 - **The Shallows** (Nicholas Carr)
 - **The Subtle Art of Not Giving a F*ck** (Mark Manson)
+- **The Way the World Ends** (Jess Walter)
 - **Think and Grow Rich** (Napoleon Hill)
 - **Two Tocks before Midnight** (C.J. Martin)
 - **Unlimited Memory** (Kevin Horsley)
-
 
 ## 2017
 
