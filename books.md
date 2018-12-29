@@ -16,8 +16,7 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **Become An Idea Machine** (Claudia Altucher)
-- 
+- **The Choose Yourself Guide To Wealth** (James Altucher)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
 
