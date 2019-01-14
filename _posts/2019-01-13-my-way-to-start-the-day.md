@@ -4,8 +4,6 @@ title:  "My Way to Start the Day"
 date:   2019-01-13
 ---
 
-Morning routines. A quick Google search provides more than 31 million results, so they are undoubtedly a popular point of discussion.
-
 Wake up, medicate, caffeinate, then rush to the office - sound familiar? Well that's how my mornings used to go - no routine, no planning for the day, just the bare minimum. But that all changed after reading [The Miracle Morning](https://www.amazon.com.au/dp/B013PKZUOW) by Hal Elrod.
 
 The foundations of the book are Hal's Life S.A.V.E.R.S, which are the six parts of the routine — silence, affirmations, visualisation, exercise, reading and scribing. I try following most of these parts, but have slightly tweaked it based on personal preferences - here's how my morning now looks:
