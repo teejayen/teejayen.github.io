@@ -11,8 +11,8 @@ The foundations of the book are Hal's Life S.A.V.E.R.S, which are the six parts 
 - Wake up at around 0527, most of the time I get out of bed on the first alarm but there is another at 0534 just in case!
 - Two glasses of iced water, then a glass of sole  with lemon juice
 - Around twenty minutes of meditation (I started off using Headspace, but have switched to using the [Insight Timer](https://insighttimer.com/) app)
-- Some basic stretches / yoga poses (Downward Dog, Cobra Pose, Bridge Pose, Child's Pose, and finally Supine Twist)
-- Make a cup of Rooibos tea ([Aldi has it cheap](https://www.aldi.com.au/en/groceries/just-organic/chocolate-detail/ps/p/just-organic-fairtrade-rooibos-herbal-infusion-tea/), and it's just as good if not better than T2)
+- Some basic stretches / yoga poses (Bridge Pose, Downward Dog, Cobra Pose, Child's Pose, and finally Supine Twist)
+- Make a cup of [Titanium Tea](https://tim.blog/2015/05/25/morning-tea-thats-better-than-coffee/)
 - Read through the daily devotion from [The Daily Stoic](https://www.amazon.com.au/dp/B01KAFIQE6) by Ryan Holiday and Stephen Hanselman
 - Write down 3 things I'm grateful in my journal
 - Spend about 20-30 minutes reading (generally self help / business books)
