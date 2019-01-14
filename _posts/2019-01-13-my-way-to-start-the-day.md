@@ -16,7 +16,10 @@ The foundations of the book are Hal's Life S.A.V.E.R.S, which are the six parts 
 - Read through the daily devotion from [The Daily Stoic](https://www.amazon.com.au/dp/B01KAFIQE6) by Ryan Holiday and Stephen Hanselman
 - Write down 3 things I'm grateful in my journal
 - Spend about 20-30 minutes reading (generally self help / business books)
+- Ice cold shower
 
-My new morning routine sets my day up for success - it has me feeling energised, focussed and ready to tackle anything that comes my day! There have been a couple of mornings where I have slept through the alarm (oops!) - but I figure it's my body telling me I need more sleep. In these cases I've found that at a minimum I need to meditate, and read or my day just doesn't feel right.
+My new morning routine sets my day up for success - it has me feeling energised, focussed and ready to tackle anything that comes my day! There have been a couple of mornings where I have slept through the alarm (oops!) - but I figure it's my body telling me I need more sleep. In these cases I've found that at a minimum I need to meditate, read and have my ice cold shower or my day just doesn't feel right.
 
 I'd like to eventually wake up earlier (around 0445) and add in a brisk walk, but getting enough sleep has been difficult lately with a teething 16 month old - hopefully once T is in to a better sleep routine I'll be able to get to bed earlier, and a better nights sleep.
+
+I'll set out to write posts on each part of the routine in due course, and provide greater detail on where I have seen recommendations or the science behind each step.
