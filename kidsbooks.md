@@ -4,7 +4,7 @@ permalink: kidsbooks/
 layout: page
 published: true
 sitemap:
-  lastmod: 2018-08-24
+  lastmod: 2018-12-22
   priority: 0.7
   changefreq: 'weekly'
 ---

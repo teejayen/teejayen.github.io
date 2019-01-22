@@ -4,7 +4,7 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2018-12-18
+  lastmod: 2018-01-22
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -16,11 +16,19 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **The Choose Yourself Guide To Wealth** (James Altucher)
+- **Girt** (David Hunt)
 - **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
+- **The Daily Stoic** (Ryan Holiday)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
 
+## 2019
 
+- **Aftershock** (Christian T. Miller)
+- **Effortless Journaling** (S.J. Scott)
+- **Small Fry** (Lisa Brennan-Jobs)
+- **The Choose Yourself Guide To Wealth** (James Altucher)
+- **THINK STRAIGHT** (Darius Foroux)
+= **Do  It Today** (Darius Foroux)
 
 ## 2018
 
@@ -84,10 +92,6 @@ sitemap:
 ## 2014
 
 - **The E-Myth Revisited** (Michael Gerber)
-
-## 2013
-
-- **American Sniper** (Chris Kyle, written with Scott McEwen and Jim DeFelice)
 
 ## Coming up next
 
