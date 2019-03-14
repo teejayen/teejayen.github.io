@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MyAnalytics rolling out more broadly on 365"
-date:   2019-01-13
+date:   2019-03-01
 ---
 
 Microsoft have [recently announced](https://www.microsoft.com/en-us/microsoft-365/blog/2019/01/02/myanalytics-the-fitness-tracker-for-work-is-now-more-broadly-available/) that MyAnalytics will now be included for everyone using Microsoft 365 and Office 365 Enterprise and Business suites that include mailboxes.
