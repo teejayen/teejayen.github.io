@@ -31,3 +31,5 @@ echo JAVA_HOME="/usr/lib/jvm/java-8-oracle" >> /etc/environment
 source /etc/environment
 systemctl start unifi
 ```
+
+Next time I will probably just use Docker...
