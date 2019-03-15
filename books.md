@@ -4,7 +4,7 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2018-01-22
+  lastmod: 2019-03-15
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -16,19 +16,33 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **Girt** (David Hunt)
-- **On Writing Well: The Classic Guide to Writing Nonfiction** (William Zinnser)
+- **One Hundred Years of Dirt** (Rick Morton)
+- **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **The Daily Stoic** (Ryan Holiday)
+- **The Intelligent Investor** (Benjamin Graham)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
 
 ## 2019
 
+- **1984** (George Orwell)
+- **80/20 Your Life!** (Damon Zahariades)
 - **Aftershock** (Christian T. Miller)
+- **Controller* (Jesse Kellerman)
+- **Do  It Today** (Darius Foroux)
 - **Effortless Journaling** (S.J. Scott)
+- **Girt** (David Hunt)
+- **INTP: 33 Secrets From The Life of an INTP** (Diana Jackson)
+- **Kill Me If You Can** (James Patterson)
 - **Small Fry** (Lisa Brennan-Jobs)
+- **Soticism & Western Buddhism** (Patrick Ussher)
 - **The Choose Yourself Guide To Wealth** (James Altucher)
+- **The Choose Yourself Guide To Wealth** (James Altucher)
+- **The Four Agreements** (Miguel Ruiz)
+- **The Hillside** (Jane Smiley)
+- **The Rich Employee** (James Altucher)
+- **The Year of Living Danishly** (Helen Russell)
+- **There's No Plans Like Home** (Edan Lepucki)
 - **THINK STRAIGHT** (Darius Foroux)
-= **Do  It Today** (Darius Foroux)
 
 ## 2018
 
