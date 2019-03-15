@@ -27,7 +27,7 @@ sitemap:
 - **1984** (George Orwell)
 - **80/20 Your Life!** (Damon Zahariades)
 - **Aftershock** (Christian T. Miller)
-- **Controller* (Jesse Kellerman)
+- **Controller** (Jesse Kellerman)
 - **Do  It Today** (Darius Foroux)
 - **Effortless Journaling** (S.J. Scott)
 - **Girt** (David Hunt)
