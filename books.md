@@ -16,7 +16,6 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **One Hundred Years of Dirt** (Rick Morton)
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **The Daily Stoic** (Ryan Holiday)
 - **The Intelligent Investor** (Benjamin Graham)
@@ -33,6 +32,7 @@ sitemap:
 - **Girt** (David Hunt)
 - **INTP: 33 Secrets From The Life of an INTP** (Diana Jackson)
 - **Kill Me If You Can** (James Patterson)
+- **One Hundred Years of Dirt** (Rick Morton)
 - **Small Fry** (Lisa Brennan-Jobs)
 - **Soticism & Western Buddhism** (Patrick Ussher)
 - **The Choose Yourself Guide To Wealth** (James Altucher)
