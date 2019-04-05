@@ -20,18 +20,22 @@ sitemap:
 - **The Daily Stoic** (Ryan Holiday)
 - **The Intelligent Investor** (Benjamin Graham)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
+- **Walden; Or, Life in the Woods** (Henry David Thoreau)
 
 ## 2019
 
 - **1984** (George Orwell)
 - **80/20 Your Life!** (Damon Zahariades)
 - **Aftershock** (Christian T. Miller)
+- **As a Man Thinketh** (James Allen)
 - **Controller** (Jesse Kellerman)
 - **Do  It Today** (Darius Foroux)
 - **Effortless Journaling** (S.J. Scott)
+- **Essentialism: The Disciplined Pursuit of Less** (Greg McKeown)
 - **Girt** (David Hunt)
 - **INTP: 33 Secrets From The Life of an INTP** (Diana Jackson)
 - **Kill Me If You Can** (James Patterson)
+- **One Hundred Years of Dirt** (Rick Morton)
 - **One Hundred Years of Dirt** (Rick Morton)
 - **Small Fry** (Lisa Brennan-Jobs)
 - **Soticism & Western Buddhism** (Patrick Ussher)
