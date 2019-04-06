@@ -39,7 +39,6 @@ sitemap:
 - **Small Fry** (Lisa Brennan-Jobs)
 - **Stoicism & Western Buddhism** (Patrick Ussher)
 - **The Choose Yourself Guide To Wealth** (James Altucher)
-- **The Choose Yourself Guide To Wealth** (James Altucher)
 - **The Four Agreements** (Miguel Ruiz)
 - **The Hillside** (Jane Smiley)
 - **The Rich Employee** (James Altucher)
