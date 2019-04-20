@@ -10,22 +10,22 @@ sitemap:
 
 - Trusted Wireless Environment - sign the petition, promote on LinkedIn
 - Look at setting up WIPS with Ubiquiti AP, or even start selling AP125 instead through MSSP
-- Dimension/Visibility is now in WatchGuard Cloud - released yesterday, update feature key on devices to start using on Basic/Total Security devices
+- Dimension / Visibility is now in WatchGuard Cloud - released yesterday, update feature key on devices to start using on Basic / Total Security devices
 - Moving to better "subscription" based billing, pay WatchGuard directly and they will order through distributor and apply to our account - orchestrated by RestAPI (coming soon)
 - WatchGuardONE Partner - moving towards specific specialisations - Security, AuthPoint, Wireless (but best to focus on all three)
 - AuthPoint MFA is now available for the partner portal
-- Significant R&D going in to DNSWatch/DNSWatchGo, aim is to provide full subscription stack when devices are off the network
+- Significant R&D going in to DNSWatch / DNSWatchGo, aim is to provide full subscription stack when devices are off the network
 
 ## Inside The World of Criminal Hackers
 
 - Secplicity provides Threat Landscape reports, published quarterly -it's opt-in to send details from Firebox devices and they correlate this data in to the report (approximately 45,000 Fireboxes reporting right now)
-- Threat Landscape reports can be filtered based on location, timeframe and shared with clients (see https://www.secplicity.org/threat-landscape/?s=2019-01-01&e=2019-03-31&type=all&region=AU)
+- Threat Landscape reports can be filtered based on location, time frame and shared with clients (see https://www.secplicity.org/threat-landscape/?s=2019-01-01&e=2019-03-31&type=all&region=AU)
 - Cryptojacking has become increasing popular, and can be mitigated using IntelligentAV
 - IoT botnets are evolving, Mirai, Torri, Omni
 - Credential stuffing is the new thing, user authentication is a huge target
 - Layered defense is not new - think building security (fence, cameras, walls, security guards, mantraps, safes), tank armour (nitride ceramic coating, beryllium-copper-nickel alloy, titanium-boron fibres composite, titanium dissipative foam, etc. etc.), bulletproof vest (layer upon layer of kevlar)
 - Advanced Antimalware Pipeline - GatewayAV > IntelligentAV > APTBlocker > Threat Detection & Response
-- SSLv2/v3 iscompletely deprecated in 12.4, only TLS1.1, 1.2, and 1.3 available
+- SSLv2/v3 is completely deprecated in 12.4, only TLS1.1, 1.2, and 1.3 available
 
 ## WatchGuard relies on joint success:
 
@@ -39,9 +39,9 @@ You can either be a fox, or a hedgehog - WatchGuard are being a hedgehog.
 
 “The Hedgehog and the Fox” describes how the world is divided into two types. The fox knows many things. The fox is a very cunning creature, able to devise a myriad of complex strategies to sneak attack upon hedgehog. The hedgehog knows one big thing, rolling up into a perfect little ball thus becoming a sphere of sharp spikes, pointing outward in all directions. The hedgehog always wins despite the different tactics the fox uses.
 
-- What are you passionate about? Security
-- What can you be the best in the world at? Simplicity
-- What drives your economic engine? Channel
+- What are you passionate about? **Security**
+- What can you be the best in the world at? **Simplicity**
+- What drives your economic engine? **Channel**
 
 ## Product Team are Maniacal about Simplicity
 
@@ -75,6 +75,10 @@ Google Authenticator / Authy - is it a competitor?
 - No integration with business cloud applications (Salesforce, Office 365, etc)
 - No protection for computer logon
 
+DUO uses a OTP, write down the OTP, then regenerate - you can then use these OTP at any time - very insecure.
+
+58 current technology partners, with many more on the way - see https://www.watchguard.com/wgrd-partners/technology-partners?combine=&field_watchguard_product_tid=1301&items_per_page=10
+
 ### Roadmap for AuthPoint
 
 - Q1
@@ -95,6 +99,7 @@ https://p.widencdn.net/rutrxh/Tech_Brief_WGCloud
 
 - Fully built on AWS, following WAF
 - Fully redundant across three regions, and within those up to four availability zones
+- Firebox + AuthPoint are built for IoT, uses MQTT for reporting
 
 - Multi-Tenant Architecture
   - Complete segregation
@@ -110,7 +115,7 @@ https://p.widencdn.net/rutrxh/Tech_Brief_WGCloud
 - Fireware 12.0.1 or newer
 - Basic Security Suite - 1 day data retention
 - Total Security Suite - 30 days data retention
-- Add-on licences avaialble (sold in 1 month increments, up to 3 years)
+- Add-on licenses available (sold in 1 month increments, up to 3 years)
 - WatchGuard Cloud handles SN swap for any RMAS
 - Customers can move data retention between devices, without needing to log a support companies
 
@@ -119,7 +124,7 @@ https://p.widencdn.net/rutrxh/Tech_Brief_WGCloud
 - By 2021, 27% of network traffic for the average company will bypass the network perimeter entirely.
 - Protects end users from phishing, and redirects to a training page (soon to be refreshed)
 - Complements RED and WebBlocker to block malicious threats
-- All blocks will alert, and the discussion is directly with one of WatchGuard's threat researchers
+- All blocks will alert, and the discussion is directly with one of WatchGuard's threat  / realtime SOC
 
 There's a hole in your umbrella: https://medium.com/alphasoc/theres-a-hole-in-your-umbrella-960ab0cc7e6e
 WatchGuard blocked 61% of URLS, where as Cisco Umbrella only blocked 2%!
@@ -170,7 +175,7 @@ T35-R (Rugged)
   - TLS 1.3 encryption and support
 
 - 12.5 (Q2 2019)
-  - Access portal for on-prem apps
+  - Access portal for on-premise apps
   - WebBlocker AD override, customised warning message
   - Netflow on egress
   - VPN AWS / Azure config script update
@@ -204,7 +209,7 @@ T35-R (Rugged)
   - Coordinated VPN access control w/ host sensor
   - Combined system tray (TDR / DNSWatchGO)
   - YARA rules
-  - DLL injection behavious
+  - DLL injection behaviour
 
 - Q3 2019
   - WGC Integration - Logs
@@ -230,7 +235,7 @@ T35-R (Rugged)
 - Q1 2019
   - Core Dashboards & Reporting
   - Firecluster
-  - Alerts & Notfications
+  - Alerts & Notifications
   - Data retention
 
 - Q2 2019
@@ -287,5 +292,12 @@ WatchGuard is the only vendor to detect and prevent six known wi-fi threats whil
 - Trade in offer for table top appliances
 - Trade in for 3 year TSS, get additional year
 - Stacks with deal registration, requires special bid
+
+**Joint Marketing**
+- 50/50% share on joint marketing efforts for Gold Partners
+- Executive lunches have the best ROI / conversion rate (up to 80%)
+- List MSRP on MSSP quotes to show total value over 1 year term
+
+Organise an M270 NFR to run in [WatchMode](http://customers.watchguard.com/articles/Article/WatchMode) to perform security assessments.
 
 Majority of concerns from customers from survey can be mitigated using authentication controls (AuthPoint).
