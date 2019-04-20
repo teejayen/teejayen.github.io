@@ -1,4 +1,11 @@
-# WatchGuard Apogee 2019 notes
+---
+title: WatchGuard Apogee 2019
+permalink: apogee2019/
+layout: page
+sitemap:
+  exclude: 'yes'
+---
+# WatchGuard Apogee 2019
 
 ## Day 1
 
