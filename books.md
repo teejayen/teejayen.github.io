@@ -4,7 +4,7 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2019-03-15
+  lastmod: 2019-04-21
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -16,7 +16,6 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
-- **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **The Daily Stoic** (Ryan Holiday)
 - **The Intelligent Investor** (Benjamin Graham)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
@@ -35,12 +34,15 @@ sitemap:
 - **Girt** (David Hunt)
 - **INTP: 33 Secrets From The Life of an INTP** (Diana Jackson)
 - **Kill Me If You Can** (James Patterson)
+- **Man's Search for Meaning** (Viktor E. Frankl)
 - **One Hundred Years of Dirt** (Rick Morton)
 - **Small Fry** (Lisa Brennan-Jobs)
 - **Stoicism & Western Buddhism** (Patrick Ussher)
+- **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **The Choose Yourself Guide To Wealth** (James Altucher)
 - **The Four Agreements** (Miguel Ruiz)
 - **The Hillside** (Jane Smiley)
+- **The Prophet** (Khalil Gibran)
 - **The Rich Employee** (James Altucher)
 - **The Year of Living Danishly** (Helen Russell)
 - **There's No Plans Like Home** (Edan Lepucki)
