@@ -53,7 +53,7 @@ You can either be a fox, or a hedgehog - WatchGuard are being a hedgehog.
 
 ## AuthPoint
 
-2FA is not MFA:
+2FA is not MFA. MFA is **multi-factor**:
 
 - Something you know (password / PIN)
 - Something you have (token, mobile phone)
@@ -67,8 +67,7 @@ AuthPoint supports both online & offline MFA:
 
 Supports SAML, with JITP coming soon.
 
-Google Authenticator / Authy - is it a competitor?
-
+**Google Authenticator / Authy - is it a competitor?**
 - No authentication back end - if you want to use it, you have to develop it
 - No management interface - no user provisioning, synchronisation, logs, encrypted
 - No direct integration with firewalls for VPN - need to build your own RADIUS
@@ -77,14 +76,14 @@ Google Authenticator / Authy - is it a competitor?
 
 DUO uses a OTP, write down the OTP, then regenerate - you can then use these OTP at any time - very insecure.
 
-58 current technology partners, with many more on the way - see https://www.watchguard.com/wgrd-partners/technology-partners?combine=&field_watchguard_product_tid=1301&items_per_page=10
+AuthPoint has 58 current technology partners (two way street), with many more on the way - see https://www.watchguard.com/wgrd-partners/technology-partners?combine=&field_watchguard_product_tid=1301&items_per_page=10
 
 ### Roadmap for AuthPoint
 
 - Q1
   - Focus on agents
   - MacOS Logon app
-- ADFS Agent
+  - ADFS Agent
 
 - Q2
   - MFA for WatchGuard ID
@@ -106,7 +105,7 @@ https://p.widencdn.net/rutrxh/Tech_Brief_WGCloud
   - Scales to thousands of companies
   - Unlimited number of companies, and unlimited number of users per company
   - Manage multiple organisations from one interface
-  - Operators onboarded at lowest permission level
+  - Operators are onboarded at lowest permission level
 
 ### WatchGuard Cloud Visibility
 
@@ -127,7 +126,7 @@ https://p.widencdn.net/rutrxh/Tech_Brief_WGCloud
 - All blocks will alert, and the discussion is directly with one of WatchGuard's threat  / realtime SOC
 
 There's a hole in your umbrella: https://medium.com/alphasoc/theres-a-hole-in-your-umbrella-960ab0cc7e6e
-WatchGuard blocked 61% of URLS, where as Cisco Umbrella only blocked 2%!
+**WatchGuard blocked 61% of URLS, where as Cisco Umbrella only blocked 2%!**
 
 ## 2019 Roadmap
 
@@ -137,12 +136,12 @@ WatchGuard blocked 61% of URLS, where as Cisco Umbrella only blocked 2%!
 - Failover based on jitter / latency / loss
 - Can monitor all Trusted / Optional / Custom interfaces
 
-Logging
+**Logging**
 
 - Support for up to three syslog servers
 - Useful for local syslog and SIEM system
 
-Clientless VPN via access portal
+**Clientless VPN via access portal**
 
 - Secure reverse proxy for the SMB
 - Includes HTML5 shell / RDP / web applications
@@ -151,13 +150,13 @@ Clientless VPN via access portal
 - SSO options to forward login credentials
 - Web apps share the same port (443 by default) in external URLS
 
-WebBlocker override with Active Directory
-
+**WebBlocker override with Active Directory
+**
 - Rather than a master password
 - Can be configured per category
 - Per user / per group options
 
-T35-R (Rugged)
+**T35-R (Rugged)**
 
 - Same processor as T35
 - Rugged enclosure with DIN rail
@@ -270,7 +269,7 @@ T35-R (Rugged)
 - Ad-Hoc Network- Uses peer to peer connects to evade security controls and risks exposure to malware
 - Misconfigured AP - Opens network to attack as a result of configuration errors
 
-WatchGuard is the only vendor to detect and prevent six known wi-fi threats while maintaining performance, based on Miercom report.
+**WatchGuard is the only vendor to detect and prevent six known wi-fi threats while maintaining performance, based on [Miercom Report](https://www.watchguard.com/wgrd-resource-center/wifi-security-report).**
 
 ### Wireless "6"
 
@@ -285,7 +284,7 @@ WatchGuard is the only vendor to detect and prevent six known wi-fi threats whil
 
 ## APAC breakout
 
-- Red for Red is back (trade up to 3 year TSS, get appliance for free - not MSSP)
+Red for Red is back (trade up to 3 year TSS, get appliance for free - not MSSP)
 
 **Under the counter offer**
 
@@ -294,6 +293,7 @@ WatchGuard is the only vendor to detect and prevent six known wi-fi threats whil
 - Stacks with deal registration, requires special bid
 
 **Joint Marketing**
+
 - 50/50% share on joint marketing efforts for Gold Partners
 - Executive lunches have the best ROI / conversion rate (up to 80%)
 - List MSRP on MSSP quotes to show total value over 1 year term
