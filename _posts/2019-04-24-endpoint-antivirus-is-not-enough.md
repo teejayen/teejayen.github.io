@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Advanced Malware Pipelines: Why Endpoint Antivirus is not enough to protect your business"
-date:   2019-04-25
+title:  "Why Endpoint Anti-virus is not enough to protect your business"
+date:   2019-04-24
 ---
 *This article was originally written for publishing on the company blog at [answers IT](https://answersit.com.au), and has been cross posted here.*
 
-Simple endpoint anti-virus is no longer enough. Anti-virus uses signatures and definitions to match bad files and quarantine them. If the malware using basic obfuscation techniques such as packing, encryption, polymorphic code, or staged loading or is just new malware entirely, endpoint antivirus generally won't have the signatures and definitions required to catch it yet.
+Simple endpoint anti-virus is no longer enough. Anti-virus uses signatures and definitions to match bad files in order to block or quarantine them. If the malware using basic obfuscation techniques such as packing, encryption, polymorphic code, or staged loading or is just new malware entirely, endpoint anti-virus generally won't have the signatures and definitions required to catch it yet.
 
-More and more we are seeing advanced obfuscation techniques used, including process and DLL injection to link malware with a legitimate Windows executable and hide in plain sight from endpoint antivirus.
+More and more we are seeing advanced obfuscation techniques used, including process and DLL injection to link malware with a legitimate Windows executable and hide in plain sight from endpoint anti-virus.
 
 According to the [Threat Landscape](https://www.secplicity.org/threat-landscape/?s=2019-01-01&e=2019-04-24&type=all&region=AU) reports published by WatchGuard, 82% of malware detections were classified as 0-day malware since the start of 2019.
 
