@@ -4,7 +4,7 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2019-04-21
+  lastmod: 2019-04-26
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -23,12 +23,13 @@ sitemap:
 
 ## 2019
 
+- [**As a Man Thinketh**](/books/as-a-man-thinketh) (James Allen)
+- [**THINK STRAIGHT**](/books/think-straight) (Darius Foroux)
 - **1984** (George Orwell)
 - **80/20 Your Life!** (Damon Zahariades)
 - **Aftershock** (Christian T. Miller)
-- **As a Man Thinketh** (James Allen)
 - **Controller** (Jesse Kellerman)
-- **Do  It Today** (Darius Foroux)
+- **Do It Today** (Darius Foroux)
 - **Effortless Journaling** (S.J. Scott)
 - **Essentialism: The Disciplined Pursuit of Less** (Greg McKeown)
 - **Girt** (David Hunt)
@@ -46,7 +47,6 @@ sitemap:
 - **The Rich Employee** (James Altucher)
 - **The Year of Living Danishly** (Helen Russell)
 - **There's No Plans Like Home** (Edan Lepucki)
-- **THINK STRAIGHT** (Darius Foroux)
 
 ## 2018
 
