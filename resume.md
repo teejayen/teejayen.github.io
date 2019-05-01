@@ -5,7 +5,7 @@ layout: page
 sitemap:
   exclude: 'yes'
 ---
-# Timothy James Neilen
+# Timothy Neilen
 
 0457 555 373
 
@@ -13,7 +13,7 @@ timothy@neilen.com.au
 
 [https://www.linkedin.com/in/tneilen/](https://www.linkedin.com/in/tneilen/)
 
-IT Professional with 9 years combined experience in a variety of Systems Integration and Managed Service Provider roles, providing client-focused support, project implementation, and technical account management to companies who are technology dependant.
+IT Professional with 10 years combined experience in a variety of Systems Integration and Managed Service Provider roles, providing client-focused support, project implementation, and technical account management to companies who are technology dependant.
 
 Expert problem solver with a demonstrated ability to provide a high level of service in challenging, fast-paced environments.
 
@@ -41,21 +41,29 @@ Seeking a career advancement opportunity with an exciting, innovative and ambiti
 * Implementation and management Amazon Web Services (CloudFront, EC2, S3, SES, RDS, Route 53, and VPC)
 * Exposure to Microsoft Azure
 * WAN, LAN and WLAN design, implementation and management
-* Solid understanding of networking infrastructure (Cisco, Meraki, Mikrotik, Sophos, Ubiquiti Networks, Vyatta)
-* Provisioning and management of Unified Communication platforms (3CX, Asterisk, BroadWorks, Lync, Skype for Business)
+* Solid understanding of networking infrastructure (Cisco, Meraki, Mikrotik, Sophos, Ubiquiti Networks, WatchGuard, Vyatta)
+* Provisioning and management of Unified Communication platforms (3CX, Asterisk, BroadWorks, Kandy Cloud Communications, Microsoft Teams)
 * Configuration and troubleshooting of VPN technologies
 * Configuration and management of backup systems for disaster recovery and business continuity (Acronis, StorageCraft, Symantec, Veeam)
 * Proactive management of network, server and workstation infrastructure utilising remote monitoring and management tools (Autotask Endpoint Management, PRTG, Site24x7)
 
 ## Certifications
 
-AWS Business Professional - March 2016
+**End User Email (Cybrary)** - March 2019
 
-VMware Technical Solutions Professional - June 2015
+**Firewall Policies** - March 2019
 
-VMware Sales Professional -  June 2015
+**WatchGuard Fireware Essentials** - January 2019
 
-AWS Technical Professional - February 2015
+**CPCCOH1001A - Work Safely in the Construction Industry** - January 2017
+
+**AWS Business Professional** - March 2016
+
+**VMware Technical Solutions Professional** - June 2015
+
+**VMware Sales Professional** -  June 2015
+
+**AWS Technical Professional** - February 2015
 
 ## Experience
 
@@ -75,6 +83,7 @@ AWS Technical Professional - February 2015
 * Developed automated documentation integrations for IT Glue, including client Office 365 configuration, and AEM software audits
 * Implementation and management of Unified Communications solution, based on whitelabel BroadWorks platform provided by Novum Networks
 * Implementation and management of Windows Deployment Services to reduce average workstation run up from 2 hours to less than 30 minutes
+* Developed and implemented minimum security standards baseline compliance system for all managed clients
 
 ### New Age Solutions, Brisbane. January 2011 - April 2014
 
@@ -88,6 +97,7 @@ AWS Technical Professional - February 2015
 * Implemented DokuWiki for management of client documentation
 
 ### Rapidfire, Brisbane. May 2009 – January 2011
+
 *Rapid Response Specialist*
 
 * Provided ICT support to SMB / SME organisations who are IT dependant, each with individual needs and expectations
