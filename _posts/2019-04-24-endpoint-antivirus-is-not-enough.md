@@ -15,7 +15,7 @@ The reality is that every network needs a full arsenal of scanning engines to pr
 
 One of the key features of the Firebox is the Advanced Malware Pipeline which uses four different layers to scan malware before it can execute on an endpoint.
 
-The pipeline starts with with **GatewayAV **which is powered by [Bitdefender](https://www.bitdefender.com/) anti-malware protection at the gateway to block known threats including viruses, trojans, spyware and ransomware in real time - if there is an existing signature for a known-bad file then it will be stopped here, otherwise it continues through the pipeline.
+The pipeline starts with with **GatewayAV** which is powered by [Bitdefender](https://www.bitdefender.com/) anti-malware protection at the gateway to block known threats including viruses, trojans, spyware and ransomware in real time - if there is an existing signature for a known-bad file then it will be stopped here, otherwise it continues through the pipeline.
 
 Next up, **IntelligentAV** which is built on the [Cylance](https://www.cylance.com/) artificial intelligence platform. IntelligentAV uses a combination of artificial intelligence, machine learning, and algorithmic science to defend against continuously evolving malware.
 
