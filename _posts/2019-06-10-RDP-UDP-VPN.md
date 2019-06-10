@@ -7,7 +7,7 @@ We've been moving our clients to using VPN connections (SSL VPN using WatchGuard
 
 There have been a couple of instances where clients have reported drop outs and freezing, it only happens for a couple of seconds but is quite an annoyance.
 
-Turns out by default, RDP will try to use UDP for connections to provide a better user experience on slow connections - but with the VPN in the mix, it causes a lot of fragmentation which can't be properly reassembled. This leads to the drop outs, black screens and freezings.
+Turns out by default, starting from Remote Desktop Protocol (RDP) 8.0, it will try to use UDP for connections in order provide a better user experience on slow connections. However with with the VPN in the mix, it causes a lot of IP fragmentation which can't be properly reassembled in time, or at all - leading to drop outs, black screens and freezing.
 
 The work around which we have used with success is to disable the UDP protocol in Remote Desktop. This can be done through the Registry, or Group Policy:
 
