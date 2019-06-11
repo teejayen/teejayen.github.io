@@ -6,7 +6,7 @@ date:   2019-03-15
 
 answers IT are currently on a WatchGuard roll out spree for our clients, and with that comes lots of old hardware - so I decided to salvage a few Ubiquiti devices which had been replaced to test out and find the limits of at home.
 
-I have a [Vultr 512MB VPS](https://www.vultr.com/?ref=7139744) that is infrequently used (it runs a couple of low traffic WordPress sites). so I opted to run the Unifi Controller on it. Following through the [Unifi Controller installation steps](https://www.vultr.com/?ref=7139744) was straight forward, and the sheer amount of updates reminded me just how long ago it was since I had logged in (mid 2017!). Everything seemed to install fine, but when trying to reach the controller via the web interface it simply wouldn't respond.
+I have a [Vultr 512MB VPS](https://www.vultr.com/?ref=7139744) that is infrequently used (it runs a couple of low traffic WordPress sites). so I opted to run the Unifi Controller on it. Following through the [Unifi Controller installation steps](https://help.ubnt.com/hc/en-us/articles/220066768-UniFi-How-to-Install-and-Update-via-APT-on-Debian-or-Ubuntu4) was straight forward, and the sheer amount of updates reminded me just how long ago it was since I had logged in (mid 2017!). Everything seemed to install fine, but when trying to reach the controller via the web interface it simply wouldn't respond.
 
 `system start unifi` didn't give any errors. `sudo lsof -i -P -n | grep LISTEN` didn't return any the normal open ports however. `systemctl status unifi` revealed the issue:
 
