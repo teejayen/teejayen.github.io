@@ -16,8 +16,9 @@ sitemap:
 ## Currently reading
 
 - Lots of [**Kids' Books**](/kidsbooks)
+- **The Courage to be Disliked** (Ichiro Kishimi)
 - **The Daily Stoic** (Ryan Holiday)
-- **The Intelligent Investor** (Benjamin Graham)
+- **The Little Book of Stoicism** (Jonas Salzgeber)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
 - **Walden; Or, Life in the Woods** (Henry David Thoreau)
 
@@ -31,7 +32,9 @@ sitemap:
 - **Controller** (Jesse Kellerman)
 - **Do It Today** (Darius Foroux)
 - **Effortless Journaling** (S.J. Scott)
+- **Eggshell Skull** (Bri Lee)
 - **Essentialism: The Disciplined Pursuit of Less** (Greg McKeown)
+- **Future Crimes** (Marc Goodman)
 - **Girt** (David Hunt)
 - **INTP: 33 Secrets From The Life of an INTP** (Diana Jackson)
 - **Kill Me If You Can** (James Patterson)
@@ -43,6 +46,7 @@ sitemap:
 - **The Choose Yourself Guide To Wealth** (James Altucher)
 - **The Four Agreements** (Miguel Ruiz)
 - **The Hillside** (Jane Smiley)
+- **The Power of Accepting Yourself** (Michael Cohen)
 - **The Prophet** (Khalil Gibran)
 - **The Rich Employee** (James Altucher)
 - **The Year of Living Danishly** (Helen Russell)
