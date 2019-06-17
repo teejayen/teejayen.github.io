@@ -50,7 +50,7 @@ sitemap:
 - **The Prophet** (Khalil Gibran)
 - **The Rich Employee** (James Altucher)
 - **The Year of Living Danishly** (Helen Russell)
-- **There's No Plans Like Home** (Edan Lepucki)
+- **There's No Place Like Home** (Edan Lepucki)
 
 ## 2018
 
