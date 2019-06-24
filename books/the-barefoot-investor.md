@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "The Barefoot Investor: The Only Money Guide You'll Ever Need"
+title:  "The Barefoot Investor: The Only Money Guide You'll Ever Need by Scott Pape"
 permalink: books/the-barefoot-investor
 sitemap:
-  lastmod: 2018-12-18
+  lastmod: 2019-06-24
   priority: 0.7
   changefreq: 'monthly'
 ---

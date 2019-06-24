@@ -4,7 +4,7 @@ permalink: books/
 layout: page
 published: true
 sitemap:
-  lastmod: 2019-04-26
+  lastmod: 2019-06-24
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -14,17 +14,16 @@ sitemap:
 >— Dr. Seuss
 
 ## Currently reading
-
 - Lots of [**Kids' Books**](/kidsbooks)
 - **The Courage to be Disliked** (Ichiro Kishimi)
 - **The Daily Stoic** (Ryan Holiday)
-- **The Little Book of Stoicism** (Jonas Salzgeber)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
 - **Walden; Or, Life in the Woods** (Henry David Thoreau)
 
 ## 2019
 
 - [**As a Man Thinketh**](/books/as-a-man-thinketh) (James Allen)
+- [**The Little Book of Stoicism**](/books/the-little-book-of-stoicism) (Jonas Salzgeber)
 - [**THINK STRAIGHT**](/books/think-straight) (Darius Foroux)
 - **1984** (George Orwell)
 - **80/20 Your Life!** (Damon Zahariades)
