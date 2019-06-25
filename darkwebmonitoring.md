@@ -6,8 +6,6 @@ sitemap:
   exclude: 'yes'
 ---
 
-# Dark Web Monitoring
-
 Dark Web Monitoring focuses on cyber threats that are specific to our clients’ environments. answers IT has partnered with with Dark Web ID to monitor the Dark Web and the criminal hacker underground for exposure of our clients’ credentials to malicious individuals. Our service is designed to help our customers detect and mitigate cyber threats that leverage stolen email addresses and passwords.
 
 We accomplish this by looking specifically for our clients’ top level email domains. When a credential is identified, we harvest it and let you know, so you can take immediate action to protect your accounts. While we harvest data from typical sites like Pastebin, a lot of our data originates from sites that require credibility or a membership within the hacker community to enter. To that end, we monitor over 500 distinct Internet relay chatroom (IRC) channels, 600,000 private Websites, 600 twitter feeds, and execute 10,000 refined queries daily.

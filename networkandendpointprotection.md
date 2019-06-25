@@ -5,7 +5,6 @@ layout: page
 sitemap:
   exclude: 'yes'
 ---
-# Network and Endpoint Protection
 
 The number of cyber attacks are at an all-time high with no signs of slowing down. To make matters worse, cyber criminals are focusing on small to midsize businesses, as they see you as easy targets compared to large organisations with dedicated IT security teams. They are launching dynamic, stealth threats that are targeted and designed to infiltrate defenses through multiple entry points of a network.
 

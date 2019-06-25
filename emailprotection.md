@@ -6,8 +6,6 @@ sitemap:
   exclude: 'yes'
 ---
 
-# Email Protection
-
 Email is one of the most commonly used methods of attack against businesses. Spam – unsolicited emails sent in mass quantities – can cause serious problems beyond annoyance. Email is commonly used for phishing, to maliciously obtain sensitive information, including credit card numbers, passwords, usernames, and other personal and company information.
 
 When it comes to protection, layering multiple complimentary solutions is the best approach.
