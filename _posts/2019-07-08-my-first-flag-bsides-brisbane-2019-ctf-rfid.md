@@ -28,3 +28,5 @@ I noticed when scanning an invalid card against the reader to actuate the gate t
 Using NFC Tools I was able to read AND write data to the card easily, and most importantly quickly - as I only had 60 seconds between writing and reading the card.
 
 After a few attempts to get the timestamp in the correct format and written to the card, I was able to open up the gate and now had my very first flag: flag{j98Ndgk7G3}
+
+_Thanks @coderPatros for the photo of the Access Control setup._
