@@ -15,7 +15,7 @@ date:   2019-07-08
 **Scope:** You need to hijack a card to gain swipe access to the managers area.
 
 ![IoT Village: Access Control](/assets/images/bsides-brisbane-2019-ctf-rfid/accesscontrol.jfif)
-![Nano and Reader](/assets/images/bsides-brisbane-2019-ctf-rfid/accesscontrol.jfif)
+![Nano and Reader](/assets/images/bsides-brisbane-2019-ctf-rfid/nanoreader.jpg)
 
 The table had a selection of various RFID / NFC cards, as well as [Arduino Nano clones](https://www.diymore.cc/products/mini-usb-nano-v3-0-atmega328-micro-controller-16m-5v-ch340g-board-for-arduino) and [RC522 proximity modules](https://www.diymore.cc/products/2pcs-rc522-card-read-antenna-rf-rfid-reader-ic-card-proximity-module-mfrc-522-key).
 
