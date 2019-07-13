@@ -23,7 +23,7 @@ I was able to get the RC522 proximity module properly interfacing with the Nano 
 
 I performed some research into the NXP MIFARE Classic 1K cards, and after reviewing the [datasheet](https://www.nxp.com/docs/en/data-sheet/MF1S70YYX_V1.pdf) I determined that byte 9 could have user data written to them. I tried reading a couple of the cards using the [DumpInfo](https://github.com/miguelbalboa/rfid/tree/master/examples/DumpInfo), but couldn't find any useful data on them or they were blank.
 
-IWhen scanning an invalid card against the reader to actuate the gate it would give an Access Denied error, and then show a timestamp - I figured that the timestamp needed to be written to the card, as it wasn't possible to change the serial number or other data outside the user data bytes.
+When scanning an invalid card against the reader to actuate the gate it would give an Access Denied error, and then show a timestamp - I figured that the timestamp needed to be written to the card, as it wasn't possible to change the serial number or other data outside the user data bytes.
 
 I struggled for a good 30 minutes trying to write the timestamp data using Arduino IDE and the example code.. I almost conceded defeat but recalled that my phone (Samsung Galaxy S10) can read and write NFC, so as a last ditch effort I download [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc) from the Google Play Store.
 
