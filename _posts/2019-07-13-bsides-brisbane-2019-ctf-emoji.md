@@ -3,6 +3,7 @@ layout: post
 title:  "BSides Brisbane 2019 CTF - emoji"
 date:   2019-07-13
 ---
+
 **Category:** misc
 
 **Points:** 200
