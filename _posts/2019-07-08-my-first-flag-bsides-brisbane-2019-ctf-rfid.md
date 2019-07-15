@@ -31,4 +31,4 @@ Using NFC Tools I was able to read AND write data to the card easily, and most i
 
 After a few attempts to get the timestamp in the correct format and written to the card, I was able to open up the gate and now had my very first flag: flag{j98Ndgk7G3}
 
-_Thanks @coderPatros for the photo of the Access Control setup._
+_Thanks [@coderPatros](https://twitter.com/coderPatros) for the photo of the Access Control setup._
