@@ -15,10 +15,11 @@ sitemap:
 
 ## Currently reading
 - Lots of [**Kids' Books**](/kidsbooks)
-- **The Courage to be Disliked** (Ichiro Kishimi)
+
 - **The Daily Stoic** (Ryan Holiday)
 - **Thinking, Fast and Slow** (Daniel Kahneman)
 - **Walden; Or, Life in the Woods** (Henry David Thoreau)
+- **Wherever You Go, There You Are** (Jon Kabat-Zinn)
 
 ## 2019
 
@@ -43,6 +44,7 @@ sitemap:
 - **Stoicism & Western Buddhism** (Patrick Ussher)
 - **The 7 Habits of Highly Effective People** (Stephen R. Covey)
 - **The Choose Yourself Guide To Wealth** (James Altucher)
+- **The Courage to be Disliked** (Ichiro Kishimi)
 - **The Four Agreements** (Miguel Ruiz)
 - **The Hillside** (Jane Smiley)
 - **The Power of Accepting Yourself** (Michael Cohen)
