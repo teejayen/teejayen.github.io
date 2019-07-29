@@ -1,4 +1,4 @@
-w---
+---
 layout: post
 title:  "-bash: /bin/rm: Argument list too long"
 date:   2019-07-29
