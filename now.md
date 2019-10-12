@@ -13,8 +13,8 @@ Trying to live more in the “now” rather than dwelling on the past or getting
 
 Living in Brisbane, Australia - [Mount Cotton](https://en.wikipedia.org/wiki/Mount_Cotton,_Queensland) specifically.
 
-Working as a Technical Account Manager at [answers IT](https://answersit.com.au).
+~~Working as a Technical Account Manager at [answers IT](https://answersit.com.au).~~ Taking a short break, before starting with [PKCG](https://pkcg.com.au) in November.
 
 Always keen to meet up with interesting people - so please get in touch, [tim@neilen.com.au](mailto:tim@neilen.com.au?Subject=Let's%20catch%20up...)
 
-*Inspired by [nownownow.com](https://nownownow.com). Last updated 2019-04-21.*
+*Inspired by [nownownow.com](https://nownownow.com). Last updated 2019-10-13.*
