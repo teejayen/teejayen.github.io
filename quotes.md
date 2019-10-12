@@ -137,4 +137,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— Marcus Aurelius
 
-*Last updated 2018-12-22.*
+>"Focusing is about saying no."
+>
+>— Steve Jobs
+
+*Last updated 2018-10-13.*
