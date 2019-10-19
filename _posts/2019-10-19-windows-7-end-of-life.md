@@ -5,7 +5,7 @@ date:   2019-10-19
 ---
 *This article was originally written for publishing on the company blog at [PKCG](https://www.pkcg.com.au), and has been cross posted here.*
 
-Just under 3 months away, on January 14, 2020, Microsoft will no longer be releasing new updates or security patches for either Windows 7 (or Windows Server 2008). That doesn’t mean Windows 7 systems will stop working, but it does mean they will quickly become highly vulnerable to cyber attacks that could put your business at risk.
+After 10 years, support for Windows 7 is coming to an end on January 14, 2020. After this date Microsoft will no longer be releasing new updates or security patches for either Windows 7 (or Windows Server 2008). That doesn’t mean Windows 7 systems will stop working, but it does mean they will quickly become highly vulnerable to cyber attacks that could put your business at risk.
 
 Moving to Windows 10 has several benefits, including:
 
