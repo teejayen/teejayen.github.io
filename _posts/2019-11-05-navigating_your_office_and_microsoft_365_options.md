@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Office 365 Business Premium or Microsoft 365 Business?"
+title:  "Navigating your Office and Microsoft 365 options"
 date:   2019-11-05
 ---
 *This article was originally written for publishing on the company blog at [PKCG](https://www.pkcg.com.au), and has been cross posted here.*
 
-One of the most common licenses that our clients at PKCG are using is Office 365 Business Premium. Office 365 Business Premium is the best-in-class productivity solution that gives you the apps and services that will help your employees get more done and work better together. You can think of Office 365 Business Premium as a starting point that puts you on a path to Microsoft 365 Business which helps you address more advanced security and compliance requirements.
+At PKCG we see a lot of businesses using Office 365 Business Premium. Office 365 Business Premium is a best-in-class productivity solution that gives you the apps and services that will help your employees get more done and work better together. Is it the best solution for your business though?
+We like to think of Office 365 Business Premium as a starting point that puts you on a path to Microsoft 365 Business which will help you address more advanced security and compliance requirements.
 
-Microsoft 365 Business includes everything that Office 365 Business Premium offers and adds Advanced Security and Device Management features to protect your company data across personal and company-owned devices.
-
+Microsoft 365 Business includes everything that Office 365 Business Premium offers while adding Advanced Security and Device Management features to protect your company data across personal and company-owned devices.
 Some of the Advanced Security Features offered as part of Microsoft 365 Business include:
 
 - Protection from unsafe attachments, suspicious links, attachment checking and scanning to protect your business from malware
