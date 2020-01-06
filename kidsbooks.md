@@ -18,8 +18,10 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **A Fairy Ballet** (Daily Meadows)
 - **Adventures with Daddy** (Cathy Kearse)
 - **All The Awake Animals Are Almost Asleep** (Crescent Dragonwagon)
+- **Amelia Earhart** (Mª Isabel Sánchez Vegara)
 - **Animal Friends** (Jane Werner Watson)
 - **Anna Hibiscus' Song** (Atinuke)
+- **Audrey Hepburn** (Mª Isabel Sánchez Vegara)
 - **Baby Animals Take A Nap** (Marsha Diane Arnold)
 - **Barbie: The Princess & The Popstar**
 - **Bedtime for Tiny Mouse** (Chae Strathie)
@@ -33,6 +35,7 @@ I've started logging books from 2018-06-15 onwards to track just how many we can
 - **Charlie** (Ronojoy Ghosh)
 - **Chocolate Cake** (Michael Rosen)
 - **Chu's First Day at School** (Neil Gaiman)
+- **Coco Chanel** (Mª Isabel Sánchez Vegara)
 - **Diary of a Wombat** (Jackie French)
 - **Disney Pixar Movie Collection: Aladdin**
 - **Disney Pixar Movie Collection: Finding Dory**
