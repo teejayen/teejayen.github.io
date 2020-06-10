@@ -27,7 +27,7 @@ sitemap:
 - Advanced Antimalware Pipeline - GatewayAV > IntelligentAV > APTBlocker > Threat Detection & Response
 - SSLv2/v3 is completely deprecated in 12.4, only TLS1.1, 1.2, and 1.3 available
 
-## WatchGuard relies on joint success:
+## WatchGuard relies on joint success
 
 - Embrace WatchGuard Mission
 - Embrace the portfolio
@@ -68,6 +68,7 @@ AuthPoint supports both online & offline MFA:
 Supports SAML, with JITP coming soon.
 
 **Google Authenticator / Authy - is it a competitor?**
+
 - No authentication back end - if you want to use it, you have to develop it
 - No management interface - no user provisioning, synchronisation, logs, encrypted
 - No direct integration with firewalls for VPN - need to build your own RADIUS
@@ -136,12 +137,12 @@ There's a hole in your umbrella: https://medium.com/alphasoc/theres-a-hole-in-yo
 - Failover based on jitter / latency / loss
 - Can monitor all Trusted / Optional / Custom interfaces
 
-**Logging**
+#### Logging
 
 - Support for up to three syslog servers
 - Useful for local syslog and SIEM system
 
-**Clientless VPN via access portal**
+#### Clientless VPN via access portal
 
 - Secure reverse proxy for the SMB
 - Includes HTML5 shell / RDP / web applications
@@ -150,13 +151,12 @@ There's a hole in your umbrella: https://medium.com/alphasoc/theres-a-hole-in-yo
 - SSO options to forward login credentials
 - Web apps share the same port (443 by default) in external URLS
 
-**WebBlocker override with Active Directory
-**
+#### WebBlocker override with Active Directory
 - Rather than a master password
 - Can be configured per category
 - Per user / per group options
 
-**T35-R (Rugged)**
+#### T35-R (Rugged)
 
 - Same processor as T35
 - Rugged enclosure with DIN rail
@@ -286,13 +286,13 @@ There's a hole in your umbrella: https://medium.com/alphasoc/theres-a-hole-in-yo
 
 Red for Red is back (trade up to 3 year TSS, get appliance for free - not MSSP)
 
-**Under the counter offer**
+### Under the counter offer
 
 - Trade in offer for table top appliances
 - Trade in for 3 year TSS, get additional year
 - Stacks with deal registration, requires special bid
 
-**Joint Marketing**
+### Joint Marketing
 
 - 50/50% share on joint marketing efforts for Gold Partners
 - Executive lunches have the best ROI / conversion rate (up to 80%)

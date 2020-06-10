@@ -7,7 +7,7 @@ sitemap:
   priority: 0.7
   changefreq: 'weekly'
 ---
-Focusing on [reading](https://www.goodreads.com/user/show/84711341-timothy-neilen)), learning, sharing (you're here!), and prosochē (attention, not perfection).
+Focusing on [reading](https://www.goodreads.com/user/show/84711341-timothy-neilen), learning, sharing (you're here!), and prosochē (attention, not perfection).
 
 Trying to live more in the “now” rather than dwelling on the past or getting caught up by the future, and spending quality time with my wife and two kids.
 
