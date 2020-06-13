@@ -18,6 +18,7 @@ This page used to list out all the books I've read, but in order to make it a bi
 ## 2019
 
 - [**As a Man Thinketh**](/books/as-a-man-thinketh) (James Allen)
+- [**Essentialism: The Disciplined Pursuit of Less**](/books/essentialism) (Greg McKeown)
 - [**The Little Book of Stoicism**](/books/the-little-book-of-stoicism) (Jonas Salzgeber)
 - [**THINK STRAIGHT**](/books/think-straight) (Darius Foroux)
 
