@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               Timothy Neilen
+title:               Tim  Neilen
 url:                 https://neilen.com.au
 shorturl:            neilen.com.au
 paginate:            50
@@ -16,9 +16,9 @@ sass:
 
 # About/contact
 author:
-  name:              Timothy Neilen
+  name:              Tim Neilen
   url:               https://neilen.com.au
-  email:             timothy@neilen.com.au
+  email:             tim@neilen.com.au
 
 # Custom vars
 version:             1.0.0
