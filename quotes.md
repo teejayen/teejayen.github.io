@@ -3,7 +3,7 @@ title: Quotes
 permalink: quotes/
 layout: page
 sitemap:
-  lastmod: 2018-11-07
+  lastmod: 2021-01-05
   priority: 0.7
   changefreq: 'weekly'
 ---
@@ -141,4 +141,8 @@ The power of words never fails to inspire. Collected as I read them: some short,
 >
 >— Steve Jobs
 
-*Last updated 2018-10-13.*
+>"The man who chases two rabbits, catches neither."
+>
+>— Confucius
+
+*Last updated 2021-01-05.*
