@@ -1,21 +1,13 @@
 ---
 layout: post
-title:  "Increasing Veeam merge performance"
-date:   2021-04-29
+title:  ".au TLD temporarily suspended on Amazon Web Services Route 53"
+date:   2021-05-2020
 ---
 
-Slow merge performance in Veeam? Add in this DWORD and it'll run one thousand times better:
+I was unable to find _any_ information online about .com.au TLD domains no longer being an option for registration or transfer in Route 53... turns out that Amazon have temporarily suspended registrations and transfers of .au TLD domains due to the new policy changes.
 
-```
-Name: CloudConnectQuotaAllocationMode
-Path: HKEY_LOCAL_MACHINE\SOFTWARE\Veeam\Veeam Backup and Replication\
-Type: DWORD
-Default value: 0 -> 1
-```
-
-This changes the mechanism from limiting 512MB allocation every 15 seconds, to providing on tap quota Veeam needs to perform the merge.
+After logging a case with AWS Support, they cannot provide any ETA for when it will be available again.
 
 ## References
 
-- [How to increase your Veeam backup performance on VCD by 10+x](https://vcloudvision.com/2021/02/22/how-to-increase-your-veeam-backup-performance-on-vcd-by-10x/)
-- [Really slow merging to cloud storage](https://forums.veeam.com/veeam-backup-replication-f2/really-slow-merging-to-cloud-storage-t65843.html)
+- [com.au and net.au rule changes](https://www.auda.org.au/au-domain-names/new-au-licensing-rules/comau-and-netau-rule-changes)
