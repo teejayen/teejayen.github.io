@@ -1,5 +1,12 @@
-# Manual of Me
-
+---
+title: Manual of Me
+permalink: manual-of-me/
+layout: page
+sitemap:
+  lastmod: 2021-05-23
+  priority: 0.7
+  changefreq: 'yearly'
+---
 ## The basics
 
 I am the Service Delivery Manager at PKCG. My role encompasses many different things, but primarily I am accountable for making sure that both support and projects are run smoothly for our clients. The main method of achieving that is having a great technical team. This is why I am here, to build the greatest and best performing team.
