@@ -46,6 +46,8 @@ I like feedback to be straight up, I don't like when people beat around the bush
 
 ## A bit about me personally
 
+When I'm not working, I can usually be found spending quality time with my wife and two kids, carving up canyons on my motorbike, cooking BBQ (low and slow), or enjoying a glass of whisk(e)y.
+
 - **[INTP](https://www.16personalities.com/intp-personality) / [Di](https://www.crystalknows.com/disc/di-personality-type) / [Type 5](https://www.enneagraminstitute.com/type-5)**. I'm very introspective, so if there's a personality test you think I should do I'm all ears!
 - [**I read a lot.**](https://www.goodreads.com/user/show/84711341-timothy-neilen) Books can be incredibly powerful. They have the ability to suck us in, take us on adventures, and influence the way we think. They can teach us, move us, give us new perspectives, and help shape us. And the most powerful ones change our lives forever. As George R. R. Martin wrote, "A reader lives a thousand lives before he dies. A man who never reads lives only one."
 - [**I have an extremely eclectic musical taste.**](https://www.last.fm/user/tneilen) From 2-step to Zydeco, I'll give everything a listen and genuinely find a way to enjoy it too.
