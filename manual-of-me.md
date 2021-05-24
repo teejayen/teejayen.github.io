@@ -15,17 +15,17 @@ I am the Service Delivery Manager at PKCG. My role encompasses many different th
 
 - **I trust _you_ implicitly.** If there is no reason to distrust you, I won't double-check your work and expect that you are sure of what you have delivered. If this trust is broken, I might be a bit more cautious.
 - **I like to discuss things, and to be kept informed.** Don't wait until your 1-1 to sync quick things or brainstorm for ideas. I will tell you if we should leave it to next 1-1.
-- **My working hours vary.** Even if I work ~~a bit~~ a lot outside of core hours, I do not expect that you work on weekends or off-hours, unless it is urgent. If you feel that you are forced or have to work outside core hours, let's talk and find out the reason. This should not be happening. If you do want to contribute more and want to work extra and at odd hours then feel free. I want to make sure you don't burn out though.
-- **I sometimes sound too forward or rude online, which is not intentional.** I am rarely angry or intentionally rude to someone, and you know it if you've met me. Whenever I can steal a minute between meetings or other tasks, I might give feedback on something in Teams or email, but as I'm likely on the run, the message might not have enough emojis or words of empathy and can come off rude and demanding (eg. "Why have there been no updates on this ticket?").
-- **I highly value deadlines.** If I tell you I’ll finish by certain timeframe, trust me, I’ll try my best to live up to that. In return, I expect the same from others. If you are running late, that’s okay. But, please tell me BEFORE you’re late. The earlier, the better.
+- **My working hours vary.** Even if I work ~~a bit~~ a lot outside of core hours, I do not expect that you work on weekends or off-hours, unless it is urgent. If you feel that you are forced or have to work outside core hours, let's talk and find out the reason. If you do want to contribute more and want to work extra and at odd hours then feel free. I want to make sure you don't burn out though.
+- **I sometimes sound too forward or rude online, which is not intentional.** I am rarely angry or intentionally rude to someone, and you know that if you've met me. Whenever I can steal a minute between meetings or other tasks, I might give feedback on something in Teams or email, but as I'm likely on the run, the message might not have enough emojis or words of empathy and can come off rude and demanding (eg. "Why have there been no updates on this ticket?").
+- **I highly value deadlines.** If I tell you I’ll finish by certain timeframe, I’ll try my best to live up to that. In return, I expect the same from others. If you are running late, that’s okay - but please tell me BEFORE you’re late. The earlier, the better.
 - **I can quickly become over-committed.** I am often overly generous with my time and say yes too often to things. If you see this happening, please flag it with me.
 - **I enjoy building a strong connection with the people in my team**. I know some people do not want to mix up their personal and work life, but for me, working at PKCG is a very big (and important) part of my life.
 
 ## My expectations of you
 
-- **Your continuous improvement is really important to me.** I have high expectations for your desire to learn and develop. As I am here to build the greatest and best performing team I want to see improvement daily, weekly, and monthly. I want to be able to support and enable you to achieve your greatness, so please come to me if that isn't working out so I can help you brainstorm ways to acquire the hunger for learning.
+- **Your continuous improvement is really important to me.** As I am here to build the greatest and best performing team I want to see improvement daily, weekly, and monthly. I want to be able to support and enable you to achieve your greatness, so please come to me if that isn't working out so I can help you brainstorm ways to acquire the hunger for learning.
 - **Don't expect me to [take your monkey](https://hbr.org/1999/11/management-time-whos-got-the-monkey).** I am more than willing to help out, help you find resources, priority, and ideas. But, at the same time I strongly believe that the decisions should be bottom-up.
-- **I can help, but only if you ask me to.** A top goal for me is to facilitate solving problems on your own by acting as a sounding board for you to figure out a path to success. If you want me to do something don't bullshit and say it out. Statements like "There should be something done about X" won't trigger me into action.
+- **I can help, but only if you ask me to.** A top goal for me is to facilitate solving problems on your own by acting as a sounding board for you to figure out a path to success. If you want me to do something please explicitly ask. Statements like "There should be something done about X" won't trigger me into action.
 - **Tell me what I need to know, not what you think I want to hear.** - Speak your mind freely with me – daily struggles, compensation, stress, technical issues, emotions, personal growth, ranting, venting, mental issues. I try to keep my topics-that-are-taboo list empty.
 - **Own your mistakes.** If you make a mistake or something is heading off the rails, tell me before the crash. Failure is great (as long as you learn quickly), surprises are not.
 
@@ -41,7 +41,7 @@ I like feedback to be straight up, I don't like when people beat around the bush
 
 - If you need me, Teams is your best bet... if it's not going to be a quick response, I might give you a call / spin around to discuss in further detail.
 - If it's _urgent_ and you haven't got a response via Teams, please call me.
-- If I have headphones on, send me a Teams message and ask if I am available/up for interruptions. Generally I will announce how long I will be in Teams though.
+- If I have headphones on, send me a Teams message and ask if I am available/up for interruptions. Generally I will announce how long I will be in deep work mode in Teams first though.
 - Sometimes you may get a message from me on the weekends or in the late evening. I shared it with you because I just came up with an idea and don’t want to forget it.
 
 ## A bit about me personally
