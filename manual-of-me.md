@@ -11,7 +11,7 @@ sitemap:
 
 I am the Service Delivery Manager at PKCG. My role encompasses many different things, but primarily I am accountable for making sure that both support and projects are run smoothly for our clients. The main method of achieving that is having a great technical team. This is why I am here, to build the greatest and best performing team.
 
-Managing people at PKCG is only one part of my job, I still spend a lot of time "on the tools" and in the trenches. This means I heavily rely on everyone in the team to do a lot of self-management. That means setting your own direction when one isn’t given. Determining what needs to be done, and doing it, without waiting for me to tell you to.There's always more work to be done, always more initiatives to kick off, always more improvement to be had.
+Managing people at PKCG is only one part of my job, I still spend a lot of time "on the tools" and in the trenches. This means I heavily rely on everyone in the team to do a lot of self-management. That means setting your own direction when one isn’t given. Determining what needs to be done, and doing it, without waiting for me to tell you to. There's always more work to be done, always more initiatives to kick off, always more improvement to be had.
 
 ## What does working with me look like?
 
@@ -59,3 +59,5 @@ When I'm not working, I can usually be found spending quality time with my wife 
 ## Disclaimer
 
 If I perceive myself differently than you do then this needs to change.. I'm open to any feedback you have.
+
+*Last updated 2021-05-24.*
