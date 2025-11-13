@@ -16,7 +16,7 @@
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: $gray-5;
 }
 .page-title,
 .post-title {
@@ -28,17 +28,188 @@
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: $gray-3;
 }
 
+// Homepage intro
+.intro {
+  margin-bottom: 4rem;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+
+    @media (min-width: $large-breakpoint) {
+      font-size: 3rem;
+    }
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: $gray-4;
+    max-width: 38rem;
+
+    @media (min-width: $large-breakpoint) {
+      font-size: 1.2rem;
+    }
+  }
+
+  a {
+    color: $body-color;
+    text-decoration: underline;
+    text-decoration-color: $gray-2;
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s;
+
+    &:hover {
+      text-decoration-color: $gray-4;
+    }
+  }
+}
+
+// Post list
+.posts {
+  margin-bottom: 3rem;
+}
+
+.post-item {
+  margin-bottom: 2.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.post-link {
+  display: block;
+  color: $body-color;
+  text-decoration: none;
+  transition: transform 0.1s;
+
+  &:hover {
+    text-decoration: none;
+
+    h2 {
+      color: $gray-3;
+    }
+  }
+}
+
+.post-content {
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    letter-spacing: -0.01em;
+    transition: color 0.2s;
+
+    @media (min-width: $large-breakpoint) {
+      font-size: 1.75rem;
+    }
+  }
+
+  time {
+    font-size: 0.95rem;
+    color: $gray-3;
+  }
+}
+
+.view-all {
+  margin-top: 3rem;
+
+  a {
+    color: $gray-4;
+    font-size: 0.95rem;
+    text-decoration: underline;
+    text-decoration-color: $gray-2;
+    text-underline-offset: 3px;
+    transition: all 0.2s;
+
+    &:hover {
+      color: $body-color;
+      text-decoration-color: $gray-4;
+    }
+  }
+}
+
+// Archive page
+.archive {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+
+    @media (min-width: $large-breakpoint) {
+      font-size: 3rem;
+    }
+  }
+
+  .archive-description {
+    font-size: 1.1rem;
+    color: $gray-4;
+    margin-bottom: 3rem;
+  }
+}
+
+.archive-list {
+  margin-bottom: 3rem;
+}
+
+.archive-item {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.archive-link {
+  display: block;
+  color: $body-color;
+  text-decoration: none;
+  transition: transform 0.1s;
+
+  &:hover {
+    text-decoration: none;
+
+    h2 {
+      color: $gray-3;
+    }
+  }
+}
+
+.archive-content {
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    margin-top: 0;
+    letter-spacing: -0.01em;
+    transition: color 0.2s;
+
+    @media (min-width: $large-breakpoint) {
+      font-size: 1.4rem;
+    }
+  }
+
+  time {
+    font-size: 0.9rem;
+    color: $gray-3;
+  }
+}
 
 // Related posts
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
 }
 
 .related-posts {
@@ -52,11 +223,11 @@
   li {
     small {
       font-size: 75%;
-      color: #999;
+      color: $gray-3;
     }
 
     a:hover {
-      color: #268bd2;
+      color: $body-color;
       text-decoration: none;
 
       small {

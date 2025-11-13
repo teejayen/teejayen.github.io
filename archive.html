@@ -1,0 +1,22 @@
+---
+layout: default
+title: Archive
+---
+
+<div class="archive">
+  <h1>Archive</h1>
+  <p class="archive-description">All {{ site.posts | size }} posts, sorted by date.</p>
+
+  <div class="archive-list">
+    {% for post in site.posts %}
+    <article class="archive-item">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="archive-link">
+        <div class="archive-content">
+          <h2>{{ post.title }}</h2>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
+</div>
