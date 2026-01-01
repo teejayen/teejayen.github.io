@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Updating on call schedule using Power Automate"
+date:   2022-06-01
+---
+
 ![Power Automate flow, commented, without this image this post will be pretty confusing.](/assets/images/updating-on-call-schedule-using-power-automate/flowcommented.png)
 
 
