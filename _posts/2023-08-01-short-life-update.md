@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Short life update"
-date: 2023-08-01 00:07:00 +1000
-
+date: 2023-08-01
 ---
 
 New outlook on life.

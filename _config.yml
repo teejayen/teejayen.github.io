@@ -3,8 +3,8 @@ permalink:           pretty
 
 # Setup
 title:               Tim Neilen
-url:                 https://neilen.com.au
-shorturl:            neilen.com.au
+url:                 https://tim.neilen.com.au
+shorturl:            tim.neilen.com.au
 paginate:            50
 
 # Assets
@@ -24,7 +24,7 @@ author:
 version:             1.0.0
 github:
   repo:              https://github.com/teejayen/teejayen.github.io
-analytics_id:        UA-46947056-1
+analytics_id:        G-RLZS4VJSCX
 
 # Plugins
 plugins:
