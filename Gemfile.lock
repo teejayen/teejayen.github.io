@@ -95,6 +95,8 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.97.1-x86_64-linux-android)
       google-protobuf (~> 4.31)
+    sass-embedded (1.97.1-x86_64-linux-gnu)
+      google-protobuf (~> 4.31)
     sawyer (0.9.3)
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
@@ -112,6 +114,7 @@ PLATFORMS
   riscv64-linux-gnu
   riscv64-linux-musl
   ruby
+  x86_64-linux
   x86_64-linux-android
 
 DEPENDENCIES
@@ -165,6 +168,7 @@ CHECKSUMS
   sass-embedded (1.97.1-riscv64-linux-gnu) sha256=baaa87895042b3b656c689fc74a7a2c11e64e19006f5d283cad1cd265857fcea
   sass-embedded (1.97.1-riscv64-linux-musl) sha256=a882358c8f8249ac7f336b4f214abe73aa45edb0a2ff4001ff13dbb4b5d0b5e7
   sass-embedded (1.97.1-x86_64-linux-android) sha256=d3283323c0a5e2a46d7891748f09ad5446fe840ae69a305379e9a99c4c079cff
+  sass-embedded (1.97.1-x86_64-linux-gnu) sha256=9a294bb0acb1a539ed19f0e511098a9740b4aab4389e169585e8da1337fbd8b4
   sawyer (0.9.3) sha256=0d0f19298408047037638639fe62f4794483fb04320269169bd41af2bdcf5e41
   terminal-table (3.0.2) sha256=f951b6af5f3e00203fb290a669e0a85c5dd5b051b3b023392ccfd67ba5abae91
   unicode-display_width (2.6.0) sha256=12279874bba6d5e4d2728cef814b19197dbb10d7a7837a869bab65da943b7f5a
