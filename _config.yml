@@ -1,6 +1,9 @@
 # Permalinks
 permalink:           pretty
 
+# Timezone
+timezone:            Australia/Brisbane
+
 # Setup
 title:               Tim Neilen
 url:                 https://tim.neilen.com.au
