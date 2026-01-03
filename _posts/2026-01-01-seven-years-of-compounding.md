@@ -2,6 +2,7 @@
 layout: post
 title: "Seven years of compounding"
 date: 2026-01-01
+ai: written
 ---
 
 _I asked [Arc](/2025/12/29/building-arc-a-thinking-partner-that-remembers/) to read through all my old blog posts. I was curious what patterns it would find. What came back surprised me._

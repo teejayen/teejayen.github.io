@@ -16,6 +16,8 @@ This isn't about generating content. It's about leverage.
 
 ## How It Works
 
+My tool of choice is [Claude Code](https://claude.ai/code) - Anthropic's CLI that I've [customised extensively](/2025/12/29/building-arc-a-thinking-partner-that-remembers.html) as a thinking partner. I pay $180/month for Max. All in.
+
 I provide significant context. The problem I'm wrestling with. The angle I want to explore. Previous thinking on the topic. What I don't want to say. Then we iterate - draft, feedback, revision, sometimes multiple rounds. I edit before anything goes live.
 
 The output is mine. The ideas are mine. The judgment about what stays and what goes is mine. The tool just does a better job at the mechanics than I do alone.
