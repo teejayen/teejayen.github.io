@@ -29,7 +29,7 @@ arc/
 │   ├── hooks/                # Session automation
 │   ├── rules/                # Modular context
 │   └── commands/             # User-invoked commands
-├── state/                    # Working memory (Strix-inspired)
+├── state/                    # Working memory
 │   ├── focus.md              # Current priorities
 │   ├── journal.jsonl         # Temporal record
 │   └── session-context.json  # Continuity between sessions
