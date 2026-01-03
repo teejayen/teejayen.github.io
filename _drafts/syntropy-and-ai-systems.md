@@ -8,6 +8,8 @@ I've been thinking about farming.
 
 Not the kind where you extract nutrients until the soil dies, then move on. The other kind - syntropic agroforestry - where each cycle leaves the system richer than before. More biomass. More biodiversity. More resilience.
 
+My backyard runs on these principles. Bananas, berries, fruit trees - always something producing, always something decomposing back into the soil. I once helped establish 600 metres of tree row at a macadamia farm using the same approach. You plant density and diversity, let succession do the work, and the system gets richer over time.
+
 It's the opposite of entropy. Where entropy degrades, syntropy builds.
 
 And I keep seeing the same pattern in how we're building AI systems.
@@ -33,6 +35,8 @@ Applied to AI tools:
 **Syntropic AI systems** accumulate context. Each interaction adds to a substrate that future interactions can draw from. The system gets more useful the longer you use it - not because the model improved, but because the context layer deepened.
 
 This is more than memory. It's about structure.
+
+I'm borrowing the term "syntropic" here. In agroforestry, it means something precise - succession toward complexity, biomass accumulation, life building on life. An AI context layer isn't literally syntropic. But the pattern rhymes: systems that get richer with use rather than depleting with each extraction.
 
 ---
 
@@ -84,9 +88,11 @@ Not earning to give. Not optimising consumption. Direct contribution.
 
 This reframes the question. It's not "is my AI usage syntropic?" It's "what am I building with it?"
 
-I'm part of [Redlands Garden Share](https://www.redlandsgardengroup.au/garden-share) - building community food resilience through syntropic principles. That's regenerative by definition.
+I founded [Redlands Garden Share](https://www.redlandsgardengroup.au/garden-share) a few years back. We meet monthly to swap excess produce, seeds, plants, knowledge. We've run permablitzes - showing up to transform neglected backyards into productive systems. It's small-scale, local, and entirely about spreading the pattern.
 
-The writing and thinking? Less clear. Maybe paradigm work - demonstrating that syntropic patterns are applicable beyond farming. Maybe just processing.
+Is that "direct work on pressing problems"? I'm not sure. It's not AI safety or pandemic prevention. But it's paradigm work - demonstrating that another way of growing food is possible, and building the community infrastructure to support it.
+
+The question of where else I could contribute directly - where my time and skills would have the most leverage on problems that matter - is one I'm still sitting with.
 
 ---
 
@@ -108,8 +114,6 @@ Systems thinking taught me to look for stocks, flows, and leverage points.
 
 AI is teaching me that the model is less important than what surrounds it - and that the infrastructure underneath has costs I can't see.
 
-Put them together: the most powerful contribution isn't optimising my footprint. It's direct work on systems that compound.
+Put them together: the most powerful contribution probably isn't optimising my footprint. It's finding where I can do direct work on systems that compound - and I'm still figuring out where that is.
 
-Build soil. Build community resilience. Build evidence that syntropic patterns work.
-
-And be honest about the contradictions along the way.
+In the meantime: build soil. Build community. Spread the pattern. And be honest about the contradictions along the way.
