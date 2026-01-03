@@ -2,6 +2,7 @@
 layout: post
 title: "Building Arc: A thinking partner that remembers"
 date: 2025-12-29
+ai: written
 ---
 
 Every conversation with an AI starts from zero.

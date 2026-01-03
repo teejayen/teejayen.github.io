@@ -2,6 +2,7 @@
 layout: post
 title: "Principles for 2026"
 date: 2026-01-02
+ai: written
 ---
 
 Last post I asked: [does this compound?](/2026/01/01/seven-years-of-compounding/)

@@ -1,0 +1,5 @@
+{% if page.ai == "written" %}
+<p class="ai-indicator"><a href="{{ site.baseurl }}/ai/">Written with AI</a></p>
+{% elsif page.ai == "assisted" %}
+<p class="ai-indicator"><a href="{{ site.baseurl }}/ai/">Assisted by AI</a></p>
+{% endif %}
