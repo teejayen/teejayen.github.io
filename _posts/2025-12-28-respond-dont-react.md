@@ -2,6 +2,7 @@
 layout: post
 title: "Respond, don't react."
 date: 2025-12-28
+ai: assisted
 ---
 
 Something I need to work on in BJJ is responding. Someone moves, I react before I understand what they're actually trying to do. I defend the wrong attack. I give up position solving a problem that wasn't the real threat.
