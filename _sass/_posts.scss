@@ -31,6 +31,25 @@
   color: #9a9a9a;
 }
 
+// AI disclosure indicator
+.ai-indicator {
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  font-size: 85%;
+  color: #9a9a9a;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted #ccc;
+
+    &:hover {
+      color: #268bd2;
+      border-bottom-color: #268bd2;
+    }
+  }
+}
+
 
 // Related posts
 .related {
