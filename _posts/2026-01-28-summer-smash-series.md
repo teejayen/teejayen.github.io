@@ -15,7 +15,7 @@ I'm not really the competitive type. I didn't enter to win. I entered to prove s
 
 Could I actually commit to something physical? Could I show up consistently, even when I didn't feel like it? That was the test.
 
-I wrote a few months back about what BJJ actually trains - [five body-based sensing systems working together under pressure](https://www.linkedin.com/in/tneilen?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAF7amsBXA1zE26f8V0H1Wp4_j3C9UwrIRA&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BKaIU%2B96FQ7S2qMUOF%2FAb7Q%3D%3D). Proprioception, interoception, vestibular, tactile, temporal. The research showing elite grapplers have 29% higher cerebral blood flow. The cognitive shifts I noticed in myself: better decisions, less paralysis by analysis.
+I wrote a few months back about what BJJ actually trains - [five body-based sensing systems working together under pressure](https://www.linkedin.com/posts/tneilen_six-months-of-brazilian-jiu-jitsu-changed-activity-7391835501550477312-ownc/). Proprioception, interoception, vestibular, tactile, temporal. The research showing elite grapplers have 29% higher cerebral blood flow. The cognitive shifts I noticed in myself: better decisions, less paralysis by analysis.
 
 Forty-two sessions in five weeks put that to the test.
 
