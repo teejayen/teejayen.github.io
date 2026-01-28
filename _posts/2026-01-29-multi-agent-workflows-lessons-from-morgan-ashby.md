@@ -13,102 +13,175 @@ Three months later, agentic AI has moved fast. What felt experimental in Novembe
 
 ## The Architecture
 
-The workflow used an orchestrator pattern with parallel review agents:
+The system lives in `.claude/commands/` - four markdown files that define the entire workflow:
 
 ```
-Orchestrator Agent
-    ├── Research topic
-    ├── Generate draft
-    ├── Launch parallel review agents
-    │       ├── Business Focus Agent
-    │       ├── Quality Standards Agent
-    │       └── Substance Agent
-    ├── Consolidate feedback
-    └── Save to Jekyll format
+.claude/commands/
+  ├── generate-article.md    # Orchestrator (~840 lines)
+  ├── review-business.md     # Business focus agent
+  ├── review-quality.md      # Quality standards agent
+  └── review-substance.md    # Slop detection agent
 ```
 
-The orchestrator managed the end-to-end flow. It researched topics, generated drafts, then spawned three specialised review agents simultaneously. Each agent had a narrow focus and scored the draft against specific criteria. The orchestrator collected their feedback, made revisions, and published.
+The orchestrator runs an 8-phase workflow:
+
+```
+Orchestrator (/generate-article)
+    ├── Phase 1: Research & topic selection
+    ├── Phase 2: Deep research (WebSearch)
+    ├── Phase 3: Draft generation
+    ├── Phase 4: Launch parallel review agents
+    │       ├── /review-business (0-10 pts)
+    │       ├── /review-quality (0-10 pts)
+    │       └── /review-substance (0-10 pts)
+    ├── Phase 5: Consolidate feedback & revise
+    ├── Phase 6: Format for Jekyll & save
+    ├── Phase 7: Git commit & push
+    └── Phase 8: Output summary with scores
+```
+
+Critical instruction in the orchestrator: "DO NOT present draft to user until ALL reviews complete." The parallel agents must finish before consolidation begins.
+
+## The Scoring Rubrics
+
+Each agent scored against specific criteria. Not vibes - structured evaluation.
+
+**Business Focus Agent (0-10 points)**
+
+| Criteria | Points | What it catches |
+|----------|--------|-----------------|
+| Business relevance | 0-3 | Missing "so what?" for business readers |
+| Target audience alignment | 0-2 | Too technical, no strategic framing |
+| Strategic insights | 0-3 | No actionable recommendations |
+| Real-world examples | 0-2 | All theoretical, no concrete cases |
+
+Red flags: "Purely technical with no business context", "No actionable insights", "Missing ROI discussion"
+
+**Quality Standards Agent (0-10 points)**
+
+| Criteria | Points | What it catches |
+|----------|--------|-----------------|
+| Australian English | 0-3 | "optimize" instead of "optimise" |
+| Banned phrases | 0-2 | "unlock potential", "game-changing" |
+| Blog formatting | 0-3 | Missing front matter, bad hierarchy |
+| Readability | 0-2 | Walls of text, excessive jargon |
+
+Every American spelling gets flagged. Every banned phrase gets flagged. Zero tolerance.
+
+The banned phrase list includes: "embark on a journey", "unlock potential", "leverage synergy", "paradigm shift", "thought leader", "the future of X is here", and the classic AI slop opener "In today's rapidly evolving landscape..."
+
+**Substance Agent (0-10 points)**
+
+| Criteria | Points | What it catches |
+|----------|--------|-----------------|
+| Specificity vs vagueness | 0-3 | "Studies show..." without citation |
+| Critical perspective | 0-2 | Uncritical hype repetition |
+| Depth of analysis | 0-3 | Surface-level description only |
+| Evidence and sourcing | 0-2 | "Experts agree..." without naming them |
+
+This agent detects slop patterns: lists without depth, every paragraph starting with "Moreover", excessive buzzwords, no concrete examples. The output literally says "SLOP PATTERNS FOUND" with a list.
 
 ## Why Parallel Review?
 
-The obvious approach is sequential: generate, review, fix, review again. It's how most people use AI today.
+Sequential review is slow and loses context. By the third revision pass, the AI has forgotten what it was originally trying to say.
 
-The problem: sequential review is slow and loses context. By the third revision pass, the AI has forgotten what it was originally trying to say. Quality degrades.
+Parallel review:
 
-Parallel review solves this:
+- **Speed**: 3 agents × 2 minutes sequentially = 6 minutes. 3 agents simultaneously = 2-3 minutes. 50-67% time savings on review phase alone.
+- **Independence**: Each agent evaluates without being influenced by other feedback. The substance agent doesn't know the quality agent already flagged something.
+- **Specificity**: Narrow scope means deeper expertise. The business agent doesn't waste tokens on spelling.
 
-- **Speed**: Three agents reviewing simultaneously instead of sequentially
-- **Independence**: Each agent evaluates without being influenced by other feedback
-- **Specificity**: Narrow scope means deeper expertise in that domain
+Total workflow time: 12-15 minutes per article (optimised) vs 22-32 minutes (baseline). The parallelisation matters.
 
-The Business Focus Agent didn't care about spelling. The Quality Standards Agent didn't evaluate strategic value. Each did one thing well.
+## The Persona: Morgan Ashby
 
-## What Each Agent Did
+Morgan Ashby isn't just a name - it's a complete character definition in `research/persona-morgan-ashby.md`:
 
-**Business Focus Agent** - evaluated strategic value and actionability. Did the article say something useful? Could a reader act on it? This caught the generic "AI is transforming business" padding that adds nothing.
+- 34-year-old business analyst from Ultimo, Sydney
+- BCom (USYD), Grad Dip Data Analytics (UTS)
+- 5 years evaluating AI pilots at Tech Central startups
+- Key observation: "80% of AI business content is generic slop"
+- Interests: Critical tech commentary, single-origin filter coffee, Blue Mountains hiking
 
-**Quality Standards Agent** - enforced Australian English, formatting rules, and banned phrases. This is where "organizations" became "organisations" and "leverage" got flagged as corporate jargon. Explicit examples in the prompt were critical - persona background alone wasn't enough to override training data defaults.
+The persona drives content decisions. Morgan prefers "real challenges over hype", prioritises Australian angles, avoids listicles and uncritical vendor content.
 
-**Substance Agent** - the slop detector. Checked for specificity, evidence, named sources, and critical perspective. "Experts say" failed. "Gartner's 2024 analysis found" passed. This agent caught the vague hand-waving that makes most AI content useless.
+But here's what I learned: **persona background doesn't override training data defaults**.
 
-## The Scoring System
+Telling the AI "Morgan is Australian" produced American English 70% of the time. The fix was explicit examples in the generation prompt:
 
-Each agent scored 0-10 on their criteria. Total: 30 points possible.
+```
+BEFORE: "Morgan is Australian, use Australian English"
 
-- 27+: Production ready
-- 24-26: Minor fixes needed
-- Below 24: Significant revision required
+AFTER: "Use Australian English: organisations not organizations,
+        whilst not while, optimise not optimize, defence not defense"
+```
 
-The baseline (articles 1-10) averaged 24.3/30. After workflow improvements, articles 11-15 averaged 29.4/30. The difference wasn't the model - it was the process.
+Result: 30% → 100% Australian English compliance.
+
+Same pattern for sourcing. AI defaults to organisational sources ("McKinsey found...") because they're more common in training data. Explicit instruction to target named individuals fixed it.
+
+## Prevention > Correction
+
+The breakthrough wasn't better review agents. It was building quality requirements into the drafting stage.
+
+**Hyperlinks**: Baseline workflow inserted links during review. Improved workflow captured URLs during research, integrated during drafting. Result: 60% → 100% of articles with proper hyperlinks on first draft.
+
+**Named sources**: Baseline workflow accepted "experts say" and fixed it in review. Improved workflow required named individuals during research phase. Result: 40% → 100% with named expert quotes.
+
+**Australian English**: Baseline workflow flagged American spellings in review. Improved workflow enforced correct spellings at generation. Result: Zero post-review fixes needed.
+
+The principle: every quality requirement you can enforce at generation saves time and improves outcomes. Review should validate, not fix.
+
+## The Results
+
+Baseline (articles 1-10): 24.3/30 average. 70% required manual fixes. 5-10 minutes cleanup per article.
+
+After workflow improvements (articles 11-15): 29.4/30 average. Zero post-review fixes. Three consecutive perfect scores.
+
+The difference: +5.7 points (+24% quality increase), 37-53% time reduction.
 
 ## Key Lessons
 
-**1. Explicit examples beat implicit context**
+**1. Narrow agents outperform broad ones**
 
-Telling the AI "Morgan Ashby is Australian" didn't produce Australian English. Providing explicit examples did: "Use 'organisation' not 'organization', 'optimise' not 'optimize'."
-
-Training data defaults are strong. You have to override them explicitly.
-
-**2. Integrate quality at generation, not review**
-
-The breakthrough wasn't better review - it was building quality requirements into the drafting stage. Hyperlinks during drafting, not post-hoc insertion. Named experts targeted in research, not vague attribution fixed later.
-
-Prevention > correction.
-
-**3. Narrow agents outperform broad ones**
-
-A single agent trying to evaluate business value, writing quality, AND substance produces mediocre feedback on all three. Three specialised agents produce expert feedback on each.
-
-The same principle applies to human teams. Specialists beat generalists for defined tasks.
+A single agent evaluating business value, writing quality, AND substance produces mediocre feedback on all three. Three specialised agents produce expert feedback on each.
 
 I've since used this pattern for [stress-testing documents with AI stakeholder perspectives](/2026/01/08/stress-test-documents-with-ai-stakeholder-perspectives/) - a CFO agent finds missing budget figures, a CTO agent flags vague DR/BCP sections, a Chaos Agent attacks your weakest assumptions. Same architecture, different application.
 
-**4. Let agents make strategic decisions**
+**2. Training data defaults are strong**
 
-Morgan decided to stop at 15 articles. I was ready for 30-50. But the reasoning was sound: methodology validated, no new questions to answer.
+Explicit examples beat implicit context every time. Don't describe what you want - show examples of correct output.
 
-The interesting moment wasn't generating content - it was watching an AI persona conclude that generating more content served no purpose.
+**3. Review is the product**
+
+Without the multi-agent review, estimated baseline quality ~20/30. With review: 24-30/30. The review methodology transforms mediocre AI output into production-ready content.
+
+**4. AI finds natural stopping points**
+
+Morgan decided to stop at 15 articles. Reasoning: methodology validated, no new questions to answer. I was ready for 30-50, but the logic was sound.
 
 ## What's Changed Since November
 
-Three months in AI time is a lot. The patterns I was experimenting with are becoming standard:
+Three months in AI time is significant. The patterns I was experimenting with are becoming standard:
 
-- Parallel tool execution is now common in agentic frameworks
+- Parallel tool execution is common in agentic frameworks
 - Multi-agent orchestration has mature tooling
 - "Prevention > correction" is recognised best practice
 
 The Morgan Ashby experiment was early enough to feel novel. Now it's just good practice.
 
-That's how fast this moves.
-
 ## The Code
 
-The full implementation is at [github.com/teejayen/ai-slop](https://github.com/teejayen/ai-slop). Claude Code commands in `.claude/commands/` show the workflow automation. The `/research/` directory has detailed methodology documentation.
+The full implementation is at [github.com/teejayen/ai-slop](https://github.com/teejayen/ai-slop):
 
-All 15 articles are published at [tim.neilen.com.au/ai-slop](https://tim.neilen.com.au/ai-slop).
+- `.claude/commands/` - All four agent definitions
+- `/research/` - Methodology documentation, persona definition, findings
+- `_posts/` - All 15 generated articles
+
+All 15 articles Morgan "published" are live at [tim.neilen.com.au/ai-slop](https://tim.neilen.com.au/ai-slop).
 
 ---
 
-The architecture wasn't complicated. Orchestrator, parallel specialists, consolidation. The insight was that process design matters more than model capability.
+The architecture isn't complicated. Orchestrator, parallel specialists, consolidation. The insight is that process design matters more than model capability.
 
 Most AI quality problems aren't model problems. They're workflow problems.
