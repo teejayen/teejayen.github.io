@@ -2,14 +2,14 @@
 layout: post
 title: "Multi-agent workflows: lessons from Morgan Ashby"
 date: 2026-01-29
-ai: assisted
+ai: written
 ---
 
-Back in November, I ran an experiment called [Slop or Substance](/2025/11/07/slop-or-substance/) - 15 AI-generated articles to test whether rigorous process could produce content that didn't suck. The results were clear: prevention beats correction, and the review process is the competitive advantage.
+Back in November, I ran an experiment called [Slop or Substance](/2025/11/07/slop-or-substance/) - AI-generated articles to test whether rigorous process could produce content that didn't suck. The results were clear: prevention beats correction, and the review process is the competitive advantage.
 
 But I never wrote about the architecture that made it work.
 
-Three months later, agentic AI has moved fast. What felt experimental in November is becoming standard practice. Worth documenting what I learned before it becomes obvious.
+Three months later, agentic AI has moved fast. What felt experimental in November is becoming standard practice.
 
 ## The Architecture
 
@@ -159,16 +159,6 @@ Without the multi-agent review, estimated baseline quality ~20/30. With review: 
 **4. AI finds natural stopping points**
 
 Morgan decided to stop at 15 articles. Reasoning: methodology validated, no new questions to answer. I was ready for 30-50, but the logic was sound.
-
-## What's Changed Since November
-
-Three months in AI time is significant. The patterns I was experimenting with are becoming standard:
-
-- Parallel tool execution is common in agentic frameworks
-- Multi-agent orchestration has mature tooling
-- "Prevention > correction" is recognised best practice
-
-The Morgan Ashby experiment was early enough to feel novel. Now it's just good practice.
 
 ## The Code
 
