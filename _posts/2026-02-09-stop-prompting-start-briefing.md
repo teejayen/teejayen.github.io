@@ -127,5 +127,3 @@ Almost half of Australians have [recently used a generative AI tool](https://dig
 The core skill isn't technical. It's the ability to describe what you want clearly enough that someone else could do it. If you can brief a new employee, you can brief an AI. If you can explain a job to a customer, you can explain it to ChatGPT.
 
 BRIEF is five elements. Takes 60 seconds to learn. The difference in output is immediate.
-
-The only thing the framework can't do for you is try it.
