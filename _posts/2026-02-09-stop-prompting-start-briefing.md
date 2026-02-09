@@ -13,9 +13,9 @@ The difference between rubbish output and genuinely useful output is almost enti
 
 ## BRIEF: write a brief, not a prompt
 
-The most popular prompting framework out there is CRAFT -- Context, Role, Ask, Format, Tone. The problem is that [Wharton's Generative AI Lab](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5324706) tested the "Role" element across six models with thousands of runs and found no statistically significant improvement in accuracy. Telling AI to "act as an expert" changes the style, not the substance.
+The most popular prompting framework out there is CRAFT -- Context, Role, Ask, Format, Tone. The problem is that [Wharton's Generative AI Lab](https://gail.wharton.upenn.edu/research-and-insights/playing-pretend-expert-personas/) tested the "Role" element across six models with thousands of runs and found no statistically significant improvement in accuracy. Telling AI to "act as an expert" changes the style, not the substance.
 
-What does work? [Anthropic's research](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) shows that explaining *why* you need something shapes the output far more reliably than assigning a persona. And [Microsoft Research](https://arxiv.org/abs/2505.02832) found that AI performance drops by about 39% in back-and-forth conversations compared to getting everything in one message.
+What does work? [Anthropic's research](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) shows that explaining *why* you need something shapes the output far more reliably than assigning a persona. And [Microsoft Research](https://www.microsoft.com/en-us/research/publication/llms-get-lost-in-multi-turn-conversation/) found that AI performance drops by about 39% in back-and-forth conversations compared to getting everything in one message.
 
 So I replaced CRAFT with something grounded in the evidence. I call it BRIEF -- because that's exactly what you're doing. You're not writing a prompt for a machine. You're writing a brief for a capable colleague who knows nothing about your situation.
 
