@@ -7,7 +7,7 @@ ai: assisted
 
 I remember the moment it clicked.
 
-I was building **Nexus** - an integration platform for work that automates document control and project creation across SharePoint, Teams, and Microsoft 365. FastAPI, async Python, Graph API, webhook subscriptions, background workers. A real system, running in production, handling real business operations for a hundred-person engineering firm.
+I was building **Nexus** - an integration platform for work that automates document control and project creation across SharePoint, Teams, and Microsoft 365. FastAPI, async Python, Graph API, webhook subscriptions, background workers. A real system, running in production, handling real business operations.
 
 I am not a software developer. I'm an IT manager. Six months earlier, I would have been scoping this as a vendor engagement or a long series of Power Automate flows stitched together with prayer.
 
