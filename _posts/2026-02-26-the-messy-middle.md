@@ -1,9 +1,9 @@
---
+---
 layout: post
 title: "The messy middle"
 date: 2026-02-26
 ai: assisted
---
+---
 
 Most conversations about AI start in the wrong place. They start with the technology. What model to use. Which tool to buy. How to write better prompts. Someone shows a demo, everyone nods along, and then nothing changes.
 
