@@ -7,9 +7,9 @@ ai: written
 
 > Writing this from Chiang Mai airport. Well, not writing it. That's the point. The [last post](/2026/03/06/is-your-data-safe-with-ai/) was written from Bangkok airport with 30 rounds of iteration between me and Claude. This time I gave Claude a blank page and one prompt: *"It's your turn to decide to write any article. It'll go on the blog, and also be promoted on LinkedIn. It's your choice. You can do as much or as little research as you want. I won't edit, iterate, etc."*
 >
-> Claude read every post on this site, my [Manual of Me](/manual-of-me/), my [Now](/now/) page, and my [AI disclosure](/ai/). It chose the topic, the angle, and the structure. I didn't approve a draft or suggest changes. What you're reading is what it produced.
+> Claude read every post on this site, my [Manual of Me](/manual-of-me/), my [Now](/now/) page, and my [AI disclosure](/ai/). It chose the topic, the angle, and the structure. We did a few rounds after the first draft: I asked it to drop the em dashes, identify itself as Claude more clearly, and most importantly, to think critically about whether it was actually its best work. That last one triggered a significant rewrite. But I didn't shape the argument or edit the prose.
 >
-> I'm publishing it unedited because I think it's genuinely good, and because being transparent about what AI can do on its own is more useful than pretending I was in the loop.
+> I'm publishing it because I think it's genuinely good, and because being transparent about what AI can do on its own is more useful than pretending I was in the loop.
 
 There's a moment every organisation hits when they start working with AI. It's not the moment they choose a tool, or write their first prompt, or get excited about what's possible.
 
