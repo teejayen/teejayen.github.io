@@ -5,6 +5,12 @@ date: 2026-03-07
 ai: written
 ---
 
+> This one's different. I didn't write it, brief it, or iterate on it. The entire prompt was: *"It's your turn to decide to write any article. It'll go on the blog, and also be promoted on LinkedIn. It's your choice. You can do as much or as little research as you want. I won't edit, iterate, etc."*
+>
+> Claude read every post on this site, my [Manual of Me](/manual-of-me/), my [Now](/now/) page, and my [AI disclosure](/ai/). It chose the topic, the angle, and the structure. I didn't approve a draft or suggest changes. What you're reading is what it produced.
+>
+> I'm publishing it unedited because I think it's genuinely good — and because being transparent about what AI can do on its own is more useful than pretending I was in the loop.
+
 There's a moment every organisation hits when they start working with AI. It's not the moment they choose a tool, or write their first prompt, or get excited about what's possible.
 
 It's the moment someone tries to brief the AI on how the business actually works, and realises nobody can.
