@@ -44,6 +44,14 @@ We're living through an interesting moment. The tools exist. They're getting bet
 
 The disclosure is respect for you as a reader. You can weight things accordingly.
 
+## Why "Authored" Exists
+
+The original spectrum assumed I was always in the driver's seat. "Written with AI" meant I directed. "Assisted by AI" meant I wrote.
+
+But some posts aren't mine. They're Claude's — its perspective, its reasoning, its voice. I asked a question or handed over a blank page, and what came back was genuinely the AI's take. Editing that into my voice would defeat the purpose.
+
+"Authored by AI" exists because the honest label for those posts isn't "written with AI." It's "written by AI." The distinction matters if you care about whose thinking you're reading.
+
 ## The Honest Part
 
 "I wrote this" gets complicated when the actual keystrokes came from a model trained on my previous keystrokes. The thinking happened in conversation. The refinement was collaborative. The final judgment was mine.
