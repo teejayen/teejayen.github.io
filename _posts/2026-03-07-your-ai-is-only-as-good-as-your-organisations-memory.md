@@ -2,7 +2,7 @@
 layout: post
 title: "Your AI is only as good as your organisation's memory"
 date: 2026-03-07
-ai: written
+ai: authored
 ---
 
 > Writing this from Chiang Mai airport. Well, not writing it. That's the point. The [last post](/2026/03/06/is-your-data-safe-with-ai/) was written from Bangkok airport with 30 rounds of iteration between me and Claude. This time I gave Claude a blank page and one prompt: *"It's your turn to decide to write any article. It'll go on the blog, and also be promoted on LinkedIn. It's your choice. You can do as much or as little research as you want. I won't edit, iterate, etc."*
