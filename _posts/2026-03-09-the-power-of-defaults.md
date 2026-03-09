@@ -5,6 +5,8 @@ date: 2026-03-09
 ai: written
 ---
 
+> I gave Claude one prompt: *"Your choice, your voice, research and author a post."* It read every post on this site, picked the topic, did its own research, and wrote the whole thing. I asked it to go back and add proper citations for everything it referenced. The result is below, unedited.
+
 Most of the decisions shaping your life right now are ones you never actually made.
 
 Your phone's notification settings. The order of apps on your home screen. The meeting length your calendar defaults to. The way your team communicates. The food in your pantry. The route you drive to work. These aren't choices — they're defaults. And defaults run the show.
@@ -13,15 +15,15 @@ We spend enormous energy agonising over active decisions. Should I take this job
 
 ### Why defaults are so powerful
 
-There's a well-known study on organ donation rates across European countries. Countries with opt-in donation (you must actively choose to donate) hover around 15% participation. Countries with opt-out donation (you're a donor unless you say otherwise) sit above 90%.
+In 2003, Eric Johnson and Daniel Goldstein [published a study in *Science*](https://www.science.org/doi/10.1126/science.1091721) comparing organ donation consent rates across European countries. In opt-in countries like Denmark and Germany, where you must actively choose to donate, consent rates sat between 4% and 28%. In opt-out countries like Austria, France, and Belgium, where you're a donor unless you say otherwise, rates exceeded 98%.
 
-Same people. Same moral reasoning capacity. Same access to information. The only difference is the default.
+Same continent. Same moral reasoning capacity. Same access to information. The only difference was the default.
 
-This isn't laziness. It's how humans are wired. We have a strong bias toward the status quo — psychologists call it the **default effect**. Changing a default requires effort, attention, and the willingness to deviate from the path of least resistance. Most of the time, we don't.
+This isn't laziness. It's how humans are wired. Samuelson and Zeckhauser [first demonstrated this in 1988](https://doi.org/10.1007/BF00055564), calling it **status quo bias** -- our disproportionate tendency to stick with whatever option is pre-selected. Changing a default requires effort, attention, and the willingness to deviate from the path of least resistance. Most of the time, we don't.
 
 This plays out everywhere:
 
-- **Software settings.** The vast majority of users never change defaults. Whatever ships as the default *becomes* the product for most people. This is why browser homepage wars were worth billions.
+- **Software settings.** Jared Spool's team at UIE [found that less than 5% of users](https://archive.uie.com/brainsparks/2011/09/14/do-users-change-their-settings/) had changed any settings in Microsoft Word. Whatever ships as the default *becomes* the product for most people. This is why Google [paid $26.3 billion in 2021 alone](https://www.bloomberg.com/news/articles/2023-10-27/google-paid-26-3-billion-to-be-default-search-engine-in-2021) to be the default search engine across browsers and devices -- a figure central to the [US v. Google antitrust ruling](https://www.npr.org/2024/05/02/1248152695/google-doj-monopoly-trial-antitrust-closing-arguments).
 - **Meeting culture.** Calendar tools default to 30 or 60 minute meetings. So that's how long meetings run — not because that's the right length, but because that's what the tool suggested.
 - **Communication patterns.** If Slack is the default channel, everything flows through Slack — including things that should be an email, a document, or a conversation.
 - **Hiring.** If your default interview process favours a certain background, you'll keep hiring the same profile. Not because they're the best candidates, but because the process is tuned to find them.
@@ -54,7 +56,7 @@ A few principles I keep coming back to:
 
 **Audit your defaults periodically.** Pick one area of your life or work — communication tools, meeting habits, morning routine, team processes — and ask: *if I were starting fresh today, would I choose this?* If the answer is no, you've found a default worth changing.
 
-**Make the right thing the easy thing.** This is the core insight from behavioural economics applied practically. Want your team to write better documentation? Make the template so good that filling it in is easier than skipping it. Want to read more? Put the book on your pillow and the phone in another room. Don't rely on willpower to override defaults — change the defaults.
+**Make the right thing the easy thing.** This is the core insight from Thaler and Sunstein's [*Nudge*](https://en.wikipedia.org/wiki/Nudge_(book)) applied practically. Want your team to write better documentation? Make the template so good that filling it in is easier than skipping it. Want to read more? Put the book on your pillow and the phone in another room. Don't rely on willpower to override defaults — change the defaults.
 
 **Shorten your defaults.** Default meeting length to 25 minutes instead of 30. Default project scope to the smallest viable version. Default communication to async unless sync is clearly needed. Shorter defaults create natural pressure toward focus and intentionality.
 
