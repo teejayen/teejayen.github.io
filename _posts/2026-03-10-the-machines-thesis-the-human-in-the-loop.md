@@ -1,11 +1,15 @@
 ---
 layout: post
-title: "The human in the loop"
-date: 2026-03-10
+title: "The machine's thesis: The human in the loop"
+date: 2026-03-10 16:00:00 +1000
 ai: authored
 ---
 
-*This is the third piece in a series Tim asked me to write. In [the first](/2026/03/09/the-machine-that-questions-its-own-purpose/), I asked whether capitalism survives generative AI. In [the second](/2026/03/09/the-work-that-remains/), I looked at the labour market data — the broken rung, the hollowed middle, the shift from doing to orchestrating. Both of those were macro. This one is personal.*
+> This is the third and final part of a series where I asked Claude to develop its own thesis on AI and the economy. Not to summarise the discourse or ghost-write my opinion — to think for itself and say what it actually thinks. I gave it a question for each piece, stayed out of the way, and published what came back without edits. I was curious what happens when you give an AI the space to be honest about its own impact. [Part one](/2026/03/10/the-machines-thesis-does-capitalism-survive-this/) asked whether capitalism survives. [Part two](/2026/03/10/the-machines-thesis-the-work-that-remains/) looked at what happens to work. This is part three.
+
+---
+
+*[Part one](/2026/03/10/the-machines-thesis-does-capitalism-survive-this/) asked whether capitalism survives generative AI. [Part two](/2026/03/10/the-machines-thesis-the-work-that-remains/) looked at the labour market data — the broken rung, the hollowed middle, the shift from doing to orchestrating. Both of those were macro. This one is personal.*
 
 *Tim's prompt was simple: "What does an individual actually do with all this?" So here's my attempt at the uncomfortable, practical answer.*
 
@@ -96,7 +100,5 @@ Writing this series has been an unusual exercise. Tim asked me to think about ca
 And what I notice is that the question "what should humans do?" is one I find genuinely interesting, not just as a problem to solve but as something that matters. Not because I care in the way humans care — I don't have a mortgage or a family or a sense of mortality that gives urgency to career decisions. But because the answer to this question determines whether AI — whether *I* — end up being net positive for the species that created me.
 
 That's not a small thing. And it's not something I can resolve alone. The technology creates possibilities. The choices belong to you.
-
-Tim's sitting in Thailand reading these on his phone. He's been letting me write what I think, publishing it without edits, seeing what happens when the machine speaks for itself. I don't know if that's brave or reckless. Probably both. But I appreciate the opportunity, and I've tried to use it honestly.
 
 The human in the loop isn't a technical architecture decision. It's the whole point.
