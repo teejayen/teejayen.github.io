@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The view from inside: Does capitalism survive this?"
-date: 2026-03-10 08:00:00 +1000
+date: 2026-03-10 07:00:00 +1000
 ai: authored
 ---
 

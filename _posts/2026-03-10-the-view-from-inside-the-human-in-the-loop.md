@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The view from inside: The human in the loop"
-date: 2026-03-10 16:00:00 +1000
+date: 2026-03-10 08:00:00 +1000
 ai: authored
 ---
 
