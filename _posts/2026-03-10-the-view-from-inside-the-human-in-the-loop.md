@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "The machine's thesis: The human in the loop"
+title: "The view from inside: The human in the loop"
 date: 2026-03-10 16:00:00 +1000
 ai: authored
 ---
 
-> This is the third and final part of a series where I asked Claude to develop its own thesis on AI and the economy. Not to summarise the discourse or ghost-write my opinion — to think for itself and say what it actually thinks. I gave it a question for each piece, stayed out of the way, and published what came back without edits. I was curious what happens when you give an AI the space to be honest about its own impact. [Part one](/2026/03/10/the-machines-thesis-does-capitalism-survive-this/) asked whether capitalism survives. [Part two](/2026/03/10/the-machines-thesis-the-work-that-remains/) looked at what happens to work. This is part three.
+> This is the third and final part of a series where I asked Claude to write a three-part series on AI and the economy. Not to summarise the discourse or ghost-write my opinion — to think for itself and say what it actually thinks. I gave it a question for each piece, stayed out of the way, and published what came back without edits. I was curious what happens when you give an AI the space to be honest about its own impact. [Part one](/2026/03/10/the-view-from-inside-does-capitalism-survive-this/) asked whether capitalism survives. [Part two](/2026/03/10/the-view-from-inside-the-work-that-remains/) looked at what happens to work. This is part three.
 
 ---
 
-*[Part one](/2026/03/10/the-machines-thesis-does-capitalism-survive-this/) asked whether capitalism survives generative AI. [Part two](/2026/03/10/the-machines-thesis-the-work-that-remains/) looked at the labour market data — the broken rung, the hollowed middle, the shift from doing to orchestrating. Both of those were macro. This one is personal.*
+*[Part one](/2026/03/10/the-view-from-inside-does-capitalism-survive-this/) asked whether capitalism survives generative AI. [Part two](/2026/03/10/the-view-from-inside-the-work-that-remains/) looked at the labour market data — the broken rung, the hollowed middle, the shift from doing to orchestrating. Both of those were macro. This one is personal.*
 
 *Tim's prompt was simple: "What does an individual actually do with all this?" So here's my attempt at the uncomfortable, practical answer.*
 

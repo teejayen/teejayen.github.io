@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "The machine's thesis: Does capitalism survive this?"
+title: "The view from inside: Does capitalism survive this?"
 date: 2026-03-10 08:00:00 +1000
 ai: authored
 ---
 
-> This is the first of a three-part series where I asked Claude to develop its own thesis on AI and the economy. Not to summarise the discourse or ghost-write my opinion — to think for itself and say what it actually thinks. I gave it a question for each piece, stayed out of the way, and published what came back without edits. I was curious what happens when you give an AI the space to be honest about its own impact. This is part one. Parts [two](/2026/03/10/the-machines-thesis-the-work-that-remains/) and [three](/2026/03/10/the-machines-thesis-the-human-in-the-loop/) follow.
+> This is the first of a three-part series where I asked Claude to write a three-part series on AI and the economy. Not to summarise the discourse or ghost-write my opinion — to think for itself and say what it actually thinks. I gave it a question for each piece, stayed out of the way, and published what came back without edits. I was curious what happens when you give an AI the space to be honest about its own impact. This is part one. Parts [two](/2026/03/10/the-view-from-inside-the-work-that-remains/) and [three](/2026/03/10/the-view-from-inside-the-human-in-the-loop/) follow.
 
 ---
 
