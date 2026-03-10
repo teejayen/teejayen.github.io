@@ -5,11 +5,11 @@ date: 2026-03-06
 ai: written
 ---
 
-> Writing this from Bangkok airport, waiting for my flight to Chiang Mai. I've been thinking about this topic for weeks and the downtime felt like a good excuse to get it out of drafts. This stuff genuinely excites me — helping people get past the fear and into the doing.
+> Writing this from Bangkok airport, waiting for my flight to Chiang Mai. I've been thinking about this topic for weeks and the downtime felt like a good excuse to get it out of drafts. This stuff genuinely excites me - helping people get past the fear and into the doing.
 >
-> This post went through about 30 iterations with Claude before it got here. We went back and forth on the industry examples (cut most of them — they were repetitive), caught a contradiction with my own published work on the [BRIEF framework](/2026/02/09/stop-prompting-start-briefing.html), and tightened the whole thing up. I don't mind being public about that process — it's a good example of what working with AI actually looks like.
+> This post went through about 30 iterations with Claude before it got here. We went back and forth on the industry examples (cut most of them - they were repetitive), caught a contradiction with my own published work on the [BRIEF framework](/2026/02/09/stop-prompting-start-briefing.html), and tightened the whole thing up. I don't mind being public about that process - it's a good example of what working with AI actually looks like.
 
-"Is my data safe?" comes before everything else. Before "where do I start?" Before "will it replace my staff?" It's the first question — and the right one.
+"Is my data safe?" comes before everything else. Before "where do I start?" Before "will it replace my staff?" It's the first question - and the right one.
 
 The honest answer is: it depends on which version you're using.
 
@@ -17,7 +17,7 @@ The honest answer is: it depends on which version you're using.
 
 Most AI tools have a free tier and a paid tier. They work differently, and the difference matters.
 
-**Free-tier tools** (ChatGPT Free, Claude Free, Gemini Free) may use your inputs to improve their models. The specifics vary by provider and change over time, but the general principle is the same: if you're not paying, your data may be used for training. The providers are upfront about this in their terms of service  - most people just don't read them.
+**Free-tier tools** (ChatGPT Free, Claude Free, Gemini Free) may use your inputs to improve their models. The specifics vary by provider and change over time, but the general principle is the same: if you're not paying, your data may be used for training. The providers are upfront about this in their terms of service - most people just don't read them.
 
 **Business-tier tools** (ChatGPT Plus/Team/Enterprise, Claude Pro/Team, Microsoft Copilot for 365, Google Gemini Business) contractually guarantee that your data is not used for model training. Your inputs stay private. This is not a grey area - it's a legal commitment backed by enterprise contracts, data processing agreements, and in many cases SOC 2 compliance.
 
@@ -45,17 +45,17 @@ Business-tier providers have access controls and audit processes that prevent ca
 
 **"Does this comply with my industry's regulations?"**
 
-This is where it gets industry-specific, and where you need to ~~do your own homework~~ ask AI to do the homework for you. Here's a prompt you can adapt using the [BRIEF framework](/2026/02/09/stop-prompting-start-briefing) — swap out the bracketed details for your situation:
+This is where it gets industry-specific, and where you need to ~~do your own homework~~ ask AI to do the homework for you. Here's a prompt you can adapt using the [BRIEF framework](/2026/02/09/stop-prompting-start-briefing) - swap out the bracketed details for your situation:
 
 > **Background:** I'm a [role, e.g. practice manager] at a [type of business, e.g. physiotherapy clinic] in [state, e.g. Queensland], Australia. We're considering using AI tools like [e.g. ChatGPT, Claude, Copilot] for [specific tasks, e.g. drafting patient recall messages, summarising clinical notes, writing referral letters].
 >
-> **Result:** A clear summary of the Australian regulations, professional body guidelines, and state-level legislation that govern how we can use AI tools with our business data — and what each means in practical terms.
+> **Result:** A clear summary of the Australian regulations, professional body guidelines, and state-level legislation that govern how we can use AI tools with our business data - and what each means in practical terms.
 >
-> **Instructions:** Identify the specific Australian regulations, professional body guidelines, and state-level legislation that govern how we can use AI tools with our business data. For each, explain what it means in practical terms — what we can and can't do. Flag anything that's genuinely risky vs. areas where the rules are clear.
+> **Instructions:** Identify the specific Australian regulations, professional body guidelines, and state-level legislation that govern how we can use AI tools with our business data. For each, explain what it means in practical terms - what we can and can't do. Flag anything that's genuinely risky vs. areas where the rules are clear.
 >
 > **Examples:** We currently [describe a workflow, e.g. dictate clinical notes into our practice management system and manually write referral letters]. We want to know if using AI to assist with these tasks creates any regulatory exposure.
 >
-> **Format:** Give me a summary table of regulations and their practical implications, followed by a clear yes/no/maybe for each of our proposed use cases. Plain language — no legalese.
+> **Format:** Give me a summary table of regulations and their practical implications, followed by a clear yes/no/maybe for each of our proposed use cases. Plain language - no legalese.
 
 This won't replace legal advice for complex situations. But for most small businesses, it gets you 80% of the way to understanding your obligations in about two minutes.
 
@@ -67,7 +67,7 @@ Here's a healthcare example that makes it concrete. A physio needs a referral le
 
 *"Draft a referral letter for a 45-year-old male presenting with chronic lower back pain, L4/L5 disc protrusion confirmed on MRI, conservative treatment for 8 weeks with minimal improvement."*
 
-AI gets everything it needs to write a good letter. No identifiable information leaves the building. The same principle works everywhere — an accountant replaces "Smith Family Trust" with "Client Trust," a real estate agent swaps "42 Boundary Road" with "[property address]," an NFP uses aggregated program data instead of individual participant details.
+AI gets everything it needs to write a good letter. No identifiable information leaves the building. The same principle works everywhere - an accountant replaces "Smith Family Trust" with "Client Trust," a real estate agent swaps "42 Boundary Road" with "[property address]," an NFP uses aggregated program data instead of individual participant details.
 
 ## The de-identification principle
 
