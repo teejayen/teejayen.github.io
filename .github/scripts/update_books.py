@@ -103,7 +103,11 @@ def main():
     while True:
         url = f"{RSS_URL}&page={page}&per_page=200"
         print(f"Fetching page {page}...")
-        xml_data = fetch_rss(url)
+        try:
+            xml_data = fetch_rss(url)
+        except Exception as e:
+            print(f"Error fetching page {page}: {e}")
+            break
         books = parse_books(xml_data)
         if not books:
             break
@@ -111,6 +115,10 @@ def main():
         page += 1
         if page > 20:  # safety limit
             break
+
+    if not all_books:
+        print("No books returned from Goodreads — keeping existing data.")
+        return
 
     write_yaml(all_books, "_data/books.yml")
     print(f"Updated _data/books.yml with {len(all_books)} books")
