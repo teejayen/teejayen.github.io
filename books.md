@@ -11,7 +11,7 @@ sitemap:
 
 >"The more that you read, the more things you will know. The more that you learn, the more places you'll go."
 >
->— Dr. Seuss
+> - Dr. Seuss
 
 {% assign book_pages = site.pages | where_exp: "p", "p.url contains '/books/'" %}
 {% assign books_by_year = site.data.books | group_by: "year" | sort: "name" | reverse %}

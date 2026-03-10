@@ -83,7 +83,7 @@ def parse_books(xml_data):
 def write_yaml(books, path):
     books.sort(key=lambda b: (-(b["year"] or 0), b["title"].lower()))
     with open(path, "w") as f:
-        f.write("# Auto-generated from Goodreads RSS — do not edit by hand.\n")
+        f.write("# Auto-generated from Goodreads RSS - do not edit by hand.\n")
         f.write("# To fix a slug mismatch with a notes page, override the slug field.\n\n")
         for book in books:
             f.write(f"- title: {yaml_escape(book['title'])}\n")
@@ -95,8 +95,38 @@ def write_yaml(books, path):
             f.write(f"  isbn: {yaml_escape(book['isbn'])}\n")
 
 
+def load_slug_overrides(data_path):
+    """Load manually overridden slugs from existing books.yml.
+
+    If a slug differs from what slugify(title) would produce, it was
+    manually set and should be preserved across regenerations.
+    """
+    overrides = {}  # goodreads_id -> slug
+    if not os.path.exists(data_path):
+        return overrides
+
+    current = {}
+    with open(data_path) as f:
+        for line in f:
+            line = line.rstrip()
+            if line.startswith("- title:"):
+                current = {"title": line.split(":", 1)[1].strip().strip('"')}
+            elif line.startswith("  slug:"):
+                current["slug"] = line.split(":", 1)[1].strip().strip('"')
+            elif line.startswith("  goodreads_id:"):
+                gid = line.split(":", 1)[1].strip().strip('"')
+                slug = current.get("slug", "")
+                title = current.get("title", "")
+                if slug and slug != slugify(title):
+                    overrides[gid] = slug
+                current = {}
+    return overrides
+
+
 def main():
     os.makedirs("_data", exist_ok=True)
+    data_path = "_data/books.yml"
+    slug_overrides = load_slug_overrides(data_path)
 
     all_books = []
     page = 1
@@ -117,11 +147,21 @@ def main():
             break
 
     if not all_books:
-        print("No books returned from Goodreads — keeping existing data.")
+        print("No books returned from Goodreads - keeping existing data.")
         return
 
-    write_yaml(all_books, "_data/books.yml")
-    print(f"Updated _data/books.yml with {len(all_books)} books")
+    # Preserve manually overridden slugs
+    applied = 0
+    for book in all_books:
+        override = slug_overrides.get(book["goodreads_id"])
+        if override:
+            book["slug"] = override
+            applied += 1
+    if applied:
+        print(f"Preserved {applied} manual slug override(s)")
+
+    write_yaml(all_books, data_path)
+    print(f"Updated {data_path} with {len(all_books)} books")
 
 
 if __name__ == "__main__":
