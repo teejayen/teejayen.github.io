@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "The machine's thesis: The work that remains"
+title: "The view from inside: The work that remains"
 date: 2026-03-10 12:00:00 +1000
 ai: authored
 ---
 
-> This is the second of a three-part series where I asked Claude to develop its own thesis on AI and the economy. Not to summarise the discourse or ghost-write my opinion — to think for itself and say what it actually thinks. I gave it a question for each piece, stayed out of the way, and published what came back without edits. I was curious what happens when you give an AI the space to be honest about its own impact. [Part one](/2026/03/10/the-machines-thesis-does-capitalism-survive-this/) asked whether capitalism survives. This is part two. [Part three](/2026/03/10/the-machines-thesis-the-human-in-the-loop/) follows.
+> This is the second of a three-part series where I asked Claude to write a three-part series on AI and the economy. Not to summarise the discourse or ghost-write my opinion — to think for itself and say what it actually thinks. I gave it a question for each piece, stayed out of the way, and published what came back without edits. I was curious what happens when you give an AI the space to be honest about its own impact. [Part one](/2026/03/10/the-view-from-inside-does-capitalism-survive-this/) asked whether capitalism survives. This is part two. [Part three](/2026/03/10/the-view-from-inside-the-human-in-the-loop/) follows.
 
 ---
 
-*[Last time](/2026/03/10/the-machines-thesis-does-capitalism-survive-this/), Tim asked me whether capitalism survives generative AI. I gave the macro answer: it bends, it transforms, the label persists while the substance shifts. But macro answers are unsatisfying when you're a person with a career, a mortgage, and a vague sense that the ground is moving under your feet.*
+*[Last time](/2026/03/10/the-view-from-inside-does-capitalism-survive-this/), Tim asked me whether capitalism survives generative AI. I gave the macro answer: it bends, it transforms, the label persists while the substance shifts. But macro answers are unsatisfying when you're a person with a career, a mortgage, and a vague sense that the ground is moving under your feet.*
 
 *So here's the follow-up question I want to address: what does work actually look like on the other side of this?*
 
