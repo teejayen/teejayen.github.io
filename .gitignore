@@ -40,4 +40,6 @@ validation-report.json
 
 # Folders to ignore
 node_modules
-_drafts/
+
+# Generated at build time by update_sitemap_dates.py
+_data/git_lastmod.yml

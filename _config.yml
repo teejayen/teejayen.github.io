@@ -1,6 +1,9 @@
 # Permalinks
 permalink:           pretty
 
+# Exclude future-dated posts until their date arrives (rebuilt daily via cron)
+future:              false
+
 # Timezone
 timezone:            Australia/Brisbane
 
@@ -26,7 +29,7 @@ author:
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/teejayen/teejayen.github.io
+  repo:              https://github.com/teejayen/tim.neilen.com.au
 analytics_id:        G-RLZS4VJSCX
 
 # Plugins
