@@ -130,22 +130,9 @@
 
       const zoomGroup = svg.append('g');
 
-      // Zoom - filter out single taps on touch so they fire as clicks
+      // Zoom - let d3 handle all touch events (pan + pinch)
       const zoom = d3.zoom()
         .scaleExtent([0.5, 6])
-        .filter(function(event) {
-          // Allow wheel zoom and mouse drag always
-          if (event.type === 'wheel') return true;
-          if (event.type === 'mousedown') return true;
-          // On touch: only allow multi-touch (pinch zoom) and touchmove (pan)
-          // Single touch start should fall through to click handler
-          if (event.type === 'touchstart') {
-            return event.touches.length >= 2;
-          }
-          if (event.type === 'touchmove') return true;
-          if (event.type === 'dblclick') return true;
-          return true;
-        })
         .on('zoom', (event) => {
           zoomGroup.attr('transform', event.transform);
           const k = event.transform.k;
@@ -156,6 +143,41 @@
         });
 
       svg.call(zoom);
+
+      // Custom tap detection for touch: distinguish taps from drags
+      // d3.zoom owns all touch events for pan/pinch, so we detect taps separately
+      if (isTouchDevice) {
+        let tapStart = null;
+        const TAP_THRESHOLD = 10; // px movement tolerance
+        const TAP_TIMEOUT = 300;  // ms max duration
+
+        svg.node().addEventListener('touchstart', (e) => {
+          if (e.touches.length === 1) {
+            tapStart = { x: e.touches[0].clientX, y: e.touches[0].clientY, time: Date.now() };
+          } else {
+            tapStart = null;
+          }
+        }, { passive: true });
+
+        svg.node().addEventListener('touchend', (e) => {
+          if (!tapStart) return;
+          const dt = Date.now() - tapStart.time;
+          if (dt > TAP_TIMEOUT) { tapStart = null; return; }
+          const touch = e.changedTouches[0];
+          const dx = touch.clientX - tapStart.x;
+          const dy = touch.clientY - tapStart.y;
+          if (Math.abs(dx) > TAP_THRESHOLD || Math.abs(dy) > TAP_THRESHOLD) { tapStart = null; return; }
+
+          // It's a tap - find which cell was tapped using current zoom transform
+          const transform = d3.zoomTransform(svg.node());
+          const [mx, my] = transform.invert([touch.clientX, touch.clientY]);
+          const idx = delaunay.find(mx, my);
+          if (idx >= 0 && idx < data.posts.length) {
+            showDetail(data.posts[idx]);
+          }
+          tapStart = null;
+        }, { passive: true });
+      }
 
       // Margin
       const margin = 40;
@@ -233,9 +255,11 @@
           }
         })
         .on('click', function(event, d) {
-          event.stopPropagation();
-          hideTooltip();
-          showDetail(d);
+          if (!isTouchDevice) {
+            event.stopPropagation();
+            hideTooltip();
+            showDetail(d);
+          }
         });
 
       // Cell labels (hidden on touch via CSS)
