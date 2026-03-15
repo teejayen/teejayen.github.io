@@ -7,7 +7,7 @@
 
     <div id="cartography-nav">
       <a href="{{ site.baseurl }}/" class="cartography-home">{{ site.title }}</a>
-      <span class="cartography-title">Neural Cartography</span>
+      <span class="cartography-title">Cartography</span>
       <button id="cartography-info-btn" aria-label="About this visualisation">?</button>
     </div>
 
@@ -20,7 +20,7 @@
 
     <div id="cartography-info-panel" class="hidden">
       <button id="cartography-info-close" aria-label="Close">&times;</button>
-      <h2>Neural Cartography</h2>
+      <h2>Cartography</h2>
       {{ content }}
     </div>
 
@@ -28,18 +28,17 @@
     <script src="https://cdn.jsdelivr.net/npm/d3-delaunay@6"></script>
     <script>
     (function() {
-      // Data embedded at build time by Jekyll
       const data = {{ site.data.cartography | jsonify }};
 
       const container = document.getElementById('cartography-container');
       const tooltip = document.getElementById('cartography-tooltip');
       const legend = document.getElementById('cartography-legend');
 
-      // Build cluster color map
+      const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+
+      // Build lookups
       const clusterMap = {};
       data.clusters.forEach(c => { clusterMap[c.id] = c; });
-
-      // Build slug lookup for connections
       const postMap = {};
       data.posts.forEach(p => { postMap[p.slug] = p; });
 
@@ -51,16 +50,20 @@
         </div>`
       ).join('');
 
-      // Legend hover filtering
+      // Legend filtering
       let activeCluster = null;
       legend.querySelectorAll('.legend-item').forEach(item => {
         item.addEventListener('mouseenter', () => {
-          activeCluster = item.dataset.cluster;
-          renderHighlight();
+          if (!isTouchDevice) {
+            activeCluster = item.dataset.cluster;
+            renderHighlight();
+          }
         });
         item.addEventListener('mouseleave', () => {
-          activeCluster = null;
-          renderHighlight();
+          if (!isTouchDevice) {
+            activeCluster = null;
+            renderHighlight();
+          }
         });
         item.addEventListener('click', () => {
           if (activeCluster === item.dataset.cluster && item.classList.contains('active')) {
@@ -92,7 +95,7 @@
           .transition().duration(200)
           .attr('opacity', d => {
             if (!activeCluster) return 0;
-            return (d.source.cluster === activeCluster || d.target.cluster === activeCluster) ? 0.6 : 0;
+            return (d.source.cluster === activeCluster || d.target.cluster === activeCluster) ? 0.5 : 0;
           });
       }
 
@@ -104,43 +107,37 @@
         .attr('width', width)
         .attr('height', height);
 
-      const defs = svg.append('defs');
-
-      // Subtle noise pattern for tessellation texture
-      const filter = defs.append('filter').attr('id', 'noise');
-      filter.append('feTurbulence')
-        .attr('type', 'fractalNoise')
-        .attr('baseFrequency', '0.65')
-        .attr('numOctaves', '3')
-        .attr('stitchTiles', 'stitch');
-      filter.append('feColorMatrix')
-        .attr('type', 'saturate')
-        .attr('values', '0');
-      filter.append('feComponentTransfer')
-        .selectAll('funcR,funcG,funcB').data(['R','G','B']).join('feFunc' + 'R')
-        .attr('type', 'linear')
-        .attr('slope', '0.05');
-
       const zoomGroup = svg.append('g');
 
-      // Zoom behavior
+      // Zoom - filter out single taps on touch so they fire as clicks
       const zoom = d3.zoom()
-        .scaleExtent([0.5, 8])
+        .scaleExtent([0.5, 6])
+        .filter(function(event) {
+          // Allow wheel zoom and mouse drag always
+          if (event.type === 'wheel') return true;
+          if (event.type === 'mousedown') return true;
+          // On touch: only allow multi-touch (pinch zoom) and touchmove (pan)
+          // Single touch start should fall through to click handler
+          if (event.type === 'touchstart') {
+            return event.touches.length >= 2;
+          }
+          if (event.type === 'touchmove') return true;
+          if (event.type === 'dblclick') return true;
+          return true;
+        })
         .on('zoom', (event) => {
           zoomGroup.attr('transform', event.transform);
-          // Scale labels inversely for readability
           const k = event.transform.k;
           zoomGroup.selectAll('.cell-label')
-            .attr('font-size', Math.max(9, 12 / k) + 'px');
+            .attr('font-size', Math.max(8, 11 / k) + 'px');
           zoomGroup.selectAll('.cluster-label')
-            .attr('font-size', Math.max(11, 14 / k) + 'px');
+            .attr('font-size', Math.max(10, 13 / k) + 'px');
         });
 
       svg.call(zoom);
 
-      // Margin to keep cells within viewport
+      // Margin
       const margin = 40;
-
       function projectX(x) { return margin + x * (width - 2 * margin); }
       function projectY(y) { return margin + y * (height - 2 * margin); }
 
@@ -157,13 +154,12 @@
       data.posts.forEach(p => {
         (p.connections || []).forEach(slug => {
           const target = postMap[slug];
-          if (target && p.slug < slug) { // avoid duplicates
+          if (target && p.slug < slug) {
             connections.push({ source: p, target: target });
           }
         });
       });
 
-      // Initial render
       let { delaunay, voronoi, points } = computeVoronoi();
 
       // Draw connection lines (hidden by default)
@@ -179,7 +175,7 @@
         .attr('stroke', d => clusterMap[d.source.cluster].color)
         .attr('stroke-width', 1)
         .attr('opacity', 0)
-        .attr('stroke-dasharray', '4,4');
+        .attr('stroke-dasharray', '3,3');
 
       // Draw voronoi cells
       const cellGroup = zoomGroup.append('g').attr('class', 'cells');
@@ -189,17 +185,11 @@
         .join('path')
         .attr('class', 'voronoi-cell')
         .attr('d', (d, i) => voronoi.renderCell(i))
-        .attr('fill', d => {
-          const c = clusterMap[d.cluster];
-          return c ? c.color : '#666';
-        })
-        .attr('fill-opacity', 0.25)
-        .attr('stroke', d => {
-          const c = clusterMap[d.cluster];
-          return c ? c.color : '#666';
-        })
-        .attr('stroke-opacity', 0.5)
-        .attr('stroke-width', 1.5)
+        .attr('fill', d => clusterMap[d.cluster]?.color || '#888')
+        .attr('fill-opacity', 0.12)
+        .attr('stroke', d => clusterMap[d.cluster]?.color || '#888')
+        .attr('stroke-opacity', 0.35)
+        .attr('stroke-width', 1)
         .attr('data-slug', d => d.slug)
         .on('mouseenter', function(event, d) {
           if (!isTouchDevice) {
@@ -222,7 +212,7 @@
           showDetail(d);
         });
 
-      // Cell labels
+      // Cell labels (hidden on touch via CSS)
       const labelGroup = zoomGroup.append('g').attr('class', 'labels');
 
       labelGroup.selectAll('.cell-label')
@@ -241,16 +231,12 @@
         })
         .attr('text-anchor', 'middle')
         .attr('dominant-baseline', 'central')
-        .attr('font-size', '12px')
-        .attr('fill', d => clusterMap[d.cluster].color)
+        .attr('font-size', '11px')
+        .attr('fill', d => clusterMap[d.cluster]?.color || '#888')
         .attr('pointer-events', 'none')
-        .text(d => {
-          // Truncate long titles
-          const maxLen = 20;
-          return d.title.length > maxLen ? d.title.substring(0, maxLen) + '...' : d.title;
-        });
+        .text(d => d.title.length > 22 ? d.title.substring(0, 20) + '...' : d.title);
 
-      // Cluster labels
+      // Cluster labels (hidden on touch via CSS)
       const clusterLabelGroup = zoomGroup.append('g').attr('class', 'cluster-labels');
 
       data.clusters.forEach(cluster => {
@@ -262,40 +248,17 @@
         clusterLabelGroup.append('text')
           .attr('class', 'cluster-label')
           .attr('x', cx)
-          .attr('y', cy - 25)
+          .attr('y', cy - 20)
           .attr('text-anchor', 'middle')
-          .attr('font-size', '14px')
+          .attr('font-size', '13px')
           .attr('font-weight', '700')
           .attr('fill', cluster.color)
-          .attr('opacity', 0.7)
+          .attr('opacity', 0.5)
           .attr('pointer-events', 'none')
           .text(cluster.name.toUpperCase());
       });
 
-      // AI indicator dots on cells
-      const aiGroup = zoomGroup.append('g').attr('class', 'ai-dots');
-
-      data.posts.forEach((p, i) => {
-        if (p.ai_tag) {
-          const cell = voronoi.cellPolygon(i);
-          if (!cell) return;
-          const cx = d3.mean(cell, pt => pt[0]);
-          const cy = d3.mean(cell, pt => pt[1]);
-
-          aiGroup.append('circle')
-            .attr('cx', cx)
-            .attr('cy', cy + 15)
-            .attr('r', 3)
-            .attr('fill', p.ai_tag === 'authored' ? '#5b8fd4' : p.ai_tag === 'written' ? '#7ab87a' : '#d4a574')
-            .attr('opacity', 0.6)
-            .attr('pointer-events', 'none');
-        }
-      });
-
-      // Touch/mobile detection
-      const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
-
-      // Tooltip functions
+      // Tooltip (desktop only)
       function showTooltip(event, d) {
         const cluster = clusterMap[d.cluster];
         tooltip.innerHTML = `
@@ -303,7 +266,6 @@
           <div class="tooltip-title">${d.title}</div>
           <div class="tooltip-date">${d.date}</div>
           <div class="tooltip-insight">${d.insight}</div>
-          <div class="tooltip-action">Click to read &rarr;</div>
         `;
         tooltip.classList.add('visible');
         moveTooltip(event);
@@ -314,14 +276,11 @@
         const y = event.clientY;
         const tw = tooltip.offsetWidth;
         const th = tooltip.offsetHeight;
-
         let left = x + 15;
         let top = y - 10;
-
         if (left + tw > width - 10) left = x - tw - 15;
         if (top + th > height - 10) top = y - th + 10;
         if (top < 10) top = 10;
-
         tooltip.style.left = left + 'px';
         tooltip.style.top = top + 'px';
       }
@@ -330,7 +289,7 @@
         tooltip.classList.remove('visible');
       }
 
-      // Detail panel (replaces direct navigation on click/tap)
+      // Detail panel (click/tap on any device)
       const detailPanel = document.getElementById('cartography-detail');
       let activePost = null;
 
@@ -340,7 +299,7 @@
         detailPanel.innerHTML = `
           <button id="detail-close" aria-label="Close">&times;</button>
           <div class="detail-cluster" style="color:${cluster.color}">${cluster.name}</div>
-          <a href="${d.url}" class="detail-title">${d.title}</a>
+          <a href="${d.url}" class="detail-title">${d.title} &rarr;</a>
           <div class="detail-date">${d.date}${aiLabel}</div>
           <div class="detail-insight">${d.insight}</div>
           <div class="detail-summary">${d.summary}</div>
@@ -353,6 +312,11 @@
           e.stopPropagation();
           hideDetail();
         });
+
+        // Prevent taps on the detail panel from dismissing it
+        detailPanel.addEventListener('click', (e) => {
+          e.stopPropagation();
+        });
       }
 
       function hideDetail() {
@@ -363,46 +327,44 @@
         }
       }
 
-      // Close detail panel when tapping/clicking empty space (background)
-      document.getElementById('cartography-container').addEventListener('click', function(event) {
-        // Only close if we didn't click a voronoi cell (cells stop propagation)
+      // Close detail panel when tapping background
+      container.addEventListener('click', function() {
         hideDetail();
       }, false);
 
       function highlightCell(d) {
-        // Brighten the hovered cell
         cells.filter(p => p.slug === d.slug)
           .transition().duration(150)
-          .attr('fill-opacity', 0.6)
-          .attr('stroke-width', 3);
+          .attr('fill-opacity', 0.35)
+          .attr('stroke-opacity', 0.8)
+          .attr('stroke-width', 2);
 
-        // Show connections for this post
         connectionGroup.selectAll('.connection-line')
           .filter(c => c.source.slug === d.slug || c.target.slug === d.slug)
           .transition().duration(150)
-          .attr('opacity', 0.7)
-          .attr('stroke-width', 2);
+          .attr('opacity', 0.5)
+          .attr('stroke-width', 1.5);
 
-        // Highlight connected cells
         const connectedSlugs = new Set();
         (d.connections || []).forEach(slug => connectedSlugs.add(slug));
         cells.filter(p => connectedSlugs.has(p.slug))
           .transition().duration(150)
-          .attr('fill-opacity', 0.45)
-          .attr('stroke-width', 2.5);
+          .attr('fill-opacity', 0.25)
+          .attr('stroke-width', 1.5);
       }
 
       function unhighlightCell(d) {
         cells.transition().duration(200)
-          .attr('fill-opacity', 0.25)
-          .attr('stroke-width', 1.5);
+          .attr('fill-opacity', 0.12)
+          .attr('stroke-opacity', 0.35)
+          .attr('stroke-width', 1);
 
         connectionGroup.selectAll('.connection-line')
           .transition().duration(200)
           .attr('opacity', 0);
       }
 
-      // Resize handler
+      // Resize
       window.addEventListener('resize', () => {
         width = container.clientWidth;
         height = container.clientHeight;
@@ -441,20 +403,22 @@
         document.getElementById('cartography-info-panel').classList.add('hidden');
       });
 
-      // Entrance animation
+      // Entrance animation (skip labels on touch)
       cells.attr('fill-opacity', 0).attr('stroke-opacity', 0);
       cells.transition()
-        .delay((d, i) => i * 15)
-        .duration(600)
-        .attr('fill-opacity', 0.25)
-        .attr('stroke-opacity', 0.5);
+        .delay((d, i) => i * 12)
+        .duration(500)
+        .attr('fill-opacity', 0.12)
+        .attr('stroke-opacity', 0.35);
 
-      labelGroup.selectAll('.cell-label')
-        .attr('opacity', 0)
-        .transition()
-        .delay((d, i) => 500 + i * 15)
-        .duration(400)
-        .attr('opacity', 1);
+      if (!isTouchDevice) {
+        labelGroup.selectAll('.cell-label')
+          .attr('opacity', 0)
+          .transition()
+          .delay((d, i) => 400 + i * 12)
+          .duration(300)
+          .attr('opacity', 1);
+      }
 
     })();
     </script>
@@ -464,7 +428,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background: #0a0a0f;
+        background: #fff;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
       }
 
@@ -485,7 +449,7 @@
         display: block;
       }
 
-      /* Navigation bar */
+      /* Nav */
       #cartography-nav {
         position: fixed;
         top: 0;
@@ -495,7 +459,8 @@
         display: flex;
         align-items: center;
         padding: 12px 20px;
-        background: linear-gradient(to bottom, rgba(10,10,15,0.95), rgba(10,10,15,0));
+        padding-top: calc(12px + env(safe-area-inset-top, 0px));
+        background: linear-gradient(to bottom, rgba(255,255,255,0.95), rgba(255,255,255,0));
         pointer-events: none;
       }
 
@@ -504,31 +469,30 @@
       }
 
       .cartography-home {
-        color: #9a9a9a;
+        color: #515151;
         text-decoration: none;
         font-size: 14px;
         font-weight: 600;
-        letter-spacing: 0.05em;
-        transition: color 0.2s;
+        letter-spacing: 0.02em;
       }
 
       .cartography-home:hover {
-        color: #fff;
+        color: #313131;
       }
 
       .cartography-title {
-        color: #555;
+        color: #999;
         font-size: 13px;
-        margin-left: 15px;
-        letter-spacing: 0.1em;
+        margin-left: 12px;
+        letter-spacing: 0.08em;
         text-transform: uppercase;
       }
 
       #cartography-info-btn {
         margin-left: auto;
-        background: rgba(255,255,255,0.08);
-        border: 1px solid rgba(255,255,255,0.15);
-        color: #9a9a9a;
+        background: rgba(0,0,0,0.04);
+        border: 1px solid #e5e5e5;
+        color: #767676;
         width: 28px;
         height: 28px;
         border-radius: 50%;
@@ -541,23 +505,23 @@
       }
 
       #cartography-info-btn:hover {
-        background: rgba(255,255,255,0.15);
-        color: #fff;
+        background: rgba(0,0,0,0.08);
+        color: #313131;
       }
 
-      /* Tooltip */
+      /* Tooltip (desktop) */
       #cartography-tooltip {
         position: fixed;
         z-index: 200;
-        background: rgba(15, 15, 22, 0.95);
-        border: 1px solid rgba(255,255,255,0.12);
-        border-radius: 8px;
-        padding: 14px 18px;
-        max-width: 320px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 6px;
+        padding: 12px 16px;
+        max-width: 300px;
         pointer-events: none;
         opacity: 0;
         transition: opacity 0.15s;
-        backdrop-filter: blur(10px);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
       }
 
       #cartography-tooltip.visible {
@@ -565,84 +529,77 @@
       }
 
       .tooltip-cluster {
-        font-size: 11px;
+        font-size: 10px;
         text-transform: uppercase;
-        letter-spacing: 0.1em;
-        margin-bottom: 4px;
+        letter-spacing: 0.08em;
+        margin-bottom: 3px;
         font-weight: 600;
       }
 
       .tooltip-title {
-        color: #fff;
-        font-size: 16px;
+        color: #313131;
+        font-size: 15px;
         font-weight: 600;
         margin-bottom: 2px;
         line-height: 1.3;
       }
 
       .tooltip-date {
-        color: #666;
-        font-size: 12px;
-        margin-bottom: 8px;
+        color: #999;
+        font-size: 11px;
+        margin-bottom: 6px;
       }
 
       .tooltip-insight {
-        color: #aaa;
-        font-size: 13px;
-        line-height: 1.5;
+        color: #767676;
+        font-size: 12px;
+        line-height: 1.45;
         font-style: italic;
-      }
-
-      .tooltip-action {
-        color: #5b8fd4;
-        font-size: 11px;
-        margin-top: 8px;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
       }
 
       /* Legend */
       #cartography-legend {
         position: fixed;
         bottom: 20px;
-        left: 20px;
+        left: 16px;
+        bottom: calc(16px + env(safe-area-inset-bottom, 0px));
         z-index: 100;
         display: flex;
         flex-direction: column;
-        gap: 6px;
+        gap: 4px;
       }
 
       .legend-item {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 7px;
         cursor: pointer;
-        padding: 4px 10px 4px 6px;
+        padding: 3px 8px 3px 5px;
         border-radius: 4px;
         transition: all 0.2s;
       }
 
       .legend-item:hover,
       .legend-item.active {
-        background: rgba(255,255,255,0.06);
+        background: rgba(0,0,0,0.04);
       }
 
       .legend-dot {
-        width: 10px;
-        height: 10px;
+        width: 8px;
+        height: 8px;
         border-radius: 50%;
         flex-shrink: 0;
       }
 
       .legend-label {
-        color: #777;
-        font-size: 12px;
+        color: #767676;
+        font-size: 11px;
         transition: color 0.2s;
       }
 
       .legend-item:hover .legend-label,
       .legend-item.active .legend-label {
-        color: #ccc;
+        color: #313131;
       }
 
       /* Info panel */
@@ -651,15 +608,15 @@
         top: 60px;
         right: 20px;
         z-index: 150;
-        background: rgba(15, 15, 22, 0.95);
-        border: 1px solid rgba(255,255,255,0.12);
-        border-radius: 12px;
-        padding: 24px 28px;
-        max-width: 380px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        padding: 20px 24px;
+        max-width: 360px;
         max-height: calc(100vh - 100px);
         overflow-y: auto;
-        backdrop-filter: blur(10px);
-        color: #bbb;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        color: #515151;
         font-size: 14px;
         line-height: 1.6;
         transition: opacity 0.2s, transform 0.2s;
@@ -672,18 +629,17 @@
       }
 
       #cartography-info-panel h2 {
-        color: #fff;
-        font-size: 18px;
-        margin: 0 0 12px;
-        letter-spacing: 0.02em;
+        color: #313131;
+        font-size: 17px;
+        margin: 0 0 10px;
       }
 
       #cartography-info-panel p {
-        margin: 0 0 12px;
+        margin: 0 0 10px;
       }
 
       #cartography-info-panel a {
-        color: #5b8fd4;
+        color: #268bd2;
         text-decoration: none;
       }
 
@@ -693,56 +649,35 @@
 
       #cartography-info-close {
         position: absolute;
-        top: 12px;
-        right: 16px;
+        top: 10px;
+        right: 14px;
         background: none;
         border: none;
-        color: #666;
-        font-size: 22px;
+        color: #999;
+        font-size: 20px;
         cursor: pointer;
         padding: 0;
         line-height: 1;
       }
 
       #cartography-info-close:hover {
-        color: #fff;
-      }
-
-      /* Voronoi cell styles */
-      .voronoi-cell {
-        cursor: pointer;
-        transition: fill-opacity 0.2s;
-      }
-
-      .cell-label {
-        fill-opacity: 0.8;
-        font-weight: 500;
-        text-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 8px rgba(0,0,0,0.5);
-      }
-
-      .cluster-label {
-        text-shadow: 0 2px 6px rgba(0,0,0,0.9);
-        letter-spacing: 0.15em;
-      }
-
-      .connection-line {
-        pointer-events: none;
+        color: #313131;
       }
 
       /* Detail panel */
       #cartography-detail {
         position: fixed;
         z-index: 200;
-        background: rgba(15, 15, 22, 0.97);
-        border: 1px solid rgba(255,255,255,0.12);
-        border-radius: 12px;
-        padding: 20px 24px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        padding: 18px 22px;
         max-width: 360px;
-        width: calc(100vw - 40px);
-        bottom: 80px;
+        width: calc(100vw - 32px);
+        bottom: calc(16px + env(safe-area-inset-bottom, 0px));
         left: 50%;
         transform: translateX(-50%) translateY(20px);
-        backdrop-filter: blur(12px);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.2s, transform 0.2s;
@@ -760,33 +695,34 @@
         right: 14px;
         background: none;
         border: none;
-        color: #666;
-        font-size: 22px;
+        color: #999;
+        font-size: 20px;
         cursor: pointer;
-        padding: 0;
+        padding: 4px;
         line-height: 1;
       }
 
       #detail-close:hover {
-        color: #fff;
+        color: #313131;
       }
 
       .detail-cluster {
-        font-size: 11px;
+        font-size: 10px;
         text-transform: uppercase;
-        letter-spacing: 0.1em;
-        margin-bottom: 6px;
+        letter-spacing: 0.08em;
+        margin-bottom: 4px;
         font-weight: 600;
       }
 
       .detail-title {
-        color: #fff;
-        font-size: 18px;
+        color: #268bd2;
+        font-size: 17px;
         font-weight: 600;
         line-height: 1.3;
         text-decoration: none;
         display: block;
-        margin-bottom: 4px;
+        margin-bottom: 3px;
+        padding-right: 24px;
       }
 
       .detail-title:hover {
@@ -794,54 +730,62 @@
       }
 
       .detail-date {
-        color: #666;
-        font-size: 12px;
-        margin-bottom: 10px;
+        color: #999;
+        font-size: 11px;
+        margin-bottom: 8px;
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: 6px;
       }
 
       .detail-ai {
         display: inline-block;
-        font-size: 10px;
+        font-size: 9px;
         text-transform: uppercase;
-        letter-spacing: 0.06em;
-        padding: 2px 6px;
+        letter-spacing: 0.05em;
+        padding: 1px 5px;
         border-radius: 3px;
-        background: rgba(255,255,255,0.08);
-        color: #888;
+        background: #f4f4f4;
+        color: #767676;
+        border: 1px solid #e5e5e5;
       }
 
       .detail-insight {
-        color: #aaa;
+        color: #767676;
         font-size: 13px;
-        line-height: 1.5;
+        line-height: 1.45;
         font-style: italic;
-        margin-bottom: 8px;
+        margin-bottom: 6px;
       }
 
       .detail-summary {
-        color: #888;
+        color: #999;
         font-size: 12px;
-        line-height: 1.5;
+        line-height: 1.45;
       }
 
-      /* Mobile adjustments */
+      /* Voronoi cell styles */
+      .voronoi-cell {
+        cursor: pointer;
+      }
+
+      .cell-label {
+        fill-opacity: 0.85;
+        font-weight: 500;
+      }
+
+      .cluster-label {
+        letter-spacing: 0.12em;
+      }
+
+      .connection-line {
+        pointer-events: none;
+      }
+
+      /* Mobile */
       @media (max-width: 600px) {
-        #cartography-legend {
-          bottom: 10px;
-          left: 10px;
-          gap: 3px;
-        }
-
-        .legend-label {
-          font-size: 10px;
-        }
-
-        .legend-dot {
-          width: 8px;
-          height: 8px;
+        .cartography-title {
+          display: none;
         }
 
         #cartography-info-panel {
@@ -849,23 +793,25 @@
           left: 10px;
           max-width: none;
         }
-
-        .cartography-title {
-          display: none;
-        }
       }
 
-      /* Touch devices: hide labels and cluster names by default */
+      /* Touch: hide labels, shift legend up when detail panel is visible */
       @media (hover: none), (pointer: coarse) {
         .cell-label,
         .cluster-label {
           display: none;
         }
+
+        /* When detail panel is visible, legend hides to avoid overlap */
+        #cartography-detail.visible ~ #cartography-legend {
+          opacity: 0;
+          pointer-events: none;
+        }
       }
 
-      /* Scrollbar for info panel */
+      /* Scrollbar */
       #cartography-info-panel::-webkit-scrollbar {
-        width: 4px;
+        width: 3px;
       }
 
       #cartography-info-panel::-webkit-scrollbar-track {
@@ -873,7 +819,7 @@
       }
 
       #cartography-info-panel::-webkit-scrollbar-thumb {
-        background: rgba(255,255,255,0.15);
+        background: #e5e5e5;
         border-radius: 2px;
       }
     </style>

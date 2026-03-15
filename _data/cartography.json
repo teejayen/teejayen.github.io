@@ -10,7 +10,7 @@
       "id": "philosophy",
       "name": "Philosophy & Self",
       "description": "Stoicism, minimalism, presence, introspection - the examined life",
-      "color": "#d4a574",
+      "color": "#b8860b",
       "cx": 0.15,
       "cy": 0.78
     },
@@ -18,7 +18,7 @@
       "id": "ai-creation",
       "name": "AI & Creation",
       "description": "Building with AI, Claude Code, workflows, vibe coding - the new craft",
-      "color": "#5b8fd4",
+      "color": "#2e6da4",
       "cx": 0.48,
       "cy": 0.62
     },
@@ -26,7 +26,7 @@
       "id": "microsoft",
       "name": "Microsoft & Cloud",
       "description": "Office 365, Azure AD, Exchange, Teams - the enterprise stack",
-      "color": "#7ab87a",
+      "color": "#4a8c4a",
       "cx": 0.82,
       "cy": 0.32
     },
@@ -34,7 +34,7 @@
       "id": "security",
       "name": "Security & Defence",
       "description": "Phishing, CTF, firewalls, endpoint protection - the digital perimeter",
-      "color": "#c75c5c",
+      "color": "#b04040",
       "cx": 0.72,
       "cy": 0.55
     },
@@ -42,7 +42,7 @@
       "id": "infrastructure",
       "name": "Systems & Infrastructure",
       "description": "Linux, Docker, networking, troubleshooting - the plumbing",
-      "color": "#8a8a8a",
+      "color": "#666",
       "cx": 0.85,
       "cy": 0.18
     },
@@ -50,7 +50,7 @@
       "id": "personal",
       "name": "Personal Growth",
       "description": "Reading, running, BJJ, habits, routines - the practice",
-      "color": "#75b5aa",
+      "color": "#4a8f83",
       "cx": 0.22,
       "cy": 0.40
     },
@@ -58,7 +58,7 @@
       "id": "ai-society",
       "name": "AI & Society",
       "description": "Capitalism, future of work, economics, organisational AI - the big picture",
-      "color": "#d4a03c",
+      "color": "#c4880c",
       "cx": 0.38,
       "cy": 0.85
     }
