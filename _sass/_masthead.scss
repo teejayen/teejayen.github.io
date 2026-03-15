@@ -14,7 +14,7 @@
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: $gray-4;
+  color: var(--masthead-color);
 
   a {
     color: inherit;

@@ -27,15 +27,15 @@ html {
 }
 
 body {
-  color: $body-color;
-  background-color: $body-bg;
+  color: var(--body-color);
+  background-color: var(--body-bg);
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
 a {
-  color: $link-color;
+  color: var(--link-color);
   text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
@@ -60,14 +60,14 @@ table {
   margin-bottom: 1rem;
   width: 100%;
   font-size: 85%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--border-color);
   border-collapse: collapse;
 }
 
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--border-color);
 }
 
 th {
@@ -76,5 +76,5 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: var(--table-stripe-bg);
 }
