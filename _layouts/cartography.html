@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div id="cartography-nav">
+      <a href="{{ site.baseurl }}/" class="cartography-home">{{ site.title }}</a>
+      <span class="cartography-title">Neural Cartography</span>
+      <button id="cartography-info-btn" aria-label="About this visualisation">?</button>
+    </div>
+
+    <div id="cartography-container"></div>
+
+    <div id="cartography-tooltip"></div>
+
+    <div id="cartography-legend"></div>
+
+    <div id="cartography-info-panel" class="hidden">
+      <button id="cartography-info-close" aria-label="Close">&times;</button>
+      <h2>Neural Cartography</h2>
+      {{ content }}
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-delaunay@6"></script>
+    <script>
+    (function() {
+      // Data embedded at build time by Jekyll
+      const data = {{ site.data.cartography | jsonify }};
+
+      const container = document.getElementById('cartography-container');
+      const tooltip = document.getElementById('cartography-tooltip');
+      const legend = document.getElementById('cartography-legend');
+
+      // Build cluster color map
+      const clusterMap = {};
+      data.clusters.forEach(c => { clusterMap[c.id] = c; });
+
+      // Build slug lookup for connections
+      const postMap = {};
+      data.posts.forEach(p => { postMap[p.slug] = p; });
+
+      // Render legend
+      legend.innerHTML = data.clusters.map(c =>
+        `<div class="legend-item" data-cluster="${c.id}">
+          <span class="legend-dot" style="background:${c.color}"></span>
+          <span class="legend-label">${c.name}</span>
+        </div>`
+      ).join('');
+
+      // Legend hover filtering
+      let activeCluster = null;
+      legend.querySelectorAll('.legend-item').forEach(item => {
+        item.addEventListener('mouseenter', () => {
+          activeCluster = item.dataset.cluster;
+          renderHighlight();
+        });
+        item.addEventListener('mouseleave', () => {
+          activeCluster = null;
+          renderHighlight();
+        });
+        item.addEventListener('click', () => {
+          if (activeCluster === item.dataset.cluster && item.classList.contains('active')) {
+            activeCluster = null;
+            item.classList.remove('active');
+          } else {
+            legend.querySelectorAll('.legend-item').forEach(i => i.classList.remove('active'));
+            activeCluster = item.dataset.cluster;
+            item.classList.add('active');
+          }
+          renderHighlight();
+        });
+      });
+
+      function renderHighlight() {
+        svg.selectAll('.voronoi-cell')
+          .transition().duration(200)
+          .attr('opacity', d => {
+            if (!activeCluster) return 1;
+            return d.cluster === activeCluster ? 1 : 0.15;
+          });
+        svg.selectAll('.cell-label')
+          .transition().duration(200)
+          .attr('opacity', d => {
+            if (!activeCluster) return 1;
+            return d.cluster === activeCluster ? 1 : 0.1;
+          });
+        svg.selectAll('.connection-line')
+          .transition().duration(200)
+          .attr('opacity', d => {
+            if (!activeCluster) return 0;
+            return (d.source.cluster === activeCluster || d.target.cluster === activeCluster) ? 0.6 : 0;
+          });
+      }
+
+      // SVG setup
+      let width = container.clientWidth;
+      let height = container.clientHeight;
+
+      const svg = d3.select(container).append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      const defs = svg.append('defs');
+
+      // Subtle noise pattern for tessellation texture
+      const filter = defs.append('filter').attr('id', 'noise');
+      filter.append('feTurbulence')
+        .attr('type', 'fractalNoise')
+        .attr('baseFrequency', '0.65')
+        .attr('numOctaves', '3')
+        .attr('stitchTiles', 'stitch');
+      filter.append('feColorMatrix')
+        .attr('type', 'saturate')
+        .attr('values', '0');
+      filter.append('feComponentTransfer')
+        .selectAll('funcR,funcG,funcB').data(['R','G','B']).join('feFunc' + 'R')
+        .attr('type', 'linear')
+        .attr('slope', '0.05');
+
+      const zoomGroup = svg.append('g');
+
+      // Zoom behavior
+      const zoom = d3.zoom()
+        .scaleExtent([0.5, 8])
+        .on('zoom', (event) => {
+          zoomGroup.attr('transform', event.transform);
+          // Scale labels inversely for readability
+          const k = event.transform.k;
+          zoomGroup.selectAll('.cell-label')
+            .attr('font-size', Math.max(9, 12 / k) + 'px');
+          zoomGroup.selectAll('.cluster-label')
+            .attr('font-size', Math.max(11, 14 / k) + 'px');
+        });
+
+      svg.call(zoom);
+
+      // Margin to keep cells within viewport
+      const margin = 40;
+
+      function projectX(x) { return margin + x * (width - 2 * margin); }
+      function projectY(y) { return margin + y * (height - 2 * margin); }
+
+      // Compute Voronoi
+      function computeVoronoi() {
+        const points = data.posts.map(p => [projectX(p.x), projectY(p.y)]);
+        const delaunay = d3.Delaunay.from(points);
+        const voronoi = delaunay.voronoi([0, 0, width, height]);
+        return { delaunay, voronoi, points };
+      }
+
+      // Connection data
+      const connections = [];
+      data.posts.forEach(p => {
+        (p.connections || []).forEach(slug => {
+          const target = postMap[slug];
+          if (target && p.slug < slug) { // avoid duplicates
+            connections.push({ source: p, target: target });
+          }
+        });
+      });
+
+      // Initial render
+      let { delaunay, voronoi, points } = computeVoronoi();
+
+      // Draw connection lines (hidden by default)
+      const connectionGroup = zoomGroup.append('g').attr('class', 'connections');
+      connectionGroup.selectAll('.connection-line')
+        .data(connections)
+        .join('line')
+        .attr('class', 'connection-line')
+        .attr('x1', d => projectX(d.source.x))
+        .attr('y1', d => projectY(d.source.y))
+        .attr('x2', d => projectX(d.target.x))
+        .attr('y2', d => projectY(d.target.y))
+        .attr('stroke', d => clusterMap[d.source.cluster].color)
+        .attr('stroke-width', 1)
+        .attr('opacity', 0)
+        .attr('stroke-dasharray', '4,4');
+
+      // Draw voronoi cells
+      const cellGroup = zoomGroup.append('g').attr('class', 'cells');
+
+      const cells = cellGroup.selectAll('.voronoi-cell')
+        .data(data.posts)
+        .join('path')
+        .attr('class', 'voronoi-cell')
+        .attr('d', (d, i) => voronoi.renderCell(i))
+        .attr('fill', d => {
+          const c = clusterMap[d.cluster];
+          return c ? c.color : '#666';
+        })
+        .attr('fill-opacity', 0.25)
+        .attr('stroke', d => {
+          const c = clusterMap[d.cluster];
+          return c ? c.color : '#666';
+        })
+        .attr('stroke-opacity', 0.5)
+        .attr('stroke-width', 1.5)
+        .attr('data-slug', d => d.slug)
+        .on('mouseenter', function(event, d) {
+          showTooltip(event, d);
+          highlightCell(d);
+        })
+        .on('mousemove', function(event) {
+          moveTooltip(event);
+        })
+        .on('mouseleave', function(event, d) {
+          hideTooltip();
+          unhighlightCell(d);
+        })
+        .on('click', function(event, d) {
+          window.location.href = d.url;
+        });
+
+      // Cell labels
+      const labelGroup = zoomGroup.append('g').attr('class', 'labels');
+
+      labelGroup.selectAll('.cell-label')
+        .data(data.posts)
+        .join('text')
+        .attr('class', 'cell-label')
+        .attr('x', (d, i) => {
+          const cell = voronoi.cellPolygon(i);
+          if (!cell) return projectX(d.x);
+          return d3.mean(cell, p => p[0]);
+        })
+        .attr('y', (d, i) => {
+          const cell = voronoi.cellPolygon(i);
+          if (!cell) return projectY(d.y);
+          return d3.mean(cell, p => p[1]);
+        })
+        .attr('text-anchor', 'middle')
+        .attr('dominant-baseline', 'central')
+        .attr('font-size', '12px')
+        .attr('fill', d => clusterMap[d.cluster].color)
+        .attr('pointer-events', 'none')
+        .text(d => {
+          // Truncate long titles
+          const maxLen = 20;
+          return d.title.length > maxLen ? d.title.substring(0, maxLen) + '...' : d.title;
+        });
+
+      // Cluster labels
+      const clusterLabelGroup = zoomGroup.append('g').attr('class', 'cluster-labels');
+
+      data.clusters.forEach(cluster => {
+        const clusterPosts = data.posts.filter(p => p.cluster === cluster.id);
+        if (clusterPosts.length === 0) return;
+        const cx = d3.mean(clusterPosts, p => projectX(p.x));
+        const cy = d3.mean(clusterPosts, p => projectY(p.y));
+
+        clusterLabelGroup.append('text')
+          .attr('class', 'cluster-label')
+          .attr('x', cx)
+          .attr('y', cy - 25)
+          .attr('text-anchor', 'middle')
+          .attr('font-size', '14px')
+          .attr('font-weight', '700')
+          .attr('fill', cluster.color)
+          .attr('opacity', 0.7)
+          .attr('pointer-events', 'none')
+          .text(cluster.name.toUpperCase());
+      });
+
+      // AI indicator dots on cells
+      const aiGroup = zoomGroup.append('g').attr('class', 'ai-dots');
+
+      data.posts.forEach((p, i) => {
+        if (p.ai_tag) {
+          const cell = voronoi.cellPolygon(i);
+          if (!cell) return;
+          const cx = d3.mean(cell, pt => pt[0]);
+          const cy = d3.mean(cell, pt => pt[1]);
+
+          aiGroup.append('circle')
+            .attr('cx', cx)
+            .attr('cy', cy + 15)
+            .attr('r', 3)
+            .attr('fill', p.ai_tag === 'authored' ? '#5b8fd4' : p.ai_tag === 'written' ? '#7ab87a' : '#d4a574')
+            .attr('opacity', 0.6)
+            .attr('pointer-events', 'none');
+        }
+      });
+
+      // Tooltip functions
+      function showTooltip(event, d) {
+        const cluster = clusterMap[d.cluster];
+        const year = d.date.split('-')[0];
+        tooltip.innerHTML = `
+          <div class="tooltip-cluster" style="color:${cluster.color}">${cluster.name}</div>
+          <div class="tooltip-title">${d.title}</div>
+          <div class="tooltip-date">${d.date}</div>
+          <div class="tooltip-insight">${d.insight}</div>
+          <div class="tooltip-action">Click to read &rarr;</div>
+        `;
+        tooltip.classList.add('visible');
+        moveTooltip(event);
+      }
+
+      function moveTooltip(event) {
+        const x = event.clientX;
+        const y = event.clientY;
+        const tw = tooltip.offsetWidth;
+        const th = tooltip.offsetHeight;
+
+        let left = x + 15;
+        let top = y - 10;
+
+        if (left + tw > width - 10) left = x - tw - 15;
+        if (top + th > height - 10) top = y - th + 10;
+        if (top < 10) top = 10;
+
+        tooltip.style.left = left + 'px';
+        tooltip.style.top = top + 'px';
+      }
+
+      function hideTooltip() {
+        tooltip.classList.remove('visible');
+      }
+
+      function highlightCell(d) {
+        // Brighten the hovered cell
+        cells.filter(p => p.slug === d.slug)
+          .transition().duration(150)
+          .attr('fill-opacity', 0.6)
+          .attr('stroke-width', 3);
+
+        // Show connections for this post
+        connectionGroup.selectAll('.connection-line')
+          .filter(c => c.source.slug === d.slug || c.target.slug === d.slug)
+          .transition().duration(150)
+          .attr('opacity', 0.7)
+          .attr('stroke-width', 2);
+
+        // Highlight connected cells
+        const connectedSlugs = new Set();
+        (d.connections || []).forEach(slug => connectedSlugs.add(slug));
+        cells.filter(p => connectedSlugs.has(p.slug))
+          .transition().duration(150)
+          .attr('fill-opacity', 0.45)
+          .attr('stroke-width', 2.5);
+      }
+
+      function unhighlightCell(d) {
+        cells.transition().duration(200)
+          .attr('fill-opacity', 0.25)
+          .attr('stroke-width', 1.5);
+
+        connectionGroup.selectAll('.connection-line')
+          .transition().duration(200)
+          .attr('opacity', 0);
+      }
+
+      // Resize handler
+      window.addEventListener('resize', () => {
+        width = container.clientWidth;
+        height = container.clientHeight;
+        svg.attr('width', width).attr('height', height);
+
+        const result = computeVoronoi();
+        voronoi = result.voronoi;
+        delaunay = result.delaunay;
+
+        cells.attr('d', (d, i) => voronoi.renderCell(i));
+
+        labelGroup.selectAll('.cell-label')
+          .attr('x', (d, i) => {
+            const cell = voronoi.cellPolygon(i);
+            if (!cell) return projectX(d.x);
+            return d3.mean(cell, p => p[0]);
+          })
+          .attr('y', (d, i) => {
+            const cell = voronoi.cellPolygon(i);
+            if (!cell) return projectY(d.y);
+            return d3.mean(cell, p => p[1]);
+          });
+
+        connectionGroup.selectAll('.connection-line')
+          .attr('x1', d => projectX(d.source.x))
+          .attr('y1', d => projectY(d.source.y))
+          .attr('x2', d => projectX(d.target.x))
+          .attr('y2', d => projectY(d.target.y));
+      });
+
+      // Info panel
+      document.getElementById('cartography-info-btn').addEventListener('click', () => {
+        document.getElementById('cartography-info-panel').classList.toggle('hidden');
+      });
+      document.getElementById('cartography-info-close').addEventListener('click', () => {
+        document.getElementById('cartography-info-panel').classList.add('hidden');
+      });
+
+      // Entrance animation
+      cells.attr('fill-opacity', 0).attr('stroke-opacity', 0);
+      cells.transition()
+        .delay((d, i) => i * 15)
+        .duration(600)
+        .attr('fill-opacity', 0.25)
+        .attr('stroke-opacity', 0.5);
+
+      labelGroup.selectAll('.cell-label')
+        .attr('opacity', 0)
+        .transition()
+        .delay((d, i) => 500 + i * 15)
+        .duration(400)
+        .attr('opacity', 1);
+
+    })();
+    </script>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #0a0a0f;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+      }
+
+      #cartography-container {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        cursor: grab;
+      }
+
+      #cartography-container:active {
+        cursor: grabbing;
+      }
+
+      #cartography-container svg {
+        display: block;
+      }
+
+      /* Navigation bar */
+      #cartography-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        padding: 12px 20px;
+        background: linear-gradient(to bottom, rgba(10,10,15,0.95), rgba(10,10,15,0));
+        pointer-events: none;
+      }
+
+      #cartography-nav > * {
+        pointer-events: all;
+      }
+
+      .cartography-home {
+        color: #9a9a9a;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        transition: color 0.2s;
+      }
+
+      .cartography-home:hover {
+        color: #fff;
+      }
+
+      .cartography-title {
+        color: #555;
+        font-size: 13px;
+        margin-left: 15px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      #cartography-info-btn {
+        margin-left: auto;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.15);
+        color: #9a9a9a;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+      }
+
+      #cartography-info-btn:hover {
+        background: rgba(255,255,255,0.15);
+        color: #fff;
+      }
+
+      /* Tooltip */
+      #cartography-tooltip {
+        position: fixed;
+        z-index: 200;
+        background: rgba(15, 15, 22, 0.95);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 8px;
+        padding: 14px 18px;
+        max-width: 320px;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.15s;
+        backdrop-filter: blur(10px);
+      }
+
+      #cartography-tooltip.visible {
+        opacity: 1;
+      }
+
+      .tooltip-cluster {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 4px;
+        font-weight: 600;
+      }
+
+      .tooltip-title {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 2px;
+        line-height: 1.3;
+      }
+
+      .tooltip-date {
+        color: #666;
+        font-size: 12px;
+        margin-bottom: 8px;
+      }
+
+      .tooltip-insight {
+        color: #aaa;
+        font-size: 13px;
+        line-height: 1.5;
+        font-style: italic;
+      }
+
+      .tooltip-action {
+        color: #5b8fd4;
+        font-size: 11px;
+        margin-top: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      /* Legend */
+      #cartography-legend {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        padding: 4px 10px 4px 6px;
+        border-radius: 4px;
+        transition: all 0.2s;
+      }
+
+      .legend-item:hover,
+      .legend-item.active {
+        background: rgba(255,255,255,0.06);
+      }
+
+      .legend-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        flex-shrink: 0;
+      }
+
+      .legend-label {
+        color: #777;
+        font-size: 12px;
+        transition: color 0.2s;
+      }
+
+      .legend-item:hover .legend-label,
+      .legend-item.active .legend-label {
+        color: #ccc;
+      }
+
+      /* Info panel */
+      #cartography-info-panel {
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        z-index: 150;
+        background: rgba(15, 15, 22, 0.95);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 12px;
+        padding: 24px 28px;
+        max-width: 380px;
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+        backdrop-filter: blur(10px);
+        color: #bbb;
+        font-size: 14px;
+        line-height: 1.6;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+
+      #cartography-info-panel.hidden {
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-10px);
+      }
+
+      #cartography-info-panel h2 {
+        color: #fff;
+        font-size: 18px;
+        margin: 0 0 12px;
+        letter-spacing: 0.02em;
+      }
+
+      #cartography-info-panel p {
+        margin: 0 0 12px;
+      }
+
+      #cartography-info-panel a {
+        color: #5b8fd4;
+        text-decoration: none;
+      }
+
+      #cartography-info-panel a:hover {
+        text-decoration: underline;
+      }
+
+      #cartography-info-close {
+        position: absolute;
+        top: 12px;
+        right: 16px;
+        background: none;
+        border: none;
+        color: #666;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 0;
+        line-height: 1;
+      }
+
+      #cartography-info-close:hover {
+        color: #fff;
+      }
+
+      /* Voronoi cell styles */
+      .voronoi-cell {
+        cursor: pointer;
+        transition: fill-opacity 0.2s;
+      }
+
+      .cell-label {
+        fill-opacity: 0.8;
+        font-weight: 500;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 8px rgba(0,0,0,0.5);
+      }
+
+      .cluster-label {
+        text-shadow: 0 2px 6px rgba(0,0,0,0.9);
+        letter-spacing: 0.15em;
+      }
+
+      .connection-line {
+        pointer-events: none;
+      }
+
+      /* Mobile adjustments */
+      @media (max-width: 600px) {
+        #cartography-legend {
+          bottom: 10px;
+          left: 10px;
+          gap: 3px;
+        }
+
+        .legend-label {
+          font-size: 10px;
+        }
+
+        .legend-dot {
+          width: 8px;
+          height: 8px;
+        }
+
+        #cartography-info-panel {
+          right: 10px;
+          left: 10px;
+          max-width: none;
+        }
+
+        .cartography-title {
+          display: none;
+        }
+      }
+
+      /* Scrollbar for info panel */
+      #cartography-info-panel::-webkit-scrollbar {
+        width: 4px;
+      }
+
+      #cartography-info-panel::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      #cartography-info-panel::-webkit-scrollbar-thumb {
+        background: rgba(255,255,255,0.15);
+        border-radius: 2px;
+      }
+    </style>
+
+    {% if site.analytics_id %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.analytics_id }}');
+    </script>
+    {% endif %}
+  </body>
+</html>
