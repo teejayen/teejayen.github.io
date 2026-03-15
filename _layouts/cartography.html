@@ -14,6 +14,7 @@
     <div id="cartography-container"></div>
 
     <div id="cartography-tooltip"></div>
+    <div id="cartography-detail"></div>
 
     <div id="cartography-legend"></div>
 
@@ -201,18 +202,24 @@
         .attr('stroke-width', 1.5)
         .attr('data-slug', d => d.slug)
         .on('mouseenter', function(event, d) {
-          showTooltip(event, d);
-          highlightCell(d);
+          if (!isTouchDevice) {
+            showTooltip(event, d);
+            highlightCell(d);
+          }
         })
         .on('mousemove', function(event) {
-          moveTooltip(event);
+          if (!isTouchDevice) moveTooltip(event);
         })
         .on('mouseleave', function(event, d) {
-          hideTooltip();
-          unhighlightCell(d);
+          if (!isTouchDevice) {
+            hideTooltip();
+            unhighlightCell(d);
+          }
         })
         .on('click', function(event, d) {
-          window.location.href = d.url;
+          event.stopPropagation();
+          hideTooltip();
+          showDetail(d);
         });
 
       // Cell labels
@@ -285,10 +292,12 @@
         }
       });
 
+      // Touch/mobile detection
+      const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+
       // Tooltip functions
       function showTooltip(event, d) {
         const cluster = clusterMap[d.cluster];
-        const year = d.date.split('-')[0];
         tooltip.innerHTML = `
           <div class="tooltip-cluster" style="color:${cluster.color}">${cluster.name}</div>
           <div class="tooltip-title">${d.title}</div>
@@ -320,6 +329,45 @@
       function hideTooltip() {
         tooltip.classList.remove('visible');
       }
+
+      // Detail panel (replaces direct navigation on click/tap)
+      const detailPanel = document.getElementById('cartography-detail');
+      let activePost = null;
+
+      function showDetail(d) {
+        const cluster = clusterMap[d.cluster];
+        const aiLabel = d.ai_tag ? `<span class="detail-ai">${d.ai_tag}</span>` : '';
+        detailPanel.innerHTML = `
+          <button id="detail-close" aria-label="Close">&times;</button>
+          <div class="detail-cluster" style="color:${cluster.color}">${cluster.name}</div>
+          <a href="${d.url}" class="detail-title">${d.title}</a>
+          <div class="detail-date">${d.date}${aiLabel}</div>
+          <div class="detail-insight">${d.insight}</div>
+          <div class="detail-summary">${d.summary}</div>
+        `;
+        detailPanel.classList.add('visible');
+        activePost = d;
+        highlightCell(d);
+
+        document.getElementById('detail-close').addEventListener('click', (e) => {
+          e.stopPropagation();
+          hideDetail();
+        });
+      }
+
+      function hideDetail() {
+        detailPanel.classList.remove('visible');
+        if (activePost) {
+          unhighlightCell(activePost);
+          activePost = null;
+        }
+      }
+
+      // Close detail panel when tapping/clicking empty space (background)
+      document.getElementById('cartography-container').addEventListener('click', function(event) {
+        // Only close if we didn't click a voronoi cell (cells stop propagation)
+        hideDetail();
+      }, false);
 
       function highlightCell(d) {
         // Brighten the hovered cell
@@ -681,6 +729,104 @@
         pointer-events: none;
       }
 
+      /* Detail panel */
+      #cartography-detail {
+        position: fixed;
+        z-index: 200;
+        background: rgba(15, 15, 22, 0.97);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 12px;
+        padding: 20px 24px;
+        max-width: 360px;
+        width: calc(100vw - 40px);
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%) translateY(20px);
+        backdrop-filter: blur(12px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+
+      #cartography-detail.visible {
+        opacity: 1;
+        pointer-events: all;
+        transform: translateX(-50%) translateY(0);
+      }
+
+      #detail-close {
+        position: absolute;
+        top: 10px;
+        right: 14px;
+        background: none;
+        border: none;
+        color: #666;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 0;
+        line-height: 1;
+      }
+
+      #detail-close:hover {
+        color: #fff;
+      }
+
+      .detail-cluster {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 6px;
+        font-weight: 600;
+      }
+
+      .detail-title {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.3;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .detail-title:hover {
+        text-decoration: underline;
+      }
+
+      .detail-date {
+        color: #666;
+        font-size: 12px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .detail-ai {
+        display: inline-block;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        padding: 2px 6px;
+        border-radius: 3px;
+        background: rgba(255,255,255,0.08);
+        color: #888;
+      }
+
+      .detail-insight {
+        color: #aaa;
+        font-size: 13px;
+        line-height: 1.5;
+        font-style: italic;
+        margin-bottom: 8px;
+      }
+
+      .detail-summary {
+        color: #888;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+
       /* Mobile adjustments */
       @media (max-width: 600px) {
         #cartography-legend {
@@ -705,6 +851,14 @@
         }
 
         .cartography-title {
+          display: none;
+        }
+      }
+
+      /* Touch devices: hide labels and cluster names by default */
+      @media (hover: none), (pointer: coarse) {
+        .cell-label,
+        .cluster-label {
           display: none;
         }
       }
