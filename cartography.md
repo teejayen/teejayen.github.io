@@ -1,6 +1,6 @@
 ---
 layout: cartography
-title: "Neural Cartography"
+title: "Cartography"
 permalink: /cartography/
 description: "An AI-generated semantic map of every post on this blog, positioned by meaning, not date."
 ---
@@ -9,9 +9,7 @@ Every post on this blog is a tile in the mosaic. Nothing is sorted by date or ta
 
 An AI read every post and placed it in this space based on **what it means** - not when it was written or what I called it. Posts that share ideas cluster together. Threads of connection emerge that I didn't consciously plan.
 
-**Hover** a cell to see what the AI found. **Click** to read. **Scroll** to zoom. **Drag** to pan. Use the **legend** to isolate themes.
-
-The connections between posts - the dashed lines that appear on hover - are relationships the AI identified. Some are obvious. Some surprised me.
+**Tap** or **click** a cell to see what the AI found and link through to the post. **Pinch** to zoom. **Drag** to pan. Use the **legend** to filter by theme.
 
 {{ site.data.cartography.meta.post_count }} posts. {{ site.data.cartography.clusters | size }} emergent themes. One map of eight years of thinking.
 
