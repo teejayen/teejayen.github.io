@@ -44,7 +44,7 @@
 
       // Render legend
       legend.innerHTML = data.clusters.map(c =>
-        `<div class="legend-item" data-cluster="${c.id}">
+        `<div class="legend-item" data-cluster="${c.id}" tabindex="0" role="button">
           <span class="legend-dot" style="background:${c.color}"></span>
           <span class="legend-label">${c.name}</span>
         </div>`
@@ -150,9 +150,9 @@
           zoomGroup.attr('transform', event.transform);
           const k = event.transform.k;
           zoomGroup.selectAll('.cell-label')
-            .attr('font-size', Math.max(8, 11 / k) + 'px');
+            .attr('font-size', Math.min(14, Math.max(8, 11 / k)) + 'px');
           zoomGroup.selectAll('.cluster-label')
-            .attr('font-size', Math.max(10, 13 / k) + 'px');
+            .attr('font-size', Math.min(18, Math.max(10, 13 / k)) + 'px');
         });
 
       svg.call(zoom);
@@ -219,7 +219,12 @@
           }
         })
         .on('mousemove', function(event) {
-          if (!isTouchDevice) moveTooltip(event);
+          if (!isTouchDevice && !tooltipRAF) {
+            tooltipRAF = requestAnimationFrame(() => {
+              moveTooltip(event);
+              tooltipRAF = null;
+            });
+          }
         })
         .on('mouseleave', function(event, d) {
           if (!isTouchDevice) {
@@ -280,6 +285,7 @@
       });
 
       // Tooltip (desktop only)
+      let tooltipRAF = null;
       function showTooltip(event, d) {
         const cluster = clusterMap[d.cluster];
         tooltip.innerHTML = `
@@ -300,6 +306,7 @@
         let left = x + 15;
         let top = y - 10;
         if (left + tw > width - 10) left = x - tw - 15;
+        if (left < 10) left = 10;
         if (top + th > height - 10) top = y - th + 10;
         if (top < 10) top = 10;
         tooltip.style.left = left + 'px';
@@ -314,7 +321,15 @@
       const detailPanel = document.getElementById('cartography-detail');
       let activePost = null;
 
+      // Prevent taps on the detail panel from dismissing it (attached once)
+      detailPanel.addEventListener('click', (e) => {
+        e.stopPropagation();
+      });
+
       function showDetail(d) {
+        // Close info panel if open
+        document.getElementById('cartography-info-panel').classList.add('hidden');
+
         const cluster = clusterMap[d.cluster];
         const aiLabel = d.ai_tag ? ` &middot; ${d.ai_tag}` : '';
         detailPanel.innerHTML = `
@@ -339,11 +354,6 @@
         document.getElementById('detail-close').addEventListener('click', (e) => {
           e.stopPropagation();
           hideDetail();
-        });
-
-        // Prevent taps on the detail panel from dismissing it
-        detailPanel.addEventListener('click', (e) => {
-          e.stopPropagation();
         });
       }
 
@@ -395,8 +405,13 @@
         if (activeCluster) renderHighlight();
       }
 
-      // Resize
+      // Resize (debounced)
+      let resizeTimer;
       window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(handleResize, 150);
+      });
+      function handleResize() {
         width = container.clientWidth;
         height = container.clientHeight;
         svg.attr('width', width).attr('height', height);
@@ -424,7 +439,7 @@
           .attr('y1', d => projectY(d.source.y))
           .attr('x2', d => projectX(d.target.x))
           .attr('y2', d => projectY(d.target.y));
-      });
+      }
 
       // Info panel
       document.getElementById('cartography-info-btn').addEventListener('click', () => {
@@ -432,6 +447,14 @@
       });
       document.getElementById('cartography-info-close').addEventListener('click', () => {
         document.getElementById('cartography-info-panel').classList.add('hidden');
+      });
+
+      // Escape key closes panels
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          hideDetail();
+          document.getElementById('cartography-info-panel').classList.add('hidden');
+        }
       });
 
       // Entrance animation (skip labels on touch)
@@ -610,9 +633,12 @@
         transition: all 0.2s;
       }
 
-      .legend-item:hover,
-      .legend-item.active {
+      .legend-item:hover {
         background: rgba(0,0,0,0.04);
+      }
+
+      .legend-item.active {
+        background: rgba(0,0,0,0.08);
       }
 
       .legend-dot {
@@ -642,7 +668,7 @@
         padding: 3px 10px;
         border-radius: 4px;
         cursor: pointer;
-        transition: all 0.2s;
+        transition: opacity 0.2s, color 0.2s, background 0.2s;
       }
 
       .legend-reset:hover {
@@ -651,7 +677,8 @@
       }
 
       .legend-reset.hidden {
-        display: none;
+        opacity: 0;
+        pointer-events: none;
       }
 
       .legend-key {
@@ -683,7 +710,7 @@
         max-width: 360px;
         max-height: calc(100vh - 100px);
         overflow-y: auto;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
         color: #515151;
         font-size: 14px;
         line-height: 1.6;
@@ -724,7 +751,8 @@
         color: #999;
         font-size: 20px;
         cursor: pointer;
-        padding: 0;
+        padding: 8px;
+        margin: -4px;
         line-height: 1;
       }
 
@@ -766,7 +794,8 @@
         color: #999;
         font-size: 20px;
         cursor: pointer;
-        padding: 4px;
+        padding: 8px;
+        margin: -4px;
         line-height: 1;
       }
 
@@ -832,11 +861,25 @@
         }
       }
 
-      /* Touch: hide labels, shift legend up when detail panel is visible */
+      /* Focus visible */
+      #cartography-info-btn:focus-visible,
+      #cartography-info-close:focus-visible,
+      #detail-close:focus-visible,
+      .legend-item:focus-visible,
+      .legend-reset:focus-visible {
+        outline: 2px solid #268bd2;
+        outline-offset: 2px;
+      }
+
+      /* Touch: hide labels, bigger touch targets */
       @media (hover: none), (pointer: coarse) {
         .cell-label,
         .cluster-label {
           display: none;
+        }
+
+        .legend-item {
+          padding: 10px 12px 10px 8px;
         }
 
         /* When detail panel is visible, legend hides to avoid overlap */

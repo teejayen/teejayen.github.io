@@ -98,7 +98,7 @@
       "y": 0.28,
       "summary": "Comprehensive introduction to PowerShell for system administrators",
       "insight": "Teaching what he knows. This is Tim the educator - a thread that runs right through to AI writing.",
-      "connections": ["sync-ou-to-office-365-attributes", "dynamic-distribution-groups-based-on-organisational-units"]
+      "connections": ["dynamic-distribution-groups-based-on-organisational-units"]
     },
     {
       "slug": "small-steps-towards-achieving-digital-minimalism",
@@ -134,7 +134,7 @@
       "y": 0.34,
       "summary": "Creating Exchange distribution groups that automatically populate from AD OUs",
       "insight": "Automation instinct visible early. Don't maintain lists manually when you can derive them.",
-      "connections": ["adding-distribution-group-members-to-a-dynamic-distribution-group", "sync-ou-to-office-365-attributes"]
+      "connections": ["adding-distribution-group-members-to-a-dynamic-distribution-group"]
     },
     {
       "slug": "removing-context-menu-items-in-windows",
@@ -254,7 +254,7 @@
       "y": 0.36,
       "summary": "PowerShell technique for merging static and dynamic distribution group membership",
       "insight": "Deep Exchange Online problem-solving. Niche but exactly what someone googling this needs.",
-      "connections": ["dynamic-distribution-groups-based-on-organisational-units", "sync-ou-to-office-365-attributes"]
+      "connections": ["dynamic-distribution-groups-based-on-organisational-units"]
     },
     {
       "slug": "every-new-beginning-comes-from-some-other-beginnings-end",
@@ -290,7 +290,7 @@
       "y": 0.32,
       "summary": "PowerShell script to bulk-update manager attributes in Azure AD",
       "insight": "Directory management at scale. The organisational plumbing nobody sees.",
-      "connections": ["sync-ou-to-office-365-attributes", "changing-username-in-office365-with-dirsync"]
+      "connections": ["changing-username-in-office365-with-dirsync"]
     },
     {
       "slug": "controlling-java-runtime-exception-list-via-group-policy",
@@ -398,7 +398,7 @@
       "y": 0.30,
       "summary": "Procedure for safely changing UPNs when directory sync is enabled",
       "insight": "Identity management in hybrid environments. The complexity that drives people to pure cloud.",
-      "connections": ["update-manager-in-office-365-azure-ad", "sync-ou-to-office-365-attributes"]
+      "connections": ["update-manager-in-office-365-azure-ad"]
     },
     {
       "slug": "2018-reflections",
