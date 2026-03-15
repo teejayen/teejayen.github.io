@@ -48,7 +48,10 @@
           <span class="legend-dot" style="background:${c.color}"></span>
           <span class="legend-label">${c.name}</span>
         </div>`
-      ).join('');
+      ).join('') + `<div class="legend-key">
+        <span class="legend-key-line"></span>
+        <span class="legend-label">= connected posts</span>
+      </div>`;
 
       // Legend filtering
       let activeCluster = null;
@@ -306,6 +309,15 @@
         activePost = d;
         highlightCell(d);
 
+        // On touch, pan so the tapped cell is in the upper half (above the detail panel)
+        if (isTouchDevice) {
+          const targetY = height * 0.35;
+          const targetX = width * 0.5;
+          svg.transition().duration(400).call(
+            zoom.translateTo, projectX(d.x), projectY(d.y), [targetX, targetY]
+          );
+        }
+
         document.getElementById('detail-close').addEventListener('click', (e) => {
           e.stopPropagation();
           hideDetail();
@@ -360,6 +372,9 @@
         connectionGroup.selectAll('.connection-line')
           .transition().duration(200)
           .attr('opacity', 0);
+
+        // Re-apply cluster filter if one is active
+        if (activeCluster) renderHighlight();
       }
 
       // Resize
@@ -598,6 +613,22 @@
       .legend-item:hover .legend-label,
       .legend-item.active .legend-label {
         color: #313131;
+      }
+
+      .legend-key {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding: 5px 8px 3px 5px;
+        margin-top: 2px;
+        border-top: 1px solid #e5e5e5;
+      }
+
+      .legend-key-line {
+        width: 16px;
+        height: 0;
+        border-top: 1.5px dashed #999;
+        flex-shrink: 0;
       }
 
       /* Info panel */
