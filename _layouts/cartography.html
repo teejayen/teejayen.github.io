@@ -48,7 +48,11 @@
           <span class="legend-dot" style="background:${c.color}"></span>
           <span class="legend-label">${c.name}</span>
         </div>`
-      ).join('');
+      ).join('') + `<div class="legend-key">
+        <span class="legend-key-line"></span>
+        <span class="legend-label">shared ideas</span>
+      </div>
+      <button id="legend-reset" class="legend-reset hidden">Show all</button>`;
 
       // Legend filtering
       let activeCluster = null;
@@ -78,7 +82,24 @@
         });
       });
 
+      // Reset button
+      const resetBtn = document.getElementById('legend-reset');
+      resetBtn.addEventListener('click', () => {
+        activeCluster = null;
+        legend.querySelectorAll('.legend-item').forEach(i => i.classList.remove('active'));
+        renderHighlight();
+      });
+
+      function updateResetBtn() {
+        if (activeCluster) {
+          resetBtn.classList.remove('hidden');
+        } else {
+          resetBtn.classList.add('hidden');
+        }
+      }
+
       function renderHighlight() {
+        updateResetBtn();
         svg.selectAll('.voronoi-cell')
           .transition().duration(200)
           .attr('opacity', d => {
@@ -295,18 +316,25 @@
 
       function showDetail(d) {
         const cluster = clusterMap[d.cluster];
-        const aiLabel = d.ai_tag ? `<span class="detail-ai">${d.ai_tag}</span>` : '';
+        const aiLabel = d.ai_tag ? ` &middot; ${d.ai_tag}` : '';
         detailPanel.innerHTML = `
           <button id="detail-close" aria-label="Close">&times;</button>
-          <div class="detail-cluster" style="color:${cluster.color}">${cluster.name}</div>
-          <a href="${d.url}" class="detail-title">${d.title} &rarr;</a>
-          <div class="detail-date">${d.date}${aiLabel}</div>
-          <div class="detail-insight">${d.insight}</div>
-          <div class="detail-summary">${d.summary}</div>
+          <a href="${d.url}" target="_blank" class="detail-title">${d.title} &rarr;</a>
+          <div class="detail-meta"><span style="color:${cluster.color}">${cluster.name}</span> &middot; ${d.date}${aiLabel}</div>
+          <div class="detail-body">${d.insight}</div>
         `;
         detailPanel.classList.add('visible');
         activePost = d;
         highlightCell(d);
+
+        // On touch, pan so the tapped cell is in the upper half (above the detail panel)
+        if (isTouchDevice) {
+          const targetY = height * 0.35;
+          const targetX = width * 0.5;
+          svg.transition().duration(400).call(
+            zoom.translateTo, projectX(d.x), projectY(d.y), [targetX, targetY]
+          );
+        }
 
         document.getElementById('detail-close').addEventListener('click', (e) => {
           e.stopPropagation();
@@ -362,6 +390,9 @@
         connectionGroup.selectAll('.connection-line')
           .transition().duration(200)
           .attr('opacity', 0);
+
+        // Re-apply cluster filter if one is active
+        if (activeCluster) renderHighlight();
       }
 
       // Resize
@@ -602,6 +633,43 @@
         color: #313131;
       }
 
+      .legend-reset {
+        margin-top: 4px;
+        background: none;
+        border: 1px solid #e5e5e5;
+        color: #767676;
+        font-size: 11px;
+        padding: 3px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+
+      .legend-reset:hover {
+        background: rgba(0,0,0,0.04);
+        color: #313131;
+      }
+
+      .legend-reset.hidden {
+        display: none;
+      }
+
+      .legend-key {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding: 5px 8px 3px 5px;
+        margin-top: 2px;
+        border-top: 1px solid #e5e5e5;
+      }
+
+      .legend-key-line {
+        width: 16px;
+        height: 0;
+        border-top: 1.5px dashed #999;
+        flex-shrink: 0;
+      }
+
       /* Info panel */
       #cartography-info-panel {
         position: fixed;
@@ -706,14 +774,6 @@
         color: #313131;
       }
 
-      .detail-cluster {
-        font-size: 10px;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        margin-bottom: 4px;
-        font-weight: 600;
-      }
-
       .detail-title {
         color: #268bd2;
         font-size: 17px;
@@ -721,7 +781,7 @@
         line-height: 1.3;
         text-decoration: none;
         display: block;
-        margin-bottom: 3px;
+        margin-bottom: 4px;
         padding-right: 24px;
       }
 
@@ -729,39 +789,16 @@
         text-decoration: underline;
       }
 
-      .detail-date {
-        color: #999;
-        font-size: 11px;
-        margin-bottom: 8px;
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-
-      .detail-ai {
-        display: inline-block;
-        font-size: 9px;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        padding: 1px 5px;
-        border-radius: 3px;
-        background: #f4f4f4;
-        color: #767676;
-        border: 1px solid #e5e5e5;
-      }
-
-      .detail-insight {
-        color: #767676;
-        font-size: 13px;
-        line-height: 1.45;
-        font-style: italic;
-        margin-bottom: 6px;
-      }
-
-      .detail-summary {
+      .detail-meta {
         color: #999;
         font-size: 12px;
-        line-height: 1.45;
+        margin-bottom: 8px;
+      }
+
+      .detail-body {
+        color: #515151;
+        font-size: 13px;
+        line-height: 1.5;
       }
 
       /* Voronoi cell styles */

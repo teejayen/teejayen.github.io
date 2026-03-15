@@ -9,7 +9,7 @@ Every post on this blog is a tile in the mosaic. Nothing is sorted by date or ta
 
 An AI read every post and placed it in this space based on **what it means** - not when it was written or what I called it. Posts that share ideas cluster together. Threads of connection emerge that I didn't consciously plan.
 
-**Tap** or **click** a cell to see what the AI found and link through to the post. **Pinch** to zoom. **Drag** to pan. Use the **legend** to filter by theme.
+**Tap** or **click** a cell to see what the AI found and link through to the post. **Pinch** to zoom. **Drag** to pan. Use the **legend** to filter by theme. Dashed lines show posts that share an idea or thread across the map - the AI identified these connections, not me.
 
 {{ site.data.cartography.meta.post_count }} posts. {{ site.data.cartography.clusters | size }} emergent themes. One map of eight years of thinking.
 
