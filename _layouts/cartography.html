@@ -170,7 +170,8 @@
 
           // It's a tap - find which cell was tapped using current zoom transform
           const transform = d3.zoomTransform(svg.node());
-          const [mx, my] = transform.invert([touch.clientX, touch.clientY]);
+          const rect = svg.node().getBoundingClientRect();
+          const [mx, my] = transform.invert([touch.clientX - rect.left, touch.clientY - rect.top]);
           const idx = delaunay.find(mx, my);
           if (idx >= 0 && idx < data.posts.length) {
             showDetail(data.posts[idx]);
