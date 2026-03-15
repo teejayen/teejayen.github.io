@@ -7,6 +7,7 @@
 "SECURITY.md": 2019-09-10
 "_includes/ai-indicator.html": 2026-03-10
 "_includes/head.html": 2026-01-02
+"_layouts/cartography.html": 2026-03-15
 "_layouts/default.html": 2026-01-02
 "_layouts/page.html": 2018-06-09
 "_layouts/post.html": 2026-01-03
@@ -113,6 +114,7 @@
 "books/the-little-book-of-stoicism.md": 2019-06-24
 "books/the-minimalist-budget.md": 2018-12-22
 "books/think-straight.md": 2019-04-26
+"cartography.md": 2026-03-15
 "index.html": 2020-11-05
 "manual-of-me.md": 2021-07-04
 "now.md": 2026-01-02
