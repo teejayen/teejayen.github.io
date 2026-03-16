@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    var target = "https://tim.neilen.com.au" + window.location.pathname + window.location.search + window.location.hash;
+    document.write('<link rel="canonical" href="' + target + '">');
+    document.write('<meta http-equiv="refresh" content="0;url=' + target + '">');
+    window.location.replace(target);
+  </script>
+  <noscript>
+    <link rel="canonical" href="https://tim.neilen.com.au/">
+    <meta http-equiv="refresh" content="0;url=https://tim.neilen.com.au/">
+  </noscript>
+</head>
+<body>
+  <p>This site has moved to <a href="https://tim.neilen.com.au/">tim.neilen.com.au</a></p>
+</body>
+</html>
